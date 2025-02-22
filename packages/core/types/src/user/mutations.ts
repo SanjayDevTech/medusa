@@ -26,6 +26,8 @@ export interface CreateUserDTO {
    * Holds custom data in key-value pairs.
    */
   metadata?: Record<string, unknown> | null
+
+  role?: string | null
 }
 
 /**

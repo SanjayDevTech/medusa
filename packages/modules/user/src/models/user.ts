@@ -8,6 +8,7 @@ export const User = model
     email: model.text().searchable(),
     avatar_url: model.text().nullable(),
     metadata: model.json().nullable(),
+    role: model.text().nullable(),
   })
   .indexes([
     {

@@ -14,6 +14,7 @@ const Product = model
     title: model.text().searchable(),
     handle: model.text(),
     subtitle: model.text().searchable().nullable(),
+    location_ids: model.array().nullable(),
     description: model.text().searchable().nullable(),
     is_giftcard: model.boolean().default(false),
     status: model

@@ -744,6 +744,8 @@ export interface CartDTO {
    */
   customer_id?: string
 
+  location_id?: string
+
   /**
    * The ID of the sales channel the cart belongs to.
    */

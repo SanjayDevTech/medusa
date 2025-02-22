@@ -204,6 +204,7 @@ export const completeCartWorkflow = createWorkflow(
           shipping_methods: shippingMethods,
           metadata: cart.metadata,
           promo_codes: promoCodes,
+          location_id: cart.location_id,
           transactions,
         }
       })

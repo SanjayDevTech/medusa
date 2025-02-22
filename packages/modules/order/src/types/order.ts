@@ -3,6 +3,7 @@ import { OrderStatus } from "@biryanihouse/framework/utils"
 export interface CreateOrderDTO {
   region_id?: string
   customer_id?: string
+  location_id?: string
   sales_channel_id?: string
   email?: string
   currency_code: string
@@ -16,6 +17,7 @@ export interface UpdateOrderDTO {
   version?: number
   region_id?: string
   customer_id?: string
+  location_id?: string
   sales_channel_id?: string
   email?: string
   currency_code?: string

@@ -1109,6 +1109,9 @@ export interface OrderDTO {
    */
   display_id: number
 
+
+  location_id?: string
+
   /**
    * The active order change, if any.
    *
@@ -2473,6 +2476,8 @@ export interface FilterableOrderProps
    * The IDs to filter the orders by.
    */
   id?: string | string[]
+
+  location_id?: string | string[] | OperatorMap<string>
 
   /**
    * Filter orders by their associated sales channel's ID.

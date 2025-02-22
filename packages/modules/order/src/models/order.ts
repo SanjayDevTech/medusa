@@ -13,6 +13,7 @@ const _Order = model
     display_id: model.autoincrement(),
     region_id: model.text().nullable(),
     customer_id: model.text().nullable(),
+    location_id: model.text().nullable(),
     version: model.number().default(1),
     sales_channel_id: model.text().nullable(),
     status: model.enum(OrderStatus).default(OrderStatus.PENDING),
@@ -66,6 +67,12 @@ const _Order = model
     {
       name: "IDX_order_region_id",
       on: ["region_id"],
+      unique: false,
+      where: "deleted_at IS NOT NULL",
+    },
+    {
+      name: "IDX_order_location_id",
+      on: ["location_id"],
       unique: false,
       where: "deleted_at IS NOT NULL",
     },

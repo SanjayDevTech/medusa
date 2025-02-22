@@ -106,6 +106,8 @@ export interface CreateCartDTO {
    */
   sales_channel_id?: string
 
+  location_id?: string
+
   /**
    * The email of the customer that owns the cart.
    */
@@ -165,6 +167,8 @@ export interface UpdateCartDataDTO {
    * The associated sales channel's ID.
    */
   sales_channel_id?: string | null
+
+  location?: string | null
 
   /**
    * The email of the customer that owns the cart.

@@ -122,6 +122,8 @@ export interface CreateOrderDTO {
    */
   sales_channel_id?: string
 
+  location_id?: string
+
   /**
    * The status of the order.
    */
@@ -207,6 +209,8 @@ export interface UpdateOrderDTO {
    * The associated region's ID.
    */
   region_id?: string
+
+  location_id?: string
 
   /**
    * The associated customer's ID.

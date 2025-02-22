@@ -9,6 +9,7 @@ const Cart = model
     region_id: model.text().nullable(),
     customer_id: model.text().nullable(),
     sales_channel_id: model.text().nullable(),
+    location_id: model.text().nullable(),
     email: model.text().nullable(),
     currency_code: model.text(),
     metadata: model.json().nullable(),
@@ -55,6 +56,11 @@ const Cart = model
       name: "IDX_cart_sales_channel_id",
       on: ["sales_channel_id"],
       where: "deleted_at IS NULL AND sales_channel_id IS NOT NULL",
+    },
+    {
+      name: "IDX_cart_location_id",
+      on: ["location_id"],
+      where: "deleted_at IS NULL AND location_id IS NOT NULL",
     },
     {
       name: "IDX_cart_curency_code",

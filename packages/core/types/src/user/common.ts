@@ -37,6 +37,8 @@ export interface UserDTO {
    */
   metadata: Record<string, unknown> | null
 
+  role: string | null
+
   /**
    * The creation date of the user.
    */
@@ -69,6 +71,8 @@ export interface FilterableUserProps
    * The IDs to filter users by.
    */
   id?: string | string[]
+
+  role?: string | string[]
 
   /**
    * Filter users by their email.

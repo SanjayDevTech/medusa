@@ -249,6 +249,7 @@ type Order {
   order_change: OrderChange
   status: OrderStatus!
   region_id: String
+  location_id: String
   customer_id: String
   sales_channel_id: String
   email: String
@@ -426,6 +427,7 @@ type OrderDetail {
   version: Int!
   order_change: OrderChange
   status: OrderStatus!
+  location_id: String
   region_id: String
   customer_id: String
   sales_channel_id: String

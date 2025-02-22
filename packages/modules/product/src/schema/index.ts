@@ -10,6 +10,7 @@ type Product {
   id: ID!
   title: String!
   handle: String!
+  location_ids: [String]
   subtitle: String
   description: String
   is_giftcard: Boolean!

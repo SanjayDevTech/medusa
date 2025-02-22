@@ -25,6 +25,8 @@ export interface ProductDTO {
    * The handle of the product. The handle can be used to create slug URL paths.
    */
   handle: string
+
+  location_ids: string[] | null
   /**
    * The subttle of the product.
    */
@@ -689,6 +691,9 @@ export interface FilterableProductProps
    * The status to filter products by
    */
   status?: ProductStatus | ProductStatus[]
+
+  location_ids?: string | string[]
+
   /**
    * The titles to filter products by.
    */
@@ -1468,6 +1473,8 @@ export interface CreateProductDTO {
    * If not supplied, the value of the `handle` attribute of the product is set to the slug version of the `title` attribute.
    */
   handle?: string
+
+  location_ids?: string[] | null
   /**
    * The status of the product.
    */
@@ -1588,6 +1595,8 @@ export interface UpdateProductDTO {
    * If not supplied, the value of the `handle` attribute of the product is set to the slug version of the `title` attribute.
    */
   handle?: string
+
+  location_ids?: string[] | null
   /**
    * The status of the product.
    */
