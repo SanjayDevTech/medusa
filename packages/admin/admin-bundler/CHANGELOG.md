@@ -1,5 +1,77 @@
 # @biryanihouse/admin-bundler
 
+## 2.4.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.8
+  - @biryanihouse/admin-vite-plugin@2.4.8
+  - @biryanihouse/dashboard@2.4.8
+
+## 2.4.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.7
+  - @biryanihouse/admin-vite-plugin@2.4.7
+  - @biryanihouse/dashboard@2.4.7
+
+## 2.4.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.6
+  - @biryanihouse/admin-vite-plugin@2.4.6
+  - @biryanihouse/dashboard@2.4.6
+
+## 2.4.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.5
+  - @biryanihouse/admin-vite-plugin@2.4.5
+  - @biryanihouse/dashboard@2.4.5
+
+## 2.4.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.4
+  - @biryanihouse/admin-vite-plugin@2.4.4
+  - @biryanihouse/dashboard@2.4.4
+
+## 2.4.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.3
+  - @biryanihouse/admin-vite-plugin@2.4.3
+  - @biryanihouse/dashboard@2.4.3
+
+## 2.4.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/dashboard@2.4.2
+  - @biryanihouse/admin-shared@2.4.2
+  - @biryanihouse/admin-vite-plugin@2.4.2
+
+## 2.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.1
+  - @biryanihouse/admin-vite-plugin@2.4.1
+  - @biryanihouse/dashboard@2.4.1
+
 ## 2.4.0
 
 ### Patch Changes

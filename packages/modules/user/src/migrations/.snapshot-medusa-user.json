@@ -102,6 +102,7 @@
           "keyName": "IDX_invite_deleted_at",
           "columnNames": [],
           "composite": false,
+          "constraint": false,
           "primary": false,
           "unique": false,
           "expression": "CREATE INDEX IF NOT EXISTS \"IDX_invite_deleted_at\" ON \"invite\" (deleted_at) WHERE deleted_at IS NULL"
@@ -110,6 +111,7 @@
           "keyName": "IDX_invite_email_unique",
           "columnNames": [],
           "composite": false,
+          "constraint": false,
           "primary": false,
           "unique": false,
           "expression": "CREATE UNIQUE INDEX IF NOT EXISTS \"IDX_invite_email_unique\" ON \"invite\" (email) WHERE deleted_at IS NULL"
@@ -118,6 +120,7 @@
           "keyName": "IDX_invite_token",
           "columnNames": [],
           "composite": false,
+          "constraint": false,
           "primary": false,
           "unique": false,
           "expression": "CREATE INDEX IF NOT EXISTS \"IDX_invite_token\" ON \"invite\" (token) WHERE deleted_at IS NULL"
@@ -128,12 +131,14 @@
             "id"
           ],
           "composite": false,
+          "constraint": true,
           "primary": true,
           "unique": true
         }
       ],
       "checks": [],
-      "foreignKeys": {}
+      "foreignKeys": {},
+      "nativeEnums": {}
     },
     {
       "columns": {
@@ -191,6 +196,15 @@
           "nullable": true,
           "mappedType": "json"
         },
+        "role": {
+          "name": "role",
+          "type": "text",
+          "unsigned": false,
+          "autoincrement": false,
+          "primary": false,
+          "nullable": true,
+          "mappedType": "text"
+        },
         "created_at": {
           "name": "created_at",
           "type": "timestamptz",
@@ -231,6 +245,7 @@
           "keyName": "IDX_user_deleted_at",
           "columnNames": [],
           "composite": false,
+          "constraint": false,
           "primary": false,
           "unique": false,
           "expression": "CREATE INDEX IF NOT EXISTS \"IDX_user_deleted_at\" ON \"user\" (deleted_at) WHERE deleted_at IS NULL"
@@ -239,6 +254,7 @@
           "keyName": "IDX_user_email_unique",
           "columnNames": [],
           "composite": false,
+          "constraint": false,
           "primary": false,
           "unique": false,
           "expression": "CREATE UNIQUE INDEX IF NOT EXISTS \"IDX_user_email_unique\" ON \"user\" (email) WHERE deleted_at IS NULL"
@@ -249,12 +265,15 @@
             "id"
           ],
           "composite": false,
+          "constraint": true,
           "primary": true,
           "unique": true
         }
       ],
       "checks": [],
-      "foreignKeys": {}
+      "foreignKeys": {},
+      "nativeEnums": {}
     }
-  ]
+  ],
+  "nativeEnums": {}
 }

@@ -1,5 +1,77 @@
 # @biryanihouse/dashboard
 
+## 2.4.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.8
+  - @biryanihouse/js-sdk@2.4.8
+  - @biryanihouse/icons@2.4.8
+
+## 2.4.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.7
+  - @biryanihouse/js-sdk@2.4.7
+  - @biryanihouse/icons@2.4.7
+
+## 2.4.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.6
+  - @biryanihouse/js-sdk@2.4.6
+  - @biryanihouse/icons@2.4.6
+
+## 2.4.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.5
+  - @biryanihouse/js-sdk@2.4.5
+  - @biryanihouse/icons@2.4.5
+
+## 2.4.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.4
+  - @biryanihouse/js-sdk@2.4.4
+  - @biryanihouse/icons@2.4.4
+
+## 2.4.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.3
+  - @biryanihouse/js-sdk@2.4.3
+  - @biryanihouse/icons@2.4.3
+
+## 2.4.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.2
+  - @biryanihouse/js-sdk@2.4.2
+  - @biryanihouse/icons@2.4.2
+
+## 2.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-shared@2.4.1
+  - @biryanihouse/js-sdk@2.4.1
+  - @biryanihouse/icons@2.4.1
+
 ## 2.4.0
 
 ### Minor Changes

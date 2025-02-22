@@ -1,5 +1,25 @@
 # @biryanihouse/types
 
+## 2.4.8
+
+## 2.4.7
+
+## 2.4.6
+
+## 2.4.5
+
+## 2.4.4
+
+## 2.4.3
+
+## 2.4.2
+
+### Patch Changes
+
+- Order types
+
+## 2.4.1
+
 ## 2.4.0
 
 ### Minor Changes

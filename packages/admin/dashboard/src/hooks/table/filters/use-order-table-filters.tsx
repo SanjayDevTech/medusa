@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next"
 import type { Filter } from "../../../components/table/data-table"
 import { useRegions } from "../../api/regions"
 import { useSalesChannels } from "../../api/sales-channels"
+import { useQuery } from "@tanstack/react-query"
+import { sdk } from "../../../lib/client"
 
 export const useOrderTableFilters = (): Filter[] => {
   const { t } = useTranslation()
@@ -17,7 +19,34 @@ export const useOrderTableFilters = (): Filter[] => {
     fields: "id,name",
   })
 
+  const { data: locationsResponse} = useQuery({
+    queryFn: () =>
+      sdk.client.fetch("/admin/locations", {
+        query: {
+          fields: "id,name",
+          limit: 100,
+        },
+      }),
+    queryKey: ["locations", "list"],
+  })
+
   let filters: Filter[] = []
+
+  if (locationsResponse?.locations?.length) {
+    const locationFilter: Filter = {
+      key: "location_id",
+      label: "Restaurant",
+      type: "select",
+      options: locationsResponse.locations.map((l) => ({
+        label: l.name,
+        value: l.id,
+      })),
+      multiple: true,
+      searchable: true,
+    }
+
+    filters = [...filters, locationFilter]
+  }
 
   if (regions) {
     const regionFilter: Filter = {

@@ -758,6 +758,8 @@ export interface BaseOrder {
    * The ID of the sales channel the order was placed in.
    */
   sales_channel_id: string | null
+
+  location_id: string | null
   /**
    * The email of the customer that placed the order.
    */
@@ -933,6 +935,8 @@ export interface BaseOrderFilters
     | OrderStatus[]
     | OrderStatus
     | OperatorMap<OrderStatus | OrderStatus[]>
+
+  location_id?: string | string[]
 }
 
 export interface BaseOrderChangesFilters

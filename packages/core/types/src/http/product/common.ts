@@ -24,6 +24,8 @@ export interface BaseProduct {
    * The product's subtitle.
    */
   subtitle: string | null
+
+  location_ids: string[] | null
   /**
    * The product's description.
    */
@@ -370,6 +372,8 @@ export interface BaseProductListParams
    * Filter by the product's handle(s).
    */
   handle?: string | string[]
+
+  location_ids?: string | string[]
   /**
    * Filter by the product's id(s).
    */

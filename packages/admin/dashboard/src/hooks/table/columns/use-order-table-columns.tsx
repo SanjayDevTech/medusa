@@ -34,6 +34,7 @@ import {
   TotalCell,
   TotalHeader,
 } from "../../../components/table/table-cells/order/total-cell"
+import { TextCell } from "../../../components/table/table-cells/common/text-cell"
 
 // We have to use any here, as the type of Order is so complex that it lags the TS server
 const columnHelper = createColumnHelper<HttpTypes.AdminOrder>()
@@ -77,6 +78,15 @@ export const useOrderTableColumns = (props: UseOrderTableColumnsProps) => {
           const channel = getValue()
 
           return <SalesChannelCell channel={channel} />
+        },
+      }),
+      columnHelper.accessor("location", {
+        header: () => <div className="flex h-full items-center">
+        <span className="truncate">Restaurant</span>
+      </div>,
+        cell: ({ getValue }) => {
+          const location = getValue()
+          return <TextCell text={location?.name} />
         },
       }),
       columnHelper.accessor("payment_status", {

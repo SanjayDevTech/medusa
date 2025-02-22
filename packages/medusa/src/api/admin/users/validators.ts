@@ -15,6 +15,7 @@ export const AdminGetUsersParams = createFindParams({
   z.object({
     q: z.string().optional(),
     id: z.union([z.string(), z.array(z.string())]).optional(),
+    role: z.union([z.string(), z.array(z.string())]).optional(),
     created_at: createOperatorMap().optional(),
     updated_at: createOperatorMap().optional(),
     deleted_at: createOperatorMap().optional(),
@@ -30,6 +31,7 @@ export const AdminCreateUser = z.object({
   first_name: z.string().nullish(),
   last_name: z.string().nullish(),
   avatar_url: z.string().nullish(),
+  role: z.string().nullish(),
 })
 
 export type AdminUpdateUserType = z.infer<typeof AdminUpdateUser>
@@ -38,4 +40,5 @@ export const AdminUpdateUser = z.object({
   last_name: z.string().nullish(),
   avatar_url: z.string().nullish(),
   metadata: z.record(z.unknown()).nullish().optional(),
+  role: z.string().nullish(),
 })

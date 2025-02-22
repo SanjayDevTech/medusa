@@ -1,5 +1,5 @@
 import { Container, Heading } from "@biryanihouse/ui"
-import { keepPreviousData } from "@tanstack/react-query"
+import { keepPreviousData, useQuery } from "@tanstack/react-query"
 import { useTranslation } from "react-i18next"
 
 import { _DataTable } from "../../../../../components/table/data-table/data-table"
@@ -10,6 +10,8 @@ import { useOrderTableQuery } from "../../../../../hooks/table/query/use-order-t
 import { useDataTable } from "../../../../../hooks/use-data-table"
 
 import { DEFAULT_FIELDS } from "../../const"
+import { sdk } from "../../../../../lib/client"
+import { useMemo } from "react"
 
 const PAGE_SIZE = 20
 
@@ -29,11 +31,31 @@ export const OrderListTable = () => {
     }
   )
 
+
+  const { data: locationsResponse} = useQuery({
+    queryFn: () =>
+      sdk.client.fetch("/admin/locations", {
+        query: {
+          fields: "id,name",
+          limit: 100,
+        },
+      }),
+    queryKey: ["locations", "list"],
+  })
+
+  const ordersWithLocations = useMemo(() => orders?.map((order) => {
+    const location = locationsResponse.locations.find((location) => location.id === order.location_id)
+    return {
+      ...order,
+      location: location,
+    }
+  }), [orders, locationsResponse])
+
   const filters = useOrderTableFilters()
   const columns = useOrderTableColumns({})
 
   const { table } = useDataTable({
-    data: orders ?? [],
+    data: ordersWithLocations ?? [],
     columns,
     enablePagination: true,
     count,

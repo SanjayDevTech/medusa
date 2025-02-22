@@ -1,5 +1,61 @@
 # @biryanihouse/js-sdk
 
+## 2.4.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.8
+
+## 2.4.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.7
+
+## 2.4.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.6
+
+## 2.4.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.5
+
+## 2.4.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.4
+
+## 2.4.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.3
+
+## 2.4.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.2
+
+## 2.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.1
+
 ## 2.4.0
 
 ### Patch Changes

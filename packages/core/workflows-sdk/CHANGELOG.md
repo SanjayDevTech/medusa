@@ -1,5 +1,85 @@
 # @biryanihouse/workflows-sdk
 
+## 2.4.8
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.8
+  - @biryanihouse/orchestration@2.4.8
+  - @biryanihouse/types@2.4.8
+  - @biryanihouse/utils@2.4.8
+
+## 2.4.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.7
+  - @biryanihouse/orchestration@2.4.7
+  - @biryanihouse/types@2.4.7
+  - @biryanihouse/utils@2.4.7
+
+## 2.4.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.6
+  - @biryanihouse/orchestration@2.4.6
+  - @biryanihouse/types@2.4.6
+  - @biryanihouse/utils@2.4.6
+
+## 2.4.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.5
+  - @biryanihouse/orchestration@2.4.5
+  - @biryanihouse/types@2.4.5
+  - @biryanihouse/utils@2.4.5
+
+## 2.4.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.4
+  - @biryanihouse/orchestration@2.4.4
+  - @biryanihouse/types@2.4.4
+  - @biryanihouse/utils@2.4.4
+
+## 2.4.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.3
+  - @biryanihouse/orchestration@2.4.3
+  - @biryanihouse/types@2.4.3
+  - @biryanihouse/utils@2.4.3
+
+## 2.4.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/types@2.4.2
+  - @biryanihouse/modules-sdk@2.4.2
+  - @biryanihouse/orchestration@2.4.2
+  - @biryanihouse/utils@2.4.2
+
+## 2.4.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/modules-sdk@2.4.1
+  - @biryanihouse/orchestration@2.4.1
+  - @biryanihouse/types@2.4.1
+  - @biryanihouse/utils@2.4.1
+
 ## 2.4.0
 
 ### Minor Changes

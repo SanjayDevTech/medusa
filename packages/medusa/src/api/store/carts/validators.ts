@@ -14,6 +14,7 @@ const ItemSchema = z.object({
 export type StoreCreateCartType = z.infer<typeof CreateCart>
 export const CreateCart = z
   .object({
+    location_id: z.string().nullish(),
     region_id: z.string().nullish(),
     shipping_address: z.union([AddressPayload, z.string()]).optional(),
     billing_address: z.union([AddressPayload, z.string()]).optional(),
@@ -46,6 +47,7 @@ export const StoreRemoveCartPromotions = z
 export type StoreUpdateCartType = z.infer<typeof UpdateCart>
 export const UpdateCart = z
   .object({
+    location_id: z.string().optional(),
     region_id: z.string().optional(),
     email: z.string().email().nullish(),
     billing_address: z.union([AddressPayload, z.string()]).optional(),

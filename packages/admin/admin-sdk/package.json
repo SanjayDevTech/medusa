@@ -1,7 +1,7 @@
 {
   "name": "@biryanihouse/admin-sdk",
   "description": "SDK for building extension for the Medusa admin dashboard.",
-  "version": "2.4.0",
+  "version": "2.4.8",
   "author": "Kasper Kristensen <kasper@medusajs.com>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -25,7 +25,7 @@
     "zod": "^3.22"
   },
   "dependencies": {
-    "@biryanihouse/admin-shared": "~2.4.0"
+    "@biryanihouse/admin-shared": "~2.4.8"
   },
   "peerDependencies": {
     "zod": "^3.22"

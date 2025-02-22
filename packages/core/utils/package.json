@@ -1,6 +1,6 @@
 {
   "name": "@biryanihouse/utils",
-  "version": "2.4.0",
+  "version": "2.4.8",
   "description": "Medusa utilities functions shared by Medusa core and Modules",
   "main": "dist/index.js",
   "exports": {
@@ -43,7 +43,7 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@biryanihouse/types": "~2.4.0",
+    "@biryanihouse/types": "~2.4.8",
     "@graphql-codegen/core": "^4.0.2",
     "@graphql-codegen/typescript": "^4.0.9",
     "@graphql-tools/merge": "^9.0.7",

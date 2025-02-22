@@ -44,6 +44,8 @@ export interface StoreUpdateCart {
    * The ID of the region that the cart is in.
    */
   region_id?: string
+
+  location?: string
   /**
    * The cart's shipping address.
    */

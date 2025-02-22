@@ -52,6 +52,7 @@ export const AdminGetOrdersParams = createFindParams({
     sales_channel_id: z.array(z.string()).optional(),
     fulfillment_status: z.array(z.string()).optional(),
     payment_status: z.array(z.string()).optional(),
+    location_id: z.union([z.string(), z.array(z.string())]).optional(),
     region_id: z.union([z.string(), z.array(z.string())]).optional(),
     customer_id: z.union([z.string(), z.array(z.string())]).optional(),
     q: z.string().optional(),
@@ -141,6 +142,7 @@ export const AdminCancelOrderTransferRequest = z.object({})
 export type AdminUpdateOrderType = z.infer<typeof AdminUpdateOrder>
 export const AdminUpdateOrder = z.object({
   email: z.string().optional(),
+  location_id: z.string().optional(),
   shipping_address: AddressPayload.optional(),
   billing_address: AddressPayload.optional(),
 })
