@@ -3,6 +3,7 @@ export const defaultAdminUserFields = [
   "first_name",
   "last_name",
   "email",
+  "role",
   "avatar_url",
   "metadata",
   "created_at",

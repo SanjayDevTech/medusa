@@ -18,6 +18,7 @@ export const UserGeneralSection = ({ user }: UserGeneralSectionProps) => {
   const { mutateAsync } = useDeleteUser(user.id)
 
   const name = [user.first_name, user.last_name].filter(Boolean).join(" ")
+  const role = user.role
 
   const handleDeleteUser = async () => {
     const res = await prompt({
@@ -79,6 +80,14 @@ export const UserGeneralSection = ({ user }: UserGeneralSectionProps) => {
         </Text>
         <Text size="small" leading="compact">
           {name ?? "-"}
+        </Text>
+      </div>
+      <div className="text-ui-fg-subtle grid grid-cols-2 items-center px-6 py-4">
+        <Text size="small" leading="compact" weight="plus">
+          Role
+        </Text>
+        <Text size="small" leading="compact">
+          {role ?? "-"}
         </Text>
       </div>
     </Container>

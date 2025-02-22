@@ -4,6 +4,7 @@ import { FindParams, SelectParams } from "../../common"
 export interface AdminUserListParams extends FindParams {
   q?: string
   id?: string | string[]
+  role?: string | string[]
   email?: string | null
   first_name?: string | null
   last_name?: string | null

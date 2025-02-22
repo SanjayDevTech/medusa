@@ -26,10 +26,11 @@ import { Shell } from "../../layout/shell"
 
 import { Link, useLocation, useNavigate } from "react-router-dom"
 import { useDashboardExtension } from "../../../extensions"
-import { useLogout } from "../../../hooks/api"
+import { useLogout, useMe, useUser } from "../../../hooks/api"
 import { queryClient } from "../../../lib/query-client"
 import { useSearch } from "../../../providers/search-provider"
 import { UserMenu } from "../user-menu"
+import { useAdminUser } from "../../../providers/user-provider"
 
 export const MainLayout = () => {
   return (
@@ -40,6 +41,7 @@ export const MainLayout = () => {
 }
 
 const MainSidebar = () => {
+  const adminUser = useAdminUser()
   return (
     <aside className="flex flex-1 flex-col justify-between overflow-y-auto">
       <div className="flex flex-1 flex-col">
@@ -52,9 +54,9 @@ const MainSidebar = () => {
         <div className="flex flex-1 flex-col justify-between">
           <div className="flex flex-1 flex-col">
             <CoreRouteSection />
-            <ExtensionRouteSection />
+            {adminUser?.role === "admin" && <ExtensionRouteSection />}
           </div>
-          <UtilitySection />
+          {adminUser?.role === "admin" && <UtilitySection />}
         </div>
         <div className="bg-ui-bg-subtle sticky bottom-0">
           <UserSection />
@@ -98,6 +100,8 @@ const Header = () => {
 
   const name = store?.name
   const fallback = store?.name?.slice(0, 1).toUpperCase()
+
+  const adminUser = useAdminUser()
 
   const isLoaded = !isPending && !!store && !!name && !!fallback
 
@@ -161,13 +165,17 @@ const Header = () => {
               </div>
             </div>
             <DropdownMenu.Separator />
-            <DropdownMenu.Item className="gap-x-2" asChild>
-              <Link to="/settings/store">
-                <BuildingStorefront className="text-ui-fg-subtle" />
-                {t("app.nav.main.storeSettings")}
-              </Link>
-            </DropdownMenu.Item>
-            <DropdownMenu.Separator />
+            {adminUser?.role === "admin" && (
+              <>
+                <DropdownMenu.Item className="gap-x-2" asChild>
+                  <Link to="/settings/store">
+                    <BuildingStorefront className="text-ui-fg-subtle" />
+                    {t("app.nav.main.storeSettings")}
+                  </Link>
+                </DropdownMenu.Item>
+                <DropdownMenu.Separator />
+              </>
+            )}
             <Logout />
           </DropdownMenu.Content>
         )}
@@ -178,7 +186,82 @@ const Header = () => {
 
 const useCoreRoutes = (): Omit<INavItem, "pathname">[] => {
   const { t } = useTranslation()
+  const adminUser = useAdminUser()
 
+  if (adminUser?.role === "admin") {
+    return [
+      {
+        icon: <ShoppingCart />,
+        label: t("orders.domain"),
+        to: "/orders",
+        items: [
+          // TODO: Enable when domin is introduced
+          // {
+          //   label: t("draftOrders.domain"),
+          //   to: "/draft-orders",
+          // },
+        ],
+      },
+      {
+        icon: <Tag />,
+        label: t("products.domain"),
+        to: "/products",
+        items: [
+          {
+            label: t("collections.domain"),
+            to: "/collections",
+          },
+          {
+            label: t("categories.domain"),
+            to: "/categories",
+          },
+          // TODO: Enable when domin is introduced
+          // {
+          //   label: t("giftCards.domain"),
+          //   to: "/gift-cards",
+          // },
+        ],
+      },
+      {
+        icon: <Buildings />,
+        label: t("inventory.domain"),
+        to: "/inventory",
+        items: [
+          {
+            label: t("reservations.domain"),
+            to: "/reservations",
+          },
+        ],
+      },
+      {
+        icon: <Users />,
+        label: t("customers.domain"),
+        to: "/customers",
+        items: [
+          {
+            label: t("customerGroups.domain"),
+            to: "/customer-groups",
+          },
+        ],
+      },
+      {
+        icon: <ReceiptPercent />,
+        label: t("promotions.domain"),
+        to: "/promotions",
+        items: [
+          {
+            label: t("campaigns.domain"),
+            to: "/campaigns",
+          },
+        ],
+      },
+      {
+        icon: <CurrencyDollar />,
+        label: t("priceLists.domain"),
+        to: "/price-lists",
+      },
+    ]
+  }
   return [
     {
       icon: <ShoppingCart />,
@@ -191,64 +274,6 @@ const useCoreRoutes = (): Omit<INavItem, "pathname">[] => {
         //   to: "/draft-orders",
         // },
       ],
-    },
-    {
-      icon: <Tag />,
-      label: t("products.domain"),
-      to: "/products",
-      items: [
-        {
-          label: t("collections.domain"),
-          to: "/collections",
-        },
-        {
-          label: t("categories.domain"),
-          to: "/categories",
-        },
-        // TODO: Enable when domin is introduced
-        // {
-        //   label: t("giftCards.domain"),
-        //   to: "/gift-cards",
-        // },
-      ],
-    },
-    {
-      icon: <Buildings />,
-      label: t("inventory.domain"),
-      to: "/inventory",
-      items: [
-        {
-          label: t("reservations.domain"),
-          to: "/reservations",
-        },
-      ],
-    },
-    {
-      icon: <Users />,
-      label: t("customers.domain"),
-      to: "/customers",
-      items: [
-        {
-          label: t("customerGroups.domain"),
-          to: "/customer-groups",
-        },
-      ],
-    },
-    {
-      icon: <ReceiptPercent />,
-      label: t("promotions.domain"),
-      to: "/promotions",
-      items: [
-        {
-          label: t("campaigns.domain"),
-          to: "/campaigns",
-        },
-      ],
-    },
-    {
-      icon: <CurrencyDollar />,
-      label: t("priceLists.domain"),
-      to: "/price-lists",
     },
   ]
 }
@@ -283,6 +308,7 @@ const Searchbar = () => {
 
 const CoreRouteSection = () => {
   const coreRoutes = useCoreRoutes()
+  const adminUser = useAdminUser()
 
   const { getMenu } = useDashboardExtension()
 
@@ -299,7 +325,7 @@ const CoreRouteSection = () => {
 
   return (
     <nav className="flex flex-col gap-y-1 py-3">
-      <Searchbar />
+      {adminUser?.role === "admin" && <Searchbar />}
       {coreRoutes.map((route) => {
         return <NavItem key={route.to} {...route} />
       })}

@@ -104,6 +104,15 @@ const useColumns = () => {
         sortAscLabel: t("filters.sorting.alphabeticallyAsc"),
         sortDescLabel: t("filters.sorting.alphabeticallyDesc"),
       }),
+      columnHelper.accessor("role", {
+        header: "Role",
+        cell: ({ row }) => {
+          return row.original.role || "-"
+        },
+        enableSorting: true,
+        sortAscLabel: t("filters.sorting.alphabeticallyAsc"),
+        sortDescLabel: t("filters.sorting.alphabeticallyDesc"),
+      }),
       columnHelper.accessor("created_at", {
         header: t("fields.createdAt"),
         cell: ({ row }) => {

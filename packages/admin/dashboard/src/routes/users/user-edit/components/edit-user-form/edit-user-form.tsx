@@ -9,6 +9,7 @@ import { Form } from "../../../../../components/common/form"
 import { RouteDrawer, useRouteModal } from "../../../../../components/modals"
 import { KeyboundForm } from "../../../../../components/utilities/keybound-form"
 import { useUpdateUser } from "../../../../../hooks/api/users"
+import { Combobox } from "../../../../../components/inputs/combobox"
 
 type EditUserFormProps = {
   user: HttpTypes.AdminUser
@@ -17,6 +18,7 @@ type EditUserFormProps = {
 const EditUserFormSchema = zod.object({
   first_name: zod.string().optional(),
   last_name: zod.string().optional(),
+  role: zod.string().optional(),
 })
 
 export const EditUserForm = ({ user }: EditUserFormProps) => {
@@ -27,6 +29,7 @@ export const EditUserForm = ({ user }: EditUserFormProps) => {
     defaultValues: {
       first_name: user.first_name || "",
       last_name: user.last_name || "",
+      role: user.role || "staff",
     },
     resolver: zodResolver(EditUserFormSchema),
   })
@@ -72,6 +75,27 @@ export const EditUserForm = ({ user }: EditUserFormProps) => {
                   <Form.Label>{t("fields.lastName")}</Form.Label>
                   <Form.Control>
                     <Input {...field} />
+                  </Form.Control>
+                  <Form.ErrorMessage />
+                </Form.Item>
+              )
+            }}
+          />
+          <Form.Field
+            control={form.control}
+            name="role"
+            render={({ field }) => {
+              return (
+                <Form.Item>
+                  <Form.Label>Role</Form.Label>
+                  <Form.Control>
+                    <Combobox {...field} options={[{
+                      value: "staff",
+                      label: "Staff",
+                    }, {
+                      value: "admin",
+                      label: "Admin",
+                    }]} />
                   </Form.Control>
                   <Form.ErrorMessage />
                 </Form.Item>

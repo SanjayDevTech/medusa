@@ -29,10 +29,13 @@ import { useLogout, useMe } from "../../../hooks/api"
 import { queryClient } from "../../../lib/query-client"
 import { useGlobalShortcuts } from "../../../providers/keybind-provider/hooks"
 import { useTheme } from "../../../providers/theme-provider"
+import { useAdminUser } from "../../../providers/user-provider"
 
 export const UserMenu = () => {
   const { t } = useTranslation()
   const location = useLocation()
+
+  const adminUser = useAdminUser()
 
   const [openMenu, setOpenMenu] = useState(false)
   const [openModal, setOpenModal] = useState(false)
@@ -49,30 +52,24 @@ export const UserMenu = () => {
         <DropdownMenu.Content className="min-w-[var(--radix-dropdown-menu-trigger-width)] max-w-[var(--radix-dropdown-menu-trigger-width)]">
           <UserItem />
           <DropdownMenu.Separator />
-          <DropdownMenu.Item asChild>
-            <Link to="/settings/profile" state={{ from: location.pathname }}>
-              <UserIcon className="text-ui-fg-subtle mr-2" />
-              {t("app.menus.user.profileSettings")}
-            </Link>
-          </DropdownMenu.Item>
-          <DropdownMenu.Separator />
-          <DropdownMenu.Item asChild>
-            <Link to="https://docs.medusajs.com" target="_blank">
-              <BookOpen className="text-ui-fg-subtle mr-2" />
-              {t("app.menus.user.documentation")}
-            </Link>
-          </DropdownMenu.Item>
-          <DropdownMenu.Item asChild>
-            <Link to="https://medusajs.com/changelog/" target="_blank">
-              <TimelineVertical className="text-ui-fg-subtle mr-2" />
-              {t("app.menus.user.changelog")}
-            </Link>
-          </DropdownMenu.Item>
-          <DropdownMenu.Separator />
-          <DropdownMenu.Item onClick={toggleModal}>
-            <Keyboard className="text-ui-fg-subtle mr-2" />
-            {t("app.menus.user.shortcuts")}
-          </DropdownMenu.Item>
+          {adminUser?.role === "admin" && (
+            <>
+              <DropdownMenu.Item asChild>
+                <Link
+                  to="/settings/profile"
+                  state={{ from: location.pathname }}
+                >
+                  <UserIcon className="text-ui-fg-subtle mr-2" />
+                  {t("app.menus.user.profileSettings")}
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Separator />
+              <DropdownMenu.Item onClick={toggleModal}>
+                <Keyboard className="text-ui-fg-subtle mr-2" />
+                {t("app.menus.user.shortcuts")}
+              </DropdownMenu.Item>
+            </>
+          )}
           <ThemeToggle />
           <DropdownMenu.Separator />
           <Logout />

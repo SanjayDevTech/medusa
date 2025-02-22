@@ -3,6 +3,7 @@ export interface AdminCreateUser {
   first_name?: string | null
   last_name?: string | null
   avatar_url?: string | null
+  role?: string
 }
 
 export interface AdminUpdateUser {
@@ -10,4 +11,5 @@ export interface AdminUpdateUser {
   last_name?: string | null
   avatar_url?: string | null
   metadata?: Record<string, unknown> | null
+  role?: string
 }

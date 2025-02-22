@@ -12,6 +12,140 @@ import { taxRegionLoader } from "../../routes/tax-regions/tax-region-detail/load
 import { RouteExtensions } from "./route-extensions"
 import { SettingsExtensions } from "./settings-extensions"
 
+const OrdersExtensions: RouteObject = {
+  path: "/orders",
+  errorElement: <ErrorBoundary />,
+  handle: {
+    breadcrumb: () => t("orders.domain"),
+  },
+  children: [
+    {
+      path: "",
+      lazy: () => import("../../routes/orders/order-list"),
+    },
+    {
+      path: ":id",
+      lazy: async () => {
+        const { Component, Breadcrumb, loader } = await import(
+          "../../routes/orders/order-detail"
+        )
+
+        return {
+          Component,
+          loader,
+          handle: {
+            breadcrumb: (match: UIMatch<HttpTypes.AdminOrderResponse>) => (
+              <Breadcrumb {...match} />
+            ),
+          },
+        }
+      },
+      children: [
+        {
+          path: "fulfillment",
+          lazy: () => import("../../routes/orders/order-create-fulfillment"),
+        },
+        {
+          path: "returns/:return_id/receive",
+          lazy: () => import("../../routes/orders/order-receive-return"),
+        },
+        {
+          path: "allocate-items",
+          lazy: () => import("../../routes/orders/order-allocate-items"),
+        },
+        {
+          path: ":f_id/create-shipment",
+          lazy: () => import("../../routes/orders/order-create-shipment"),
+        },
+        {
+          path: "returns",
+          lazy: () => import("../../routes/orders/order-create-return"),
+        },
+        {
+          path: "claims",
+          lazy: () => import("../../routes/orders/order-create-claim"),
+        },
+        {
+          path: "exchanges",
+          lazy: () => import("../../routes/orders/order-create-exchange"),
+        },
+        {
+          path: "edits",
+          lazy: () => import("../../routes/orders/order-create-edit"),
+        },
+        {
+          path: "refund",
+          lazy: () => import("../../routes/orders/order-create-refund"),
+        },
+        {
+          path: "transfer",
+          lazy: () => import("../../routes/orders/order-request-transfer"),
+        },
+        {
+          path: "email",
+          lazy: () => import("../../routes/orders/order-edit-email"),
+        },
+        {
+          path: "shipping-address",
+          lazy: () => import("../../routes/orders/order-edit-shipping-address"),
+        },
+        {
+          path: "billing-address",
+          lazy: () => import("../../routes/orders/order-edit-billing-address"),
+        },
+      ],
+    },
+  ],
+}
+
+const LoginExtensions: RouteObject = {
+  element: <PublicLayout />,
+  children: [
+    {
+      errorElement: <ErrorBoundary />,
+      children: [
+        {
+          path: "/login",
+          lazy: () => import("../../routes/login"),
+        },
+        {
+          path: "/reset-password",
+          lazy: () => import("../../routes/reset-password"),
+        },
+        {
+          path: "/invite",
+          lazy: () => import("../../routes/invite"),
+        },
+        {
+          path: "*",
+          lazy: () => import("../../routes/no-match"),
+        },
+      ],
+    },
+  ],
+}
+
+export const StaffRouteMap: RouteObject[] = [
+  {
+    element: <ProtectedRoute />,
+    errorElement: <ErrorBoundary />,
+    children: [
+      {
+        element: <MainLayout />,
+        children: [
+          {
+            path: "/",
+            errorElement: <ErrorBoundary />,
+            lazy: () => import("../../routes/home"),
+          },
+          OrdersExtensions,
+        ],
+      },
+    ],
+  },
+  LoginExtensions,
+]
+
 export const RouteMap: RouteObject[] = [
   {
     element: <ProtectedRoute />,
@@ -256,102 +390,7 @@ export const RouteMap: RouteObject[] = [
               },
             ],
           },
-          {
-            path: "/orders",
-            errorElement: <ErrorBoundary />,
-            handle: {
-              breadcrumb: () => t("orders.domain"),
-            },
-            children: [
-              {
-                path: "",
-                lazy: () => import("../../routes/orders/order-list"),
-              },
-              {
-                path: ":id",
-                lazy: async () => {
-                  const { Component, Breadcrumb, loader } = await import(
-                    "../../routes/orders/order-detail"
-                  )
-
-                  return {
-                    Component,
-                    loader,
-                    handle: {
-                      breadcrumb: (
-                        match: UIMatch<HttpTypes.AdminOrderResponse>
-                      ) => <Breadcrumb {...match} />,
-                    },
-                  }
-                },
-                children: [
-                  {
-                    path: "fulfillment",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-fulfillment"),
-                  },
-                  {
-                    path: "returns/:return_id/receive",
-                    lazy: () =>
-                      import("../../routes/orders/order-receive-return"),
-                  },
-                  {
-                    path: "allocate-items",
-                    lazy: () =>
-                      import("../../routes/orders/order-allocate-items"),
-                  },
-                  {
-                    path: ":f_id/create-shipment",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-shipment"),
-                  },
-                  {
-                    path: "returns",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-return"),
-                  },
-                  {
-                    path: "claims",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-claim"),
-                  },
-                  {
-                    path: "exchanges",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-exchange"),
-                  },
-                  {
-                    path: "edits",
-                    lazy: () => import("../../routes/orders/order-create-edit"),
-                  },
-                  {
-                    path: "refund",
-                    lazy: () =>
-                      import("../../routes/orders/order-create-refund"),
-                  },
-                  {
-                    path: "transfer",
-                    lazy: () =>
-                      import("../../routes/orders/order-request-transfer"),
-                  },
-                  {
-                    path: "email",
-                    lazy: () => import("../../routes/orders/order-edit-email"),
-                  },
-                  {
-                    path: "shipping-address",
-                    lazy: () =>
-                      import("../../routes/orders/order-edit-shipping-address"),
-                  },
-                  {
-                    path: "billing-address",
-                    lazy: () =>
-                      import("../../routes/orders/order-edit-billing-address"),
-                  },
-                ],
-              },
-            ],
-          },
+          OrdersExtensions,
           {
             path: "/promotions",
             errorElement: <ErrorBoundary />,
@@ -1643,30 +1682,5 @@ export const RouteMap: RouteObject[] = [
       },
     ],
   },
-  {
-    element: <PublicLayout />,
-    children: [
-      {
-        errorElement: <ErrorBoundary />,
-        children: [
-          {
-            path: "/login",
-            lazy: () => import("../../routes/login"),
-          },
-          {
-            path: "/reset-password",
-            lazy: () => import("../../routes/reset-password"),
-          },
-          {
-            path: "/invite",
-            lazy: () => import("../../routes/invite"),
-          },
-          {
-            path: "*",
-            lazy: () => import("../../routes/no-match"),
-          },
-        ],
-      },
-    ],
-  },
+  LoginExtensions,
 ]

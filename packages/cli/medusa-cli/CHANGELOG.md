@@ -1,5 +1,45 @@
 # Change Log
 
+## 2.4.13
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.13
+  - @biryanihouse/telemetry@2.4.13
+
+## 2.4.12
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.12
+  - @biryanihouse/telemetry@2.4.12
+
+## 2.4.11
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.11
+  - @biryanihouse/telemetry@2.4.11
+
+## 2.4.10
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.10
+  - @biryanihouse/telemetry@2.4.10
+
+## 2.4.9
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.9
+  - @biryanihouse/telemetry@2.4.9
+
 ## 2.4.8
 
 ### Patch Changes

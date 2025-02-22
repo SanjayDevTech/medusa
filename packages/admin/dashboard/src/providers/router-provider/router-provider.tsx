@@ -3,12 +3,22 @@ import {
   createBrowserRouter,
 } from "react-router-dom"
 
-import { RouteMap } from "./route-map"
+import { RouteMap, StaffRouteMap } from "./route-map"
+import { useAdminUser } from "../user-provider"
 
-const router = createBrowserRouter(RouteMap, {
+const adminRouter = createBrowserRouter(RouteMap, {
+  basename: __BASE__ || "/",
+})
+
+const staffRouter = createBrowserRouter(StaffRouteMap, {
   basename: __BASE__ || "/",
 })
 
 export const RouterProvider = () => {
-  return <Provider router={router} />
+  const adminUser = useAdminUser()
+
+  if (adminUser?.role === "admin") {
+    return <Provider router={adminRouter} />
+  }
+  return <Provider router={staffRouter} />
 }

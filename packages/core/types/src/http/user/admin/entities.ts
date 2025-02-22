@@ -8,4 +8,5 @@ export interface AdminUser {
   created_at: string
   updated_at: string
   deleted_at: string | null
+  role?: string
 }

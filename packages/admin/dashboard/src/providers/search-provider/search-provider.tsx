@@ -2,10 +2,13 @@ import { PropsWithChildren, useEffect, useState } from "react"
 import { Search } from "../../components/search"
 import { useSidebar } from "../sidebar-provider"
 import { SearchContext } from "./search-context"
+import { useAdminUser } from "../user-provider"
 
 export const SearchProvider = ({ children }: PropsWithChildren) => {
   const [open, setOpen] = useState(false)
   const { mobile, toggle } = useSidebar()
+
+  const adminUser = useAdminUser()
 
   const toggleSearch = () => {
     const update = !open
@@ -44,7 +47,7 @@ export const SearchProvider = ({ children }: PropsWithChildren) => {
       }}
     >
       {children}
-      <Search />
+      {adminUser?.role === "admin" && <Search />}
     </SearchContext.Provider>
   )
 }
