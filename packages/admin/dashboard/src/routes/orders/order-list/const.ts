@@ -8,6 +8,7 @@ const DEFAULT_PROPERTIES = [
   "fulfillment_status",
   "total",
   "currency_code",
+  "location_id",
 ]
 
 const DEFAULT_RELATIONS = ["*customer", "*sales_channel"]

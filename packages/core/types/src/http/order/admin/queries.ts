@@ -28,6 +28,8 @@ export interface AdminOrderFilters extends FindParams, BaseOrderFilters {
    * Filter by customer IDs to retrieve their associated orders.
    */
   customer_id?: string[] | string
+
+  location_id?: string[] | string
   /**
    * Query or keywords to filter the order's searchable fields.
    */
