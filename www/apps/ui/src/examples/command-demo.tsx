@@ -1,4 +1,4 @@
-import { Badge, Command } from "@medusajs/ui"
+import { Badge, Command } from "@biryanihouse/ui"
 
 export default function CommandDemo() {
   return (

@@ -1,6 +1,6 @@
-import { CalculatedPriceSet, IPricingModuleService } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { CalculatedPriceSet, IPricingModuleService } from "@biryanihouse/framework/types"
+import { MedusaError, Modules } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The details of the variants to get price sets for.

@@ -1,9 +1,9 @@
-import { orderEditUpdateItemQuantityWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { orderEditUpdateItemQuantityWorkflow } from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminPostOrderEditsUpdateItemQuantityReqSchemaType } from "../../../../validators"
 
 export const POST = async (

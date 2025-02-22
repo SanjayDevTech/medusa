@@ -1,4 +1,4 @@
-# @medusajs/ui
+# @biryanihouse/ui
 
 ## 4.0.4
 
@@ -9,7 +9,7 @@
 - [#10024](https://github.com/medusajs/medusa/pull/10024) [`147c0e5a353b57d3a17db3b572334db58c830b3c`](https://github.com/medusajs/medusa/commit/147c0e5a353b57d3a17db3b572334db58c830b3c) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - feat(ui,dashboard): Add new DataTable block
 
 - Updated dependencies []:
-  - @medusajs/icons@2.4.0
+  - @biryanihouse/icons@2.4.0
 
 ## 4.0.3
 
@@ -20,7 +20,7 @@
 - [#10753](https://github.com/medusajs/medusa/pull/10753) [`3253e19b3603adacd913b8cbb3e88c9beb0c931a`](https://github.com/medusajs/medusa/commit/3253e19b3603adacd913b8cbb3e88c9beb0c931a) Thanks [@shahednasser](https://github.com/shahednasser)! - chore(ui): general updates and fixes to TSDocs and types
 
 - Updated dependencies [[`f7aaf2c8bb243c8478a943285628ba8eb331feb6`](https://github.com/medusajs/medusa/commit/f7aaf2c8bb243c8478a943285628ba8eb331feb6)]:
-  - @medusajs/icons@2.2.0
+  - @biryanihouse/icons@2.2.0
 
 ## 4.0.2
 
@@ -29,7 +29,7 @@
 - [#10481](https://github.com/medusajs/medusa/pull/10481) [`c9a66b19afcfcc626f9e2e4531771dc36f66a65e`](https://github.com/medusajs/medusa/commit/c9a66b19afcfcc626f9e2e4531771dc36f66a65e) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard,ui): Bring ConditionBlock in line with design
 
 - Updated dependencies []:
-  - @medusajs/icons@2.1.1
+  - @biryanihouse/icons@2.1.1
 
 ## 4.0.1
 
@@ -38,7 +38,7 @@
 - [#9775](https://github.com/medusajs/medusa/pull/9775) [`59e6747800133e091d20c2c167f600981abc5c0d`](https://github.com/medusajs/medusa/commit/59e6747800133e091d20c2c167f600981abc5c0d) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard,ui): DateFilter should remain open
 
 - Updated dependencies []:
-  - @medusajs/icons@2.0.1
+  - @biryanihouse/icons@2.0.1
 
 ## 4.0.0
 
@@ -49,7 +49,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`2e42e053d4c9d5445d227bdc268c66713aad8e2e`](https://github.com/medusajs/medusa/commit/2e42e053d4c9d5445d227bdc268c66713aad8e2e)]:
-  - @medusajs/icons@2.0.0
+  - @biryanihouse/icons@2.0.0
 
 ## 3.0.0
 
@@ -57,11 +57,11 @@
 
 - [#7076](https://github.com/medusajs/medusa/pull/7076) [`c3260a2c5a`](https://github.com/medusajs/medusa/commit/c3260a2c5add86ada641db91e834d9f9de62ed14) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - feat(ui): Re-work `<Toaster />` and `<Toast />` based on `sonner`.
 
-  This update contains breaking changes to how toasts work in `@medusajs/ui`. This update has been made to provide a better user experience and to make it easier to use toasts in your Medusa application.
+  This update contains breaking changes to how toasts work in `@biryanihouse/ui`. This update has been made to provide a better user experience and to make it easier to use toasts in your Medusa application.
 
   ### BREAKING CHANGES
 
-  The `useToast` hook has been removed. Users should instead use the `toast` function that is exported from the `@medusajs/ui` package. This function can be used to show toasts in your application. For more information on how to use the `toast` function, please refer to the documentation.
+  The `useToast` hook has been removed. Users should instead use the `toast` function that is exported from the `@biryanihouse/ui` package. This function can be used to show toasts in your application. For more information on how to use the `toast` function, please refer to the documentation.
 
   The `Toaster` component is still available but the options for the component have changed. The default position has been changed to `bottom-right`. For more information on the `Toaster` component, please refer to the documentation.
 
@@ -89,7 +89,7 @@
 - [#6534](https://github.com/medusajs/medusa/pull/6534) [`44a5567d0d`](https://github.com/medusajs/medusa/commit/44a5567d0df71fb85a566e29748a6c8e21272163) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(ui): Left aligns text in RadioGroup.Choicebox component.
 
 - Updated dependencies [[`44d43e8155`](https://github.com/medusajs/medusa/commit/44d43e8155d1b1ca0af5e900787411c7d0b027c0)]:
-  - @medusajs/icons@1.2.1
+  - @biryanihouse/icons@1.2.1
 
 ## 2.4.1
 
@@ -122,7 +122,7 @@
 - [#6120](https://github.com/medusajs/medusa/pull/6120) [`e49b6944e3`](https://github.com/medusajs/medusa/commit/e49b6944e3380a4ee0de086e173901d643ec800c) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(ui): Fix broken responsive style of Drawer between `sm` and `md`.
 
 - Updated dependencies [[`a2c149e7e5`](https://github.com/medusajs/medusa/commit/a2c149e7e588a9ebf080b4b43472bdb5126ed981)]:
-  - @medusajs/icons@1.2.0
+  - @biryanihouse/icons@1.2.0
 
 ## 2.2.4
 
@@ -156,7 +156,7 @@
 
   # Changelog
 
-  ## `@medusajs/ui`
+  ## `@biryanihouse/ui`
 
   This minor release contains a few bug fixes and improvements, as well as a new primitive component.
 
@@ -175,7 +175,7 @@
 
 - 035fa72: feat(ui,ui-preset): Release 2.1.0
 
-  ## `@medusajs/ui`
+  ## `@biryanihouse/ui`
 
   - The styling of buttons, inputs, and the CommandBar has been adjusted to have a more consistent look and feel.
   - Fixed an issue that caused DropdownMenu.Content to overflow the viewport.
@@ -183,11 +183,11 @@
   - The Text component now accepts a `leading` prop to adjust the line height. It can be set to `normal` (default) or `compact`. This change in the API is fully backwards compatible.
   - Adds a new subcomponent to RadioGroup called RadioGroup.ChoiceBox. This component wraps the RadioGroup.Item component with a mandatory label and description.
 
-  ## `@medusajs/ui-preset`
+  ## `@biryanihouse/ui-preset`
 
   - Updated several colors, shadows, and gradient effects.
 
-  ## `@medusajs/icons`
+  ## `@biryanihouse/icons`
 
   - Introduces 6 new icons: QuestionMark, SparklesMiniSolid, SparklesMini, ThumbDown, ThumbUp, and UserCircleMini.
   - There have been slight adjustments made to ArrowPathMini, EllipseBlueSolid, EllipseGreenSolid, EllipseGreySolid, EllipseOrangeSolid, EllipsePurpleSolid, and EllipseRedSolid.
@@ -195,7 +195,7 @@
 ### Patch Changes
 
 - Updated dependencies [035fa72]
-  - @medusajs/icons@1.1.0
+  - @biryanihouse/icons@1.1.0
 
 ## 2.0.0
 
@@ -203,7 +203,7 @@
 
 - ef98084: feat(ui,icons,ui-preset): Update to Medusa UI, including new components, icons, and preset styles.
 
-  # Changes in `@medusajs/ui`
+  # Changes in `@biryanihouse/ui`
 
   ## New components
 
@@ -231,7 +231,7 @@
   - `Table.Pagination` has been tweaked to ensure that it displays the correct number of pages when there is no data.
   - `Calendar` has been tweaked to prevent clicking a date from submitting any forms that precede it in the DOM.
 
-  # Changes in `@medusajs/icons`
+  # Changes in `@biryanihouse/icons`
 
   ## New icons
 
@@ -242,22 +242,22 @@
   - `PuzzleSolid`
   - `Text`
 
-  # Changes in `@medusajs/ui-preset`
+  # Changes in `@biryanihouse/ui-preset`
 
   Minor tweaks to colors, typography, and animations.
 
 ### Patch Changes
 
 - Updated dependencies [ef98084]
-  - @medusajs/icons@1.0.1
+  - @biryanihouse/icons@1.0.1
 
 ## 1.0.0
 
 ### Major Changes
 
-- 8d31ce6: Release of the Medusa UI design system, includes three new packages: `@medusajs/ui` a set of React components, hooks, and utils; `@medusajs/icons` a set of React icons; `@medusajs/ui-preset` a Tailwind CSS preset containing Medusa UI design tokens.
+- 8d31ce6: Release of the Medusa UI design system, includes three new packages: `@biryanihouse/ui` a set of React components, hooks, and utils; `@biryanihouse/icons` a set of React icons; `@biryanihouse/ui-preset` a Tailwind CSS preset containing Medusa UI design tokens.
 
 ### Patch Changes
 
 - Updated dependencies [8d31ce6]
-  - @medusajs/icons@1.0.0
+  - @biryanihouse/icons@1.0.0

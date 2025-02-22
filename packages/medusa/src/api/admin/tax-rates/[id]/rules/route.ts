@@ -1,11 +1,11 @@
-import { createTaxRateRulesWorkflow } from "@medusajs/core-flows"
+import { createTaxRateRulesWorkflow } from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminCreateTaxRateRuleType } from "../../validators"
 import { refetchTaxRate } from "../../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminCreateTaxRateRuleType>,

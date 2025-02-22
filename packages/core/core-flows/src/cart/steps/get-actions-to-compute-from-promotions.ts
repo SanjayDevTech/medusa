@@ -1,6 +1,6 @@
-import { CartDTO, IPromotionModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { CartDTO, IPromotionModuleService } from "@biryanihouse/framework/types"
+import { Modules } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The details of the cart and its applied promotions.

@@ -1,4 +1,4 @@
-import { Constructor, IDmlEntity, ModuleExports } from "@medusajs/types"
+import { Constructor, IDmlEntity, ModuleExports } from "@biryanihouse/types"
 import { MedusaServiceModelObjectsSymbol } from "./medusa-service"
 import {
   buildLinkConfigFromLinkableKeys,

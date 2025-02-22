@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"
 
-import { Buildings } from "@medusajs/icons"
-import { InventoryItemDTO } from "@medusajs/types"
+import { Buildings } from "@biryanihouse/icons"
+import { InventoryItemDTO } from "@biryanihouse/types"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"
 

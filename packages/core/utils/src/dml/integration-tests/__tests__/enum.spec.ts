@@ -1,4 +1,4 @@
-import { EntityConstructor } from "@medusajs/types"
+import { EntityConstructor } from "@biryanihouse/types"
 import {
   CheckConstraintViolationException,
   MetadataStorage,

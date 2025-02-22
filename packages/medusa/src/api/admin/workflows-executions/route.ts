@@ -1,12 +1,12 @@
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminGetWorkflowExecutionsParams>,

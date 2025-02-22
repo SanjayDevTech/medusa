@@ -1,4 +1,4 @@
-import { FeatureFlagTypes } from "@medusajs/types"
+import { FeatureFlagTypes } from "@biryanihouse/types"
 
 export const ProductCategoryFeatureFlag: FeatureFlagTypes.FlagSettings = {
   key: "product_categories",

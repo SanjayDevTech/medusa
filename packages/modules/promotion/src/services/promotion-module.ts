@@ -10,7 +10,7 @@ import {
   ModulesSdkTypes,
   PromotionDTO,
   PromotionTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ApplicationMethodAllocation,
   ApplicationMethodTargetType,
@@ -31,7 +31,7 @@ import {
   PromotionType,
   toMikroORMEntity,
   transformPropertiesToBigNumber,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   ApplicationMethod,
   Campaign,

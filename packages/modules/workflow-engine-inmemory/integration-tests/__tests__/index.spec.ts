@@ -1,18 +1,18 @@
 import {
   DistributedTransactionType,
   WorkflowManager,
-} from "@medusajs/framework/orchestration"
+} from "@biryanihouse/framework/orchestration"
 import {
   Context,
   IWorkflowEngineService,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Module,
   Modules,
   TransactionHandlerType,
-} from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/framework/utils"
+import { moduleIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { WorkflowsModuleService } from "@services"
 import { asFunction } from "awilix"
 import { setTimeout as setTimeoutPromise } from "timers/promises"

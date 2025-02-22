@@ -1,8 +1,8 @@
-import { FileTypes, LocalFileServiceOptions } from "@medusajs/framework/types"
+import { FileTypes, LocalFileServiceOptions } from "@biryanihouse/framework/types"
 import {
   AbstractFileProviderService,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import fs from "fs/promises"
 import path from "path"
 

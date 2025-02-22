@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { IconButton, Text } from "@medusajs/ui"
+import { XMarkMini } from "@biryanihouse/icons"
+import { IconButton, Text } from "@biryanihouse/ui"
 
 type TargetItemProps = {
   index: number

@@ -3,10 +3,10 @@ import {
   ContainerRegistrationKeys,
   MedusaError,
   mergePluginModules,
-} from "@medusajs/framework/utils"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { MedusaAppLoader } from "@medusajs/framework"
+} from "@biryanihouse/framework/utils"
+import { LinkLoader } from "@biryanihouse/framework/links"
+import { logger } from "@biryanihouse/framework/logger"
+import { MedusaAppLoader } from "@biryanihouse/framework"
 
 import { ensureDbExists } from "../utils"
 import { initializeContainer } from "../../loaders"

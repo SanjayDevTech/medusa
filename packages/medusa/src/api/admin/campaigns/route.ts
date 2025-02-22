@@ -1,15 +1,15 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { createCampaignsWorkflow } from "@medusajs/core-flows"
+} from "@biryanihouse/framework/http"
+import { createCampaignsWorkflow } from "@biryanihouse/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { AdminCreateCampaignType } from "./validators"
 import { refetchCampaign } from "./helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminGetCampaignParams>,

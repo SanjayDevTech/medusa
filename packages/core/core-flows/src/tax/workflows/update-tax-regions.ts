@@ -1,9 +1,9 @@
-import { TaxRegionDTO, UpdateTaxRegionDTO } from "@medusajs/framework/types"
+import { TaxRegionDTO, UpdateTaxRegionDTO } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { updateTaxRegionsStep } from "../steps/update-tax-regions"
 
 /**

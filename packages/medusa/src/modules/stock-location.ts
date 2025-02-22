@@ -1,6 +1,6 @@
-import StockLocationModule from "@medusajs/stock-location"
+import StockLocationModule from "@biryanihouse/stock-location"
 
-export * from "@medusajs/stock-location"
+export * from "@biryanihouse/stock-location"
 
 export default StockLocationModule
-export const discoveryPath = require.resolve("@medusajs/stock-location")
+export const discoveryPath = require.resolve("@biryanihouse/stock-location")

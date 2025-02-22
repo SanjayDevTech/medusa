@@ -1,12 +1,12 @@
-import { isPresent, MedusaError } from "@medusajs/framework/utils"
-import { MedusaResponse } from "@medusajs/framework/http"
+import { isPresent, MedusaError } from "@biryanihouse/framework/utils"
+import { MedusaResponse } from "@biryanihouse/framework/http"
 import { wrapVariantsWithInventoryQuantityForSalesChannel } from "../../../utils/middlewares"
 import {
   refetchProduct,
   RequestWithContext,
   wrapProductsWithTaxPrices,
 } from "../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: RequestWithContext<HttpTypes.StoreProductParams>,

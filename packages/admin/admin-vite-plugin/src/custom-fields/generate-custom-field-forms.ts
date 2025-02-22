@@ -7,7 +7,7 @@ import {
   type CustomFieldFormTab,
   type CustomFieldFormZone,
   type CustomFieldModel,
-} from "@medusajs/admin-shared"
+} from "@biryanihouse/admin-shared"
 import fs from "fs/promises"
 import { outdent } from "outdent"
 import {

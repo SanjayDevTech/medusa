@@ -1,6 +1,6 @@
-import { IPricingModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { IPricingModuleService } from "@biryanihouse/framework/types"
+import { Modules } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to retrieve the prices of price lists.

@@ -1,4 +1,4 @@
-import { BigNumberRawValue } from "@medusajs/types"
+import { BigNumberRawValue } from "@biryanihouse/types"
 import {
   BeforeCreate,
   Collection,

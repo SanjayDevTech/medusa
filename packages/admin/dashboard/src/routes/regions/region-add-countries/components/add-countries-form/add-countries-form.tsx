@@ -9,8 +9,8 @@ import { useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 import * as zod from "zod"
 
-import { HttpTypes } from "@medusajs/types"
-import { Button, Checkbox, toast } from "@medusajs/ui"
+import { HttpTypes } from "@biryanihouse/types"
+import { Button, Checkbox, toast } from "@biryanihouse/ui"
 import {
   RouteFocusModal,
   useRouteModal,

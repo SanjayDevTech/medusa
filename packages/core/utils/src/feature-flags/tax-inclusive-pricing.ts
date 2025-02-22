@@ -1,4 +1,4 @@
-import { FeatureFlagTypes } from "@medusajs/types"
+import { FeatureFlagTypes } from "@biryanihouse/types"
 
 export const TaxInclusivePricingFeatureFlag: FeatureFlagTypes.FlagSettings = {
   key: "tax_inclusive_pricing",

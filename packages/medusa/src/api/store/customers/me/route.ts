@@ -1,16 +1,16 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
 import {
   StoreGetCustomerParamsType,
   StoreUpdateCustomerType,
 } from "../validators"
 import { refetchCustomer } from "../helpers"
-import { MedusaError } from "@medusajs/framework/utils"
-import { updateCustomersWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
+import { updateCustomersWorkflow } from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<StoreGetCustomerParamsType>,

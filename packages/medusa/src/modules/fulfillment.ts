@@ -1,6 +1,6 @@
-import FulfillmentModule from "@medusajs/fulfillment"
+import FulfillmentModule from "@biryanihouse/fulfillment"
 
-export * from "@medusajs/fulfillment"
+export * from "@biryanihouse/fulfillment"
 
 export default FulfillmentModule
-export const discoveryPath = require.resolve("@medusajs/fulfillment")
+export const discoveryPath = require.resolve("@biryanihouse/fulfillment")

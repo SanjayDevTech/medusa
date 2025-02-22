@@ -1,8 +1,8 @@
-import { IApiKeyModuleService } from "@medusajs/framework/types"
-import { ApiKeyType, Module, Modules } from "@medusajs/framework/utils"
+import { IApiKeyModuleService } from "@biryanihouse/framework/types"
+import { ApiKeyType, Module, Modules } from "@biryanihouse/framework/utils"
 import { ApiKeyModuleService } from "@services"
 import crypto from "crypto"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   createPublishableKeyFixture,
   createSecretKeyFixture,

@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework/http"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   deduplicate,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminOrderItemsFilters>,

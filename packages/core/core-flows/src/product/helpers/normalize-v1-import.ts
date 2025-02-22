@@ -1,5 +1,5 @@
-import { ProductTypes, SalesChannelTypes } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+import { ProductTypes, SalesChannelTypes } from "@biryanihouse/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
 
 const basicFieldsToOmit = [
   // Fields with slightly different naming

@@ -1,11 +1,11 @@
-import { IFulfillmentModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
+import { IFulfillmentModuleService } from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
 import {
   adminHeaders,
   createAdminUser,
 } from "../../../../helpers/create-admin-user"
 
-const { medusaIntegrationTestRunner } = require("@medusajs/test-utils")
+const { medusaIntegrationTestRunner } = require("@biryanihouse/test-utils")
 
 jest.setTimeout(30000)
 

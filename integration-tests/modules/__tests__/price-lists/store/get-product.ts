@@ -1,5 +1,5 @@
-import { PriceListStatus, PriceListType } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { PriceListStatus, PriceListType } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   createAdminUser,
   generatePublishableKey,

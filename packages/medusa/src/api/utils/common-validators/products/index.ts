@@ -1,5 +1,5 @@
-import { FilterableProductProps } from "@medusajs/framework/types"
-import { ProductStatus } from "@medusajs/framework/utils"
+import { FilterableProductProps } from "@biryanihouse/framework/types"
+import { ProductStatus } from "@biryanihouse/framework/utils"
 import { z } from "zod"
 import { createOperatorMap } from "../../validators"
 import { booleanString } from "../common"

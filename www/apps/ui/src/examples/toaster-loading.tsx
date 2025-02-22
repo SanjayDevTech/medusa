@@ -1,4 +1,4 @@
-import { Button, Toaster, toast } from "@medusajs/ui"
+import { Button, Toaster, toast } from "@biryanihouse/ui"
 
 export default function ToasterLoading() {
   return (

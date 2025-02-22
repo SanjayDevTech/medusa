@@ -1,5 +1,5 @@
-import { LocalWorkflow } from "@medusajs/orchestration"
-import { LoadedModule, MedusaContainer } from "@medusajs/types"
+import { LocalWorkflow } from "@biryanihouse/orchestration"
+import { LoadedModule, MedusaContainer } from "@biryanihouse/types"
 import { ExportedWorkflow } from "./helper"
 
 class MedusaWorkflow {

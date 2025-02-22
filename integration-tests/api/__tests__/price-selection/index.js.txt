@@ -15,7 +15,7 @@ const {
   PriceList,
   ProductVariant,
   Customer,
-} = require("@medusajs/medusa")
+} = require("@biryanihouse/medusa")
 
 jest.setTimeout(30000)
 

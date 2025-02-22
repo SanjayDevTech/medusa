@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { PromotionDTO, PromotionRuleDTO } from "@medusajs/types"
-import { Button } from "@medusajs/ui"
+import { PromotionDTO, PromotionRuleDTO } from "@biryanihouse/types"
+import { Button } from "@biryanihouse/ui"
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"

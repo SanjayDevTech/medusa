@@ -1,6 +1,6 @@
-import { IFulfillmentModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { IFulfillmentModuleService } from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { createAdminUser } from "../../../helpers/create-admin-user"
 
 jest.setTimeout(100000)

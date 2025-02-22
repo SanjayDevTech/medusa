@@ -1,15 +1,15 @@
-import { MedusaAppLoader } from "@medusajs/framework"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { MigrationScriptsMigrator } from "@medusajs/framework/migrations"
+import { MedusaAppLoader } from "@biryanihouse/framework"
+import { LinkLoader } from "@biryanihouse/framework/links"
+import { logger } from "@biryanihouse/framework/logger"
+import { MigrationScriptsMigrator } from "@biryanihouse/framework/migrations"
 import {
   ContainerRegistrationKeys,
   mergePluginModules,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { dirname, join } from "path"
 
-import { MedusaModule } from "@medusajs/framework/modules-sdk"
-import { MedusaContainer, PluginDetails } from "@medusajs/types"
+import { MedusaModule } from "@biryanihouse/framework/modules-sdk"
+import { MedusaContainer, PluginDetails } from "@biryanihouse/types"
 import { initializeContainer } from "../../loaders"
 import { getResolvedPlugins } from "../../loaders/helpers/resolve-plugins"
 import { ensureDbExists } from "../utils"
@@ -48,7 +48,7 @@ export async function runMigrationScripts({
     onApplicationShutdown = resources.onApplicationShutdown
 
     const scriptsSourcePaths = [
-      join(dirname(require.resolve("@medusajs/medusa")), "migration-scripts"),
+      join(dirname(require.resolve("@biryanihouse/medusa")), "migration-scripts"),
       ...plugins.map((plugin) => join(plugin.resolve, "migration-scripts")),
     ]
 

@@ -3,7 +3,7 @@ import {
   AdminProduct,
   AdminStockLocation,
   MedusaContainer,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   adminHeaders,
   generatePublishableKey,

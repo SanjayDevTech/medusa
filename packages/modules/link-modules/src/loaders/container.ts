@@ -6,13 +6,13 @@ import {
   LoaderOptions,
   ModuleJoinerConfig,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   composeLinkName,
   composeTableName,
   simpleHash,
   toPascalCase,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { asClass, asValue } from "awilix"
 export function containerLoader(entity, joinerConfig: ModuleJoinerConfig) {
   return async (

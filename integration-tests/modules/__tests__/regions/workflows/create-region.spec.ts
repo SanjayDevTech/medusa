@@ -1,11 +1,11 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { createRegionsWorkflow } from "@medusajs/core-flows"
-import { MedusaContainer, RegionDTO } from "@medusajs/types"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
+import { createRegionsWorkflow } from "@biryanihouse/core-flows"
+import { MedusaContainer, RegionDTO } from "@biryanihouse/types"
 import { createAdminUser } from "../../../../helpers/create-admin-user"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 
 jest.setTimeout(200000)
 

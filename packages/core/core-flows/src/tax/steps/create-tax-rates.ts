@@ -1,6 +1,6 @@
-import { CreateTaxRateDTO, ITaxModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { CreateTaxRateDTO, ITaxModuleService } from "@biryanihouse/framework/types"
+import { Modules } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 export const createTaxRatesStepId = "create-tax-rates"
 /**

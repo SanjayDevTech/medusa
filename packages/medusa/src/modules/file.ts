@@ -1,6 +1,6 @@
-import FileModule from "@medusajs/file"
+import FileModule from "@biryanihouse/file"
 
-export * from "@medusajs/file"
+export * from "@biryanihouse/file"
 
 export default FileModule
-export const discoveryPath = require.resolve("@medusajs/file")
+export const discoveryPath = require.resolve("@biryanihouse/file")

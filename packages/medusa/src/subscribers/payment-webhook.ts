@@ -1,13 +1,13 @@
-import { processPaymentWorkflow } from "@medusajs/core-flows"
+import { processPaymentWorkflow } from "@biryanihouse/core-flows"
 import {
   IPaymentModuleService,
   ProviderWebhookPayload,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Modules,
   PaymentActions,
   PaymentWebhookEvents,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { SubscriberArgs, SubscriberConfig } from "../types/subscribers"
 
 type SerializedBuffer = {

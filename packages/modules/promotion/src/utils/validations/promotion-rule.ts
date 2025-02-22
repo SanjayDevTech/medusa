@@ -2,7 +2,7 @@ import {
   ApplicationMethodTargetTypeValues,
   PromotionRuleDTO,
   PromotionRuleOperatorValues,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ApplicationMethodTargetType,
   MathBN,
@@ -11,7 +11,7 @@ import {
   isPresent,
   isString,
   pickValueFromObject,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { CreatePromotionRuleDTO } from "@types"
 
 export function validatePromotionRuleAttributes(

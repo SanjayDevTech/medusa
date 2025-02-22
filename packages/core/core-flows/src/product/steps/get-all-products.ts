@@ -1,9 +1,9 @@
 import {
   FilterableProductProps,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/types"
+import { ContainerRegistrationKeys } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The configuration to retrieve the products.

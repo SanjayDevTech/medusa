@@ -1,15 +1,15 @@
-import { ModulesDefinition } from "@medusajs/framework/modules-sdk"
+import { ModulesDefinition } from "@biryanihouse/framework/modules-sdk"
 import {
   FulfillmentSetDTO,
   IFulfillmentModuleService,
-} from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/types"
+import { Module, Modules } from "@biryanihouse/framework/utils"
 import { FulfillmentModuleService, FulfillmentProviderService } from "@services"
 import {
   initModules,
   moduleIntegrationTestRunner,
   SuiteOptions,
-} from "@medusajs/test-utils"
+} from "@biryanihouse/test-utils"
 import { resolve } from "path"
 import { createFullDataStructure } from "../../__fixtures__"
 import { FulfillmentProviderServiceFixtures } from "../../__fixtures__/providers"

@@ -1,4 +1,4 @@
-import { IProductModuleService } from "@medusajs/framework/types"
+import { IProductModuleService } from "@biryanihouse/framework/types"
 import {
   CommonEvents,
   composeMessage,
@@ -6,12 +6,12 @@ import {
   ProductEvents,
   ProductStatus,
   toMikroORMEntity,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { Product, ProductTag } from "@models"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@biryanihouse/test-utils"
 
 jest.setTimeout(30000)
 

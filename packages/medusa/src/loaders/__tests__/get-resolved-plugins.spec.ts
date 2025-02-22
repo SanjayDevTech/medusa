@@ -1,5 +1,5 @@
 import path from "path"
-import { defineConfig, FileSystem } from "@medusajs/framework/utils"
+import { defineConfig, FileSystem } from "@biryanihouse/framework/utils"
 import { getResolvedPlugins } from "../helpers/resolve-plugins"
 
 const BASE_DIR = path.join(__dirname, "sample-proj")

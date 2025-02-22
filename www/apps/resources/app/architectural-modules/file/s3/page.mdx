@@ -143,7 +143,7 @@ The File Module accepts one provider only.
 </Note>
 
 ```ts title="medusa-config.ts"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 
 // ...
 
@@ -152,11 +152,11 @@ module.exports = {
   modules: [
     // ...
     {
-      resolve: "@medusajs/medusa/file",
+      resolve: "@biryanihouse/medusa/file",
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/file-s3",
+            resolve: "@biryanihouse/medusa/file-s3",
             id: "s3",
             options: {
               file_url: process.env.S3_FILE_URL,
@@ -186,11 +186,11 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/file",
+      resolve: "@biryanihouse/medusa/file",
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/file-s3",
+            resolve: "@biryanihouse/medusa/file-s3",
             id: "s3",
             options: {
               // ...

@@ -7,7 +7,7 @@ import {
   RemoteJoinerOptions,
   RemoteJoinerQuery,
   RemoteNestedExpands,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   deduplicate,
   FilterOperatorMap,
@@ -16,7 +16,7 @@ import {
   isObject,
   isString,
   MedusaError,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 
 const BASE_PATH = "_root"
 

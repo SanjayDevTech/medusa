@@ -1,4 +1,4 @@
-import { AcademicCapSolid } from "@medusajs/icons"
+import { AcademicCapSolid } from "@biryanihouse/icons"
 import { LearningPath } from "docs-ui"
 
 export const metadata = {
@@ -76,10 +76,10 @@ Here’s an example of creating a custom API Route at `/store/pos/search-barcode
   import type { 
     MedusaRequest, 
     MedusaResponse, 
-  } from "@medusajs/framework/http"
-  import { MedusaError } from "@medusajs/framework/utils"
-  import { Modules } from "@medusajs/framework/utils"
-  import { IProductModuleService } from "@medusajs/framework/types"
+  } from "@biryanihouse/framework/http"
+  import { MedusaError } from "@biryanihouse/framework/utils"
+  import { Modules } from "@biryanihouse/framework/utils"
+  import { IProductModuleService } from "@biryanihouse/framework/types"
 
 export const GET = async (req: MedusaRequest, res: MedusaResponse) => {
   const barcode = (req.query.barcode as string) || ""

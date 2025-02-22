@@ -1,5 +1,5 @@
-import { UpdatePriceListWorkflowInputDTO } from "@medusajs/framework/types"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { UpdatePriceListWorkflowInputDTO } from "@biryanihouse/framework/types"
+import { WorkflowData, createWorkflow } from "@biryanihouse/framework/workflows-sdk"
 import { updatePriceListsStep, validatePriceListsStep } from "../steps"
 
 /**

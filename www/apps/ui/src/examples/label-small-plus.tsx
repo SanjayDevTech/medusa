@@ -1,4 +1,4 @@
-import { Label } from "@medusajs/ui"
+import { Label } from "@biryanihouse/ui"
 
 export default function LabelSmallPlus() {
   return (

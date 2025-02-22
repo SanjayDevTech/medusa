@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@biryanihouse/types"
 import {
   ColumnDef,
   ColumnDefBase,

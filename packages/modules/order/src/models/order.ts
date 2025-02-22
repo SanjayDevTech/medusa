@@ -1,4 +1,4 @@
-import { model, OrderStatus } from "@medusajs/framework/utils"
+import { model, OrderStatus } from "@biryanihouse/framework/utils"
 import { OrderAddress } from "./address"
 import { OrderCreditLine } from "./credit-line"
 import { OrderItem } from "./order-item"

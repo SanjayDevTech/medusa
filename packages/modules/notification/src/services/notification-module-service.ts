@@ -7,7 +7,7 @@ import {
   Logger,
   ModulesSdkTypes,
   NotificationTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   EmitEvents,
   generateEntityId,
@@ -17,7 +17,7 @@ import {
   MedusaService,
   NotificationStatus,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { Notification } from "@models"
 import { eventBuilders } from "@utils"
 import NotificationProviderService from "./notification-provider"

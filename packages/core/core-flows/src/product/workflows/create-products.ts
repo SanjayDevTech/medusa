@@ -3,12 +3,12 @@ import {
   CreateProductWorkflowInputDTO,
   PricingTypes,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ProductWorkflowEvents,
   isPresent,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -16,7 +16,7 @@ import {
   createWorkflow,
   transform,
   createStep,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { associateProductsWithSalesChannelsStep } from "../../sales-channel"
 import { createProductsStep } from "../steps/create-products"

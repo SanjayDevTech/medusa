@@ -1,4 +1,4 @@
-import { DMLSchema, EntityConstructor, EntityIndex } from "@medusajs/types"
+import { DMLSchema, EntityConstructor, EntityIndex } from "@biryanihouse/types"
 import { MetadataStorage } from "@mikro-orm/core"
 import { arrayDifference } from "../../../common"
 

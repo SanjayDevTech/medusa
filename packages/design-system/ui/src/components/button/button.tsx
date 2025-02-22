@@ -3,7 +3,7 @@ import { cva, type VariantProps } from "cva"
 import * as React from "react"
 
 import { clx } from "@/utils/clx"
-import { Spinner } from "@medusajs/icons"
+import { Spinner } from "@biryanihouse/icons"
 
 const buttonVariants = cva({
   base: clx(

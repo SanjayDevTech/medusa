@@ -1,10 +1,10 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { IPricingModuleService, IProductModuleService } from "@medusajs/types"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
+import { IPricingModuleService, IProductModuleService } from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 
 jest.setTimeout(50000)
 

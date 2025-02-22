@@ -5,9 +5,9 @@ import {
   dismissLinksWorkflowId,
   updateLinksWorkflow,
   updateLinksWorkflowId,
-} from "@medusajs/core-flows"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/core-flows"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   adminHeaders,
   createAdminUser,

@@ -8,7 +8,7 @@ import {
   ModuleJoinerConfig,
   ModulesSdkTypes,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Product,
   ProductCategory,
@@ -40,7 +40,7 @@ import {
   promiseAll,
   removeUndefined,
   toHandle,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   UpdateCategoryInput,
   UpdateCollectionInput,

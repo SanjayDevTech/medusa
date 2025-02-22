@@ -1,4 +1,4 @@
-import { Text } from "@medusajs/ui"
+import { Text } from "@biryanihouse/ui"
 
 export default function TextExamples() {
   return (

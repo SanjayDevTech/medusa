@@ -1,15 +1,15 @@
-import { MedusaError } from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaError } from "@biryanihouse/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
 import {
   deleteInventoryItemWorkflow,
   updateInventoryItemsWorkflow,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 import {
   AdminGetInventoryItemParamsType,
   AdminUpdateInventoryItemType,
 } from "../validators"
 import { refetchInventoryItem } from "../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: MedusaRequest<AdminGetInventoryItemParamsType>,

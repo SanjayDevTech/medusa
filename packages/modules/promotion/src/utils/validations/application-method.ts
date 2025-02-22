@@ -8,8 +8,8 @@ import {
   MathBN,
   MedusaError,
   PromotionType,
-} from "@medusajs/framework/utils"
-import { InferEntityType } from "@medusajs/types"
+} from "@biryanihouse/framework/utils"
+import { InferEntityType } from "@biryanihouse/types"
 import { Promotion } from "@models"
 import { CreateApplicationMethodDTO, UpdateApplicationMethodDTO } from "@types"
 

@@ -2,14 +2,14 @@ import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+} from "@biryanihouse/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
 
 import {
   deleteInventoryLevelsWorkflow,
   updateInventoryLevelsWorkflow,
-} from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import { refetchInventoryItem } from "../../../helpers"
 import { AdminUpdateInventoryLocationLevelType } from "../../../validators"
 

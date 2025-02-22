@@ -3,14 +3,14 @@ import {
     PencilSquare,
     Trash,
     TriangleRightMini,
-} from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Badge, IconButton, StatusBadge, Text, Tooltip } from "@medusajs/ui"
+} from "@biryanihouse/icons"
+import { HttpTypes } from "@biryanihouse/types"
+import { Badge, IconButton, StatusBadge, Text, Tooltip } from "@biryanihouse/ui"
 import * as Collapsible from "@radix-ui/react-collapsible"
 import { ComponentPropsWithoutRef } from "react"
 import { useTranslation } from "react-i18next"
 
-import { FetchError } from "@medusajs/js-sdk"
+import { FetchError } from "@biryanihouse/js-sdk"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { Divider } from "../../../../../components/common/divider"
 import { useCollections } from "../../../../../hooks/api/collections"

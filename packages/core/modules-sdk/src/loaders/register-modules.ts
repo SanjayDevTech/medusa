@@ -4,13 +4,13 @@ import {
   ModuleDefinition,
   ModuleExports,
   ModuleResolution,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 
 import {
   isObject,
   isString,
   normalizeImportPathWithSource,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import { ModulesDefinition } from "../definitions"
 import { MODULE_SCOPE } from "../types"
 

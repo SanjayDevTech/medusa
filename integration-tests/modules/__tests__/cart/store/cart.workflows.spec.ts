@@ -15,8 +15,8 @@ import {
   updateLineItemsStepId,
   updatePaymentCollectionStepId,
   updateTaxLinesWorkflow,
-} from "@medusajs/core-flows"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/core-flows"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   ICartModuleService,
   ICustomerModuleService,
@@ -28,14 +28,14 @@ import {
   IRegionModuleService,
   ISalesChannelModuleService,
   IStockLocationService,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   PriceListStatus,
   PriceListType,
   RuleOperator,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import {
   adminHeaders,
   createAdminUser,

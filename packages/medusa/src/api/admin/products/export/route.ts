@@ -1,10 +1,10 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework/http"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import { remapKeysForProduct } from "../helpers"
-import { exportProductsWorkflow } from "@medusajs/core-flows"
+import { exportProductsWorkflow } from "@biryanihouse/core-flows"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest,

@@ -1,5 +1,5 @@
-import { TransactionState } from "@medusajs/framework/orchestration"
-import { model } from "@medusajs/framework/utils"
+import { TransactionState } from "@biryanihouse/framework/orchestration"
+import { model } from "@biryanihouse/framework/utils"
 
 export const WorkflowExecution = model
   .define("workflow_execution", {

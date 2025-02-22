@@ -92,11 +92,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -131,7 +131,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -166,7 +166,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -201,7 +201,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -236,7 +236,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -271,7 +271,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -306,7 +306,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -341,7 +341,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -376,7 +376,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -411,7 +411,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -446,7 +446,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -481,7 +481,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -516,7 +516,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -553,7 +553,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -630,7 +630,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -709,11 +709,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -748,7 +748,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -783,7 +783,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -818,7 +818,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -853,7 +853,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -886,7 +886,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -921,7 +921,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -956,7 +956,7 @@
 													"qualifiedName": "DateTimeProperty"
 												},
 												"name": "DateTimeProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1001,7 +1001,7 @@
 													}
 												],
 												"name": "HasOneWithForeignKey",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1046,7 +1046,7 @@
 													}
 												],
 												"name": "HasOneWithForeignKey",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1089,7 +1089,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1132,7 +1132,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -1168,7 +1168,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "literal",
@@ -1176,7 +1176,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -1255,11 +1255,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1294,7 +1294,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1329,7 +1329,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1362,7 +1362,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1397,7 +1397,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1432,7 +1432,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1467,7 +1467,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1510,7 +1510,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -1542,7 +1542,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -1619,7 +1619,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -1698,11 +1698,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1737,7 +1737,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1770,7 +1770,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1803,7 +1803,7 @@
 													"qualifiedName": "FloatProperty"
 												},
 												"name": "FloatProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1838,7 +1838,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1873,7 +1873,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1908,7 +1908,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1951,7 +1951,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -1983,7 +1983,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -2060,7 +2060,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -2139,11 +2139,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2176,7 +2176,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2211,7 +2211,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2246,7 +2246,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2279,7 +2279,7 @@
 													"qualifiedName": "NumberProperty"
 												},
 												"name": "NumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2314,7 +2314,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2349,7 +2349,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2384,7 +2384,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2419,7 +2419,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2454,7 +2454,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2489,7 +2489,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2524,7 +2524,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2559,7 +2559,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2594,7 +2594,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2629,7 +2629,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2664,7 +2664,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2699,7 +2699,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2734,7 +2734,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2767,7 +2767,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2800,7 +2800,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2833,7 +2833,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2866,7 +2866,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2901,7 +2901,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2934,7 +2934,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -2969,7 +2969,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3012,7 +3012,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3055,7 +3055,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3098,7 +3098,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -3150,7 +3150,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -3227,7 +3227,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -3306,11 +3306,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3345,7 +3345,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3380,7 +3380,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3413,7 +3413,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3448,7 +3448,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3483,7 +3483,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3518,7 +3518,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3561,7 +3561,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -3593,7 +3593,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -3670,7 +3670,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -3749,11 +3749,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3788,7 +3788,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3821,7 +3821,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3854,7 +3854,7 @@
 													"qualifiedName": "FloatProperty"
 												},
 												"name": "FloatProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3889,7 +3889,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3924,7 +3924,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -3959,7 +3959,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4002,7 +4002,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -4034,7 +4034,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -4111,7 +4111,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -4190,11 +4190,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@biryanihouse/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4227,7 +4227,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4262,7 +4262,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4295,7 +4295,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4328,7 +4328,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4363,7 +4363,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4398,7 +4398,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4433,7 +4433,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4476,7 +4476,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4519,7 +4519,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -4562,7 +4562,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@biryanihouse/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -4597,7 +4597,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					{
 						"type": "reflection",
@@ -4674,7 +4674,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		}
@@ -4694,7 +4694,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/cart",
+	"packageName": "@biryanihouse/cart",
 	"symbolIdMap": {
 		"1855": {
 			"sourceFileName": "../../../../packages/modules/cart/src/models/index.ts",

@@ -1,16 +1,16 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import {
   deleteCampaignsWorkflow,
   updateCampaignsWorkflow,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 
 import { refetchCampaign } from "../helpers"
 import { AdminUpdateCampaignType } from "../validators"
-import { MedusaError } from "@medusajs/framework/utils"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
+import { AdditionalData, HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

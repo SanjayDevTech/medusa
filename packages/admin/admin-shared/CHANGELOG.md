@@ -1,4 +1,4 @@
-# @medusajs/admin-shared
+# @biryanihouse/admin-shared
 
 ## 2.4.0
 

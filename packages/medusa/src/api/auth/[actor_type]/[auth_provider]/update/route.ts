@@ -1,9 +1,9 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { IAuthModuleService } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/http"
+import { IAuthModuleService } from "@biryanihouse/framework/types"
+import { MedusaError, Modules } from "@biryanihouse/framework/utils"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest,

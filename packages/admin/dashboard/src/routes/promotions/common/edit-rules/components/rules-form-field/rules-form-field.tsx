@@ -1,6 +1,6 @@
-import { XMarkMini } from "@medusajs/icons"
-import { PromotionDTO } from "@medusajs/types"
-import { Badge, Button, Heading, IconButton, Select, Text } from "@medusajs/ui"
+import { XMarkMini } from "@biryanihouse/icons"
+import { PromotionDTO } from "@biryanihouse/types"
+import { Badge, Button, Heading, IconButton, Select, Text } from "@biryanihouse/ui"
 import { forwardRef, Fragment, useEffect } from "react"
 import {
   ControllerRenderProps,

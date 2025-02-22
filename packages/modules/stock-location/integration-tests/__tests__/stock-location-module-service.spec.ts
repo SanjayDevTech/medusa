@@ -1,7 +1,7 @@
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@biryanihouse/test-utils"
 
-import { IStockLocationService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+import { IStockLocationService } from "@biryanihouse/framework/types"
+import { Module, Modules } from "@biryanihouse/framework/utils"
 import { StockLocationModuleService } from "../../src/services"
 
 jest.setTimeout(100000)

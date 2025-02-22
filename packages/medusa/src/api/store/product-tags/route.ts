@@ -1,9 +1,9 @@
-import { StoreProductTagListResponse } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { StoreProductTagListResponse } from "@biryanihouse/framework/types"
+import { ContainerRegistrationKeys } from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { StoreProductTagsParamsType } from "./validators"
 
 export const GET = async (

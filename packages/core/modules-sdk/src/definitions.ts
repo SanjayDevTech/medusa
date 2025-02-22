@@ -1,10 +1,10 @@
-import { ModuleDefinition } from "@medusajs/types"
+import { ModuleDefinition } from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   MODULE_PACKAGE_NAMES,
   Modules,
   upperCaseFirst,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import { MODULE_SCOPE } from "./types"
 
 export const ModulesDefinition: {

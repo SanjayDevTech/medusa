@@ -1,5 +1,5 @@
-import { ShoppingBag, TriangleRightMini } from "@medusajs/icons"
-import { Container, Heading, Text } from "@medusajs/ui"
+import { ShoppingBag, TriangleRightMini } from "@biryanihouse/icons"
+import { Container, Heading, Text } from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 import { Link, useLoaderData } from "react-router-dom"
 

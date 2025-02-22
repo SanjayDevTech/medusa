@@ -1,6 +1,6 @@
 "use client"
 
-import { clx } from "@medusajs/ui"
+import { clx } from "@biryanihouse/ui"
 import { useMDXComponent } from "next-contentlayer/hooks"
 import * as React from "react"
 

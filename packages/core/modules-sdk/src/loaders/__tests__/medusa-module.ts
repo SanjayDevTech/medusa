@@ -1,4 +1,4 @@
-import { InternalModuleDeclaration } from "@medusajs/types"
+import { InternalModuleDeclaration } from "@biryanihouse/types"
 import { MODULE_SCOPE } from "../../types"
 
 import { asValue } from "awilix"

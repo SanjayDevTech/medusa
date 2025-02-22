@@ -1,10 +1,10 @@
-import { CartWorkflowDTO } from "@medusajs/framework/types"
+import { CartWorkflowDTO } from "@biryanihouse/framework/types"
 import {
   isPresent,
   MedusaError,
   PaymentSessionStatus,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The cart's details.

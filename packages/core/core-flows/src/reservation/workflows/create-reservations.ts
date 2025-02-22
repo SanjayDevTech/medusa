@@ -2,9 +2,9 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 
-import { WorkflowTypes } from "@medusajs/framework/types"
+import { WorkflowTypes } from "@biryanihouse/framework/types"
 import { createReservationsStep } from "../steps"
 
 export const createReservationsWorkflowId = "create-reservations-workflow"

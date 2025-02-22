@@ -1,14 +1,14 @@
-import { createClaimShippingMethodWorkflow } from "@medusajs/core-flows"
+import { createClaimShippingMethodWorkflow } from "@biryanihouse/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminPostClaimsShippingReqSchemaType } from "../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminPostClaimsShippingReqSchemaType>,

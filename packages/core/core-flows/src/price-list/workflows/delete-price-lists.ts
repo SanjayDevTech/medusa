@@ -1,4 +1,4 @@
-import { createWorkflow, WorkflowData } from "@medusajs/framework/workflows-sdk"
+import { createWorkflow, WorkflowData } from "@biryanihouse/framework/workflows-sdk"
 import { deletePriceListsStep } from "../steps"
 
 /**

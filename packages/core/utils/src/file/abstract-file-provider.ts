@@ -1,4 +1,4 @@
-import { FileTypes, IFileProvider } from "@medusajs/types"
+import { FileTypes, IFileProvider } from "@biryanihouse/types"
 
 /**
  * ### constructor
@@ -11,8 +11,8 @@ import { FileTypes, IFileProvider } from "@medusajs/types"
  * #### Example
  *
  * ```ts
- * import { Logger } from "@medusajs/framework/types"
- * import { AbstractFileProviderService } from "@medusajs/framework/utils"
+ * import { Logger } from "@biryanihouse/framework/types"
+ * import { AbstractFileProviderService } from "@biryanihouse/framework/utils"
  *
  * type InjectedDependencies = {
  *   logger: Logger

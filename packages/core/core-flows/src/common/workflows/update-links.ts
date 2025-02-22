@@ -1,9 +1,9 @@
-import { LinkDefinition } from "@medusajs/framework/types"
+import { LinkDefinition } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { updateRemoteLinksStep } from "../steps/update-remote-links"
 
 export const updateLinksWorkflowId = "update-link"
@@ -20,7 +20,7 @@ export const updateLinksWorkflowId = "update-link"
  * .run({
  *   input: [
  *     {
- *       // import { Modules } from "@medusajs/framework/utils"
+ *       // import { Modules } from "@biryanihouse/framework/utils"
  *       [Modules.PRODUCT]: {
  *         product_id: "prod_123",
  *       },

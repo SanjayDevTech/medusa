@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "../Link"
 import { Badge } from "../Badge"
-import { Github } from "@medusajs/icons"
+import { Github } from "@biryanihouse/icons"
 import clsx from "clsx"
 
 type SourceCodeLinkProps = {

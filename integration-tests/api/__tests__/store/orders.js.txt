@@ -9,7 +9,7 @@ const {
   LineItem,
   Payment,
   PaymentSession,
-} = require("@medusajs/medusa")
+} = require("@biryanihouse/medusa")
 
 const setupServer = require("../../../environment-helpers/setup-server")
 const { useApi } = require("../../../environment-helpers/use-api")
@@ -20,7 +20,7 @@ const {
   simpleCartFactory,
   simpleShippingOptionFactory,
 } = require("../../../factories")
-const { MedusaError } = require("@medusajs/utils")
+const { MedusaError } = require("@biryanihouse/utils")
 
 jest.setTimeout(30000)
 

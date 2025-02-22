@@ -1,5 +1,5 @@
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { ContainerRegistrationKeys, Modules } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The links to create between variant and price set records.

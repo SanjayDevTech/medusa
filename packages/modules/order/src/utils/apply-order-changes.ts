@@ -1,13 +1,13 @@
 import {
   InferEntityType,
   OrderChangeActionDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ChangeActionType,
   MathBN,
   createRawPropertiesFromBigNumber,
   isDefined,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { OrderItem, OrderShippingMethod } from "@models"
 import { calculateOrderChange } from "./calculate-order-change"
 

@@ -1,10 +1,10 @@
-import { ServiceZoneDTO, ShippingOptionDTO } from "@medusajs/framework/types"
+import { ServiceZoneDTO, ShippingOptionDTO } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   Modules,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to validate fulfillment providers.

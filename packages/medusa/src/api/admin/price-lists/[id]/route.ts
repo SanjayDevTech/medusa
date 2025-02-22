@@ -1,14 +1,14 @@
 import {
   deletePriceListsWorkflow,
   updatePriceListsWorkflow,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { fetchPriceList } from "../helpers"
 import { AdminUpdatePriceListType } from "../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

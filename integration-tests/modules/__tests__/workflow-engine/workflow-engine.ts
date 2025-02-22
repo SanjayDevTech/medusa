@@ -1,12 +1,12 @@
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 import {
   createStep,
   createWorkflow,
   StepResponse,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/framework/workflows-sdk"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   adminHeaders,
   createAdminUser,

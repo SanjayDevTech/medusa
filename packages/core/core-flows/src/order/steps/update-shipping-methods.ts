@@ -1,12 +1,12 @@
 import {
   IOrderModuleService,
   UpdateOrderShippingMethodDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Modules,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The order shipping methods to update.

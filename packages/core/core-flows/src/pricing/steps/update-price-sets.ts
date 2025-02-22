@@ -1,10 +1,10 @@
-import { IPricingModuleService, PricingTypes } from "@medusajs/framework/types"
+import { IPricingModuleService, PricingTypes } from "@biryanihouse/framework/types"
 import {
   MedusaError,
   Modules,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to update price sets. You can either update price sets with a selector

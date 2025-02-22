@@ -29,12 +29,12 @@ Start by creating a new directory for your module. For example, \`src/modules/my
 
 Create the file \`src/modules/my-notification/service.ts\` that holds the implementation of the notification service.
 
-The Notification Provider Module's main service must extend the \`AbstractNotificationProviderService\` class imported from \`@medusajs/framework/utils\`:
+The Notification Provider Module's main service must extend the \`AbstractNotificationProviderService\` class imported from \`@biryanihouse/framework/utils\`:
 
 \`\`\`ts title="src/modules/my-notification/service.ts"
 import { 
   AbstractNotificationProviderService
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 class MyNotificationProviderService extends AbstractNotificationProviderService {
   // TODO add methods
@@ -53,7 +53,7 @@ import MyNotificationProviderService from "./service"
 import { 
   ModuleProvider, 
   Modules
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export default ModuleProvider(Modules.NOTIFICATION, {
   services: [MyNotificationProviderService],
@@ -76,12 +76,12 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/notification",
+      resolve: "@biryanihouse/medusa/notification",
       options: {
         providers: [
           // default provider
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@biryanihouse/medusa/notification-local",
             id: "local",
             options: {
               name: "Local Notification Provider",
@@ -111,11 +111,11 @@ Make sure to specify the correct channels for your provider in the \`channels\` 
 To test out the provider, create a subscriber at \`src/subscribers/user-created.ts\` with the following content:
 
 \`\`\`ts title="src/subscribers/user-created.ts"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 import {
   SubscriberArgs,
   type SubscriberConfig,
-} from "@medusajs/medusa"
+} from "@biryanihouse/medusa"
 
 export default async function userCreatedHandler({
   event: { data },

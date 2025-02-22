@@ -1,4 +1,4 @@
-import { VIRTUAL_MODULES } from "@medusajs/admin-shared"
+import { VIRTUAL_MODULES } from "@biryanihouse/admin-shared"
 import path from "path"
 import { Config } from "tailwindcss"
 import type { InlineConfig } from "vite"
@@ -9,7 +9,7 @@ export async function getViteConfig(
 ): Promise<InlineConfig> {
   const { searchForWorkspaceRoot, mergeConfig } = await import("vite")
   const { default: react } = await import("@vitejs/plugin-react")
-  const { default: medusa } = await import("@medusajs/admin-vite-plugin")
+  const { default: medusa } = await import("@biryanihouse/admin-vite-plugin")
 
   const getPort = await import("get-port")
   const hmrPort = await getPort.default()
@@ -32,8 +32,8 @@ export async function getViteConfig(
         "react/jsx-runtime",
         "react-dom/client",
         "react-router-dom",
-        "@medusajs/ui",
-        "@medusajs/dashboard",
+        "@biryanihouse/ui",
+        "@biryanihouse/dashboard",
         "@tanstack/react-query",
       ],
       exclude: [...VIRTUAL_MODULES],
@@ -84,7 +84,7 @@ function createTailwindConfig(entry: string, sources: string[] = []) {
 
   try {
     dashboard = path.join(
-      path.dirname(require.resolve("@medusajs/dashboard")),
+      path.dirname(require.resolve("@biryanihouse/dashboard")),
       "**/*.{js,ts,jsx,tsx}"
     )
   } catch (_e) {
@@ -95,7 +95,7 @@ function createTailwindConfig(entry: string, sources: string[] = []) {
 
   try {
     ui = path.join(
-      path.dirname(require.resolve("@medusajs/ui")),
+      path.dirname(require.resolve("@biryanihouse/ui")),
       "**/*.{js,ts,jsx,tsx}"
     )
   } catch (_e) {
@@ -105,7 +105,7 @@ function createTailwindConfig(entry: string, sources: string[] = []) {
   const extensions = sources.map((s) => path.join(s, "**/*.{js,ts,jsx,tsx}"))
 
   const config: Config = {
-    presets: [require("@medusajs/ui-preset")],
+    presets: [require("@biryanihouse/ui-preset")],
     content: [html, root, dashboard, ui, ...extensions],
     darkMode: "class",
   }

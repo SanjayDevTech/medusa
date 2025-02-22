@@ -1,5 +1,5 @@
-import { XCircle } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+import { XCircle } from "@biryanihouse/icons"
+import { HttpTypes } from "@biryanihouse/types"
 import {
   Container,
   Copy,
@@ -8,7 +8,7 @@ import {
   Text,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 import { isPresent } from "../../../../../../../../core/utils/src/common/is-present"
 import { ActionMenu } from "../../../../../components/common/action-menu"

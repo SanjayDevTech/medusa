@@ -11,14 +11,14 @@ import {
   SavePaymentMethodResponse,
   UpdatePaymentProviderSession,
   WebhookActionResult,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   AbstractPaymentProvider,
   isDefined,
   isPresent,
   PaymentActions,
   PaymentSessionStatus,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   ErrorCodes,
   ErrorIntentStatus,

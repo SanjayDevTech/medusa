@@ -1,13 +1,13 @@
 import {
   IFulfillmentModuleService,
   IStockLocationService,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 
 jest.setTimeout(50000)
 

@@ -1,11 +1,11 @@
-import { Buildings, XCircle } from "@medusajs/icons"
+import { Buildings, XCircle } from "@biryanihouse/icons"
 import {
   AdminOrder,
   AdminOrderFulfillment,
   AdminOrderLineItem,
   HttpTypes,
   OrderLineItemDTO,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   Button,
   Container,
@@ -16,7 +16,7 @@ import {
   Tooltip,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import { format } from "date-fns"
 import { useTranslation } from "react-i18next"
 import { Link, useNavigate } from "react-router-dom"

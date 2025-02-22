@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { EllipsisHorizontal } from "@medusajs/icons"
+import { EllipsisHorizontal } from "@biryanihouse/icons"
 import { CellContext } from "@tanstack/react-table"
 import { DropdownMenu } from "../../../components/dropdown-menu"
 import { IconButton } from "../../../components/icon-button"

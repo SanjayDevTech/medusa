@@ -1,7 +1,7 @@
-import { HttpTypes } from "@medusajs/framework/types"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { calculateShippingOptionsPricesWorkflow } from "@medusajs/core-flows"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { HttpTypes } from "@biryanihouse/framework/types"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
+import { calculateShippingOptionsPricesWorkflow } from "@biryanihouse/core-flows"
+import { ContainerRegistrationKeys } from "@biryanihouse/framework/utils"
 
 export const POST = async (
   req: MedusaRequest<HttpTypes.StoreCalculateShippingOptionPrice>,

@@ -1,5 +1,5 @@
-import { AdminCampaign } from "@medusajs/types"
-import { Heading, Text } from "@medusajs/ui"
+import { AdminCampaign } from "@biryanihouse/types"
+import { Heading, Text } from "@biryanihouse/ui"
 import { Fragment } from "react"
 import { useTranslation } from "react-i18next"
 

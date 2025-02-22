@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { CopyButton } from "../../../.."
 import clsx from "clsx"
-import { CheckMini, SquareTwoStack } from "@medusajs/icons"
+import { CheckMini, SquareTwoStack } from "@biryanihouse/icons"
 
 export type CodeBlockCopyActionProps = {
   source: string

@@ -1,11 +1,11 @@
-import { ITaxModuleService } from "@medusajs/types"
+import { ITaxModuleService } from "@biryanihouse/types"
 
 import {
   createTaxRateRulesStepId,
   updateTaxRatesWorkflow,
-} from "@medusajs/core-flows"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/core-flows"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { createAdminUser } from "../../../../helpers/create-admin-user"
 
 jest.setTimeout(50000)

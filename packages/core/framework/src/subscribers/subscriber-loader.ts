@@ -1,4 +1,4 @@
-import { Event, IEventBusModuleService, Subscriber } from "@medusajs/types"
+import { Event, IEventBusModuleService, Subscriber } from "@biryanihouse/types"
 import {
   dynamicImport,
   kebabCase,
@@ -6,7 +6,7 @@ import {
   promiseAll,
   readDirRecursive,
   resolveExports,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import { access } from "fs/promises"
 import { join, parse } from "path"
 

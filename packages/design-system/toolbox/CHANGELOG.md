@@ -1,4 +1,4 @@
-# @medusajs/toolbox
+# @biryanihouse/toolbox
 
 ## 2.4.0
 

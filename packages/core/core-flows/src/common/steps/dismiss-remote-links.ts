@@ -1,8 +1,8 @@
-import { Link } from "@medusajs/framework/modules-sdk"
-import { LinkDefinition } from "@medusajs/framework/types"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { Link } from "@biryanihouse/framework/modules-sdk"
+import { LinkDefinition } from "@biryanihouse/framework/types"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { ContainerRegistrationKeys } from "@biryanihouse/framework/utils"
 
 export type DismissRemoteLinksStepInput = LinkDefinition | LinkDefinition[]
 

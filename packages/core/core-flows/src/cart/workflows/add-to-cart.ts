@@ -1,5 +1,5 @@
-import { AddToCartWorkflowInputDTO } from "@medusajs/framework/types"
-import { CartWorkflowEvents, isDefined } from "@medusajs/framework/utils"
+import { AddToCartWorkflowInputDTO } from "@biryanihouse/framework/types"
+import { CartWorkflowEvents, isDefined } from "@biryanihouse/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -8,7 +8,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { useQueryGraphStep } from "../../common"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"

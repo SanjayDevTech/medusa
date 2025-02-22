@@ -1,8 +1,8 @@
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { getRuleAttributesMap, validateRuleType } from "../../utils"
 
 export const GET = async (

@@ -1,4 +1,4 @@
-import { BigNumberRawValue } from "@medusajs/types"
+import { BigNumberRawValue } from "@biryanihouse/types"
 import { Entity, MikroORM, PrimaryKey } from "@mikro-orm/core"
 import { defineConfig } from "@mikro-orm/postgresql"
 import { BigNumber } from "../../../totals/big-number"

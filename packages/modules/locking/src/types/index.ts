@@ -1,7 +1,7 @@
 import {
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 
 export const LockingDefaultProvider = "default_provider"
 export const LockingIdentifiersRegistrationName = "locking_providers_identifier"

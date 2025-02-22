@@ -6,7 +6,7 @@ import {
   AcademicCapSolid,
   ComputerDesktopSolid,
   BuildingStorefront,
-} from "@medusajs/icons"
+} from "@biryanihouse/icons"
 import React from "react"
 
 const H1 = MDXComponents.h1!

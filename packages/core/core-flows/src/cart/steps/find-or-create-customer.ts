@@ -1,6 +1,6 @@
-import { CustomerDTO, ICustomerModuleService } from "@medusajs/framework/types"
-import { isDefined, Modules, validateEmail } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { CustomerDTO, ICustomerModuleService } from "@biryanihouse/framework/types"
+import { isDefined, Modules, validateEmail } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The details of the customer to find or create.

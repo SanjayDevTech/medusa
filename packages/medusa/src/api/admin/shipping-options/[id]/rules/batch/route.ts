@@ -1,10 +1,10 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { BatchMethodRequest, HttpTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework/http"
+import { BatchMethodRequest, HttpTypes } from "@biryanihouse/framework/types"
 import { refetchBatchRules } from "../../../helpers"
-import { batchShippingOptionRulesWorkflow } from "@medusajs/core-flows"
+import { batchShippingOptionRulesWorkflow } from "@biryanihouse/core-flows"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

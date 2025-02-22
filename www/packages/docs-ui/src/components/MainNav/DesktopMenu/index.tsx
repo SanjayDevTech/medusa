@@ -6,7 +6,7 @@ import {
   QuestionMarkCircle,
   SidebarLeft,
   TimelineVertical,
-} from "@medusajs/icons"
+} from "@biryanihouse/icons"
 import React, { useMemo, useRef, useState } from "react"
 import {
   Button,

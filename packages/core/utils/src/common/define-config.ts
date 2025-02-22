@@ -3,7 +3,7 @@ import {
   InputConfig,
   InputConfigModules,
   InternalModuleDeclaration,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   MODULE_PACKAGE_NAMES,
   Modules,
@@ -214,7 +214,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/auth-emailpass",
+            resolve: "@biryanihouse/medusa/auth-emailpass",
             id: "emailpass",
           },
         ],
@@ -231,7 +231,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/file-local",
+            resolve: "@biryanihouse/medusa/file-local",
             id: "local",
           },
         ],
@@ -242,7 +242,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/fulfillment-manual",
+            resolve: "@biryanihouse/medusa/fulfillment-manual",
             id: "manual",
           },
         ],
@@ -253,7 +253,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@biryanihouse/medusa/notification-local",
             id: "local",
             options: {
               name: "Local Notification Provider",

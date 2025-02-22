@@ -1,25 +1,25 @@
-import { container, MedusaAppLoader } from "@medusajs/framework"
-import { configLoader } from "@medusajs/framework/config"
-import { pgConnectionLoader } from "@medusajs/framework/database"
-import { featureFlagsLoader } from "@medusajs/framework/feature-flags"
-import { expressLoader } from "@medusajs/framework/http"
-import { JobLoader } from "@medusajs/framework/jobs"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { SubscriberLoader } from "@medusajs/framework/subscribers"
+import { container, MedusaAppLoader } from "@biryanihouse/framework"
+import { configLoader } from "@biryanihouse/framework/config"
+import { pgConnectionLoader } from "@biryanihouse/framework/database"
+import { featureFlagsLoader } from "@biryanihouse/framework/feature-flags"
+import { expressLoader } from "@biryanihouse/framework/http"
+import { JobLoader } from "@biryanihouse/framework/jobs"
+import { LinkLoader } from "@biryanihouse/framework/links"
+import { logger } from "@biryanihouse/framework/logger"
+import { SubscriberLoader } from "@biryanihouse/framework/subscribers"
 import {
   ConfigModule,
   LoadedModule,
   MedusaContainer,
   PluginDetails,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   GraphQLSchema,
   mergePluginModules,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { WorkflowLoader } from "@medusajs/framework/workflows"
+} from "@biryanihouse/framework/utils"
+import { WorkflowLoader } from "@biryanihouse/framework/workflows"
 import { asValue } from "awilix"
 import { Express, NextFunction, Request, Response } from "express"
 import { join } from "path"
@@ -174,7 +174,7 @@ export default async ({
     rootDirectory
   )
 
-  const { createDefaultsWorkflow } = await import("@medusajs/core-flows")
+  const { createDefaultsWorkflow } = await import("@biryanihouse/core-flows")
   await createDefaultsWorkflow(container).run()
   await onApplicationStart()
 

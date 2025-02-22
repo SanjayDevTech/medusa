@@ -1,4 +1,4 @@
-import { XMark } from "@medusajs/icons"
+import { XMark } from "@biryanihouse/icons"
 import {
   Button,
   clx,
@@ -7,7 +7,7 @@ import {
   Input,
   Kbd,
   Text,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import * as Dialog from "@radix-ui/react-dialog"
 import { useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"

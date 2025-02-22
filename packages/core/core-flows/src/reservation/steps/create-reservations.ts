@@ -1,7 +1,7 @@
-import { InventoryTypes } from "@medusajs/framework/types"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { InventoryTypes } from "@biryanihouse/framework/types"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The data to create reservation items.

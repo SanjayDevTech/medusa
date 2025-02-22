@@ -3,8 +3,8 @@ import {
   createWorkflow,
   StepResponse,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/framework/workflows-sdk"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { createAdminUser } from "../../../helpers/create-admin-user"
 
 export const workflowEngineTestSuite = (

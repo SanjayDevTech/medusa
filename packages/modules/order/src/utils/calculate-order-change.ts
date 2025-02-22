@@ -1,11 +1,11 @@
-import { BigNumberInput, OrderSummaryDTO } from "@medusajs/framework/types"
+import { BigNumberInput, OrderSummaryDTO } from "@biryanihouse/framework/types"
 import {
   BigNumber,
   ChangeActionType,
   MathBN,
   isPresent,
   transformPropertiesToBigNumber,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   ActionTypeDefinition,
   EVENT_STATUS,

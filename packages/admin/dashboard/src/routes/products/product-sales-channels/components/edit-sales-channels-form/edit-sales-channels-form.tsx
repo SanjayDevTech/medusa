@@ -1,11 +1,11 @@
-import { Button, Checkbox } from "@medusajs/ui"
+import { Button, Checkbox } from "@biryanihouse/ui"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useEffect, useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
 import * as zod from "zod"
 
 import { zodResolver } from "@hookform/resolvers/zod"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@biryanihouse/types"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useForm } from "react-hook-form"
 import {

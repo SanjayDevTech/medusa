@@ -1,4 +1,4 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   generatePublishableKey,
   generateStoreHeaders,

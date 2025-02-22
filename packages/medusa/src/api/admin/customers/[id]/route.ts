@@ -1,13 +1,13 @@
 import {
   removeCustomerAccountWorkflow,
   updateCustomersWorkflow,
-} from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@biryanihouse/core-flows"
+import { AdditionalData, HttpTypes } from "@biryanihouse/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { refetchCustomer } from "../helpers"
 import { AdminUpdateCustomerType } from "../validators"
 

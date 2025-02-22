@@ -1,6 +1,6 @@
-import { addShippingMethodToCartWorkflow } from "@medusajs/core-flows"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+import { addShippingMethodToCartWorkflow } from "@biryanihouse/core-flows"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import { refetchCart } from "../../helpers"
 import { StoreAddCartShippingMethodsType } from "../../validators"
 

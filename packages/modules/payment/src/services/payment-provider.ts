@@ -16,8 +16,8 @@ import {
   SavePaymentMethodResponse,
   UpdatePaymentProviderSession,
   WebhookActionResult,
-} from "@medusajs/framework/types"
-import { MedusaError, ModulesSdkUtils } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/types"
+import { MedusaError, ModulesSdkUtils } from "@biryanihouse/framework/utils"
 import { PaymentProvider } from "@models"
 import { EOL } from "os"
 

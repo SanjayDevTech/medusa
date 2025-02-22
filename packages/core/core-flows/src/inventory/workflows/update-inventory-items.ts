@@ -2,9 +2,9 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 
-import { InventoryTypes } from "@medusajs/framework/types"
+import { InventoryTypes } from "@biryanihouse/framework/types"
 import { updateInventoryItemsStep } from "../steps"
 
 /**

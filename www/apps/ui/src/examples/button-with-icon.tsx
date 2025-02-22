@@ -1,5 +1,5 @@
-import { PlusMini } from "@medusajs/icons"
-import { Button } from "@medusajs/ui"
+import { PlusMini } from "@biryanihouse/icons"
+import { Button } from "@biryanihouse/ui"
 
 export default function ButtonWithIcon() {
   return (

@@ -3,7 +3,7 @@ import {
   Logger,
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 
 export type InitializeModuleInjectableDependencies = {
   logger?: Logger

@@ -13,6 +13,6 @@ export * from "./telemetry"
 export * from "./zod"
 export * from "./migrations"
 
-export const MEDUSA_CLI_PATH = require.resolve("@medusajs/cli")
+export const MEDUSA_CLI_PATH = require.resolve("@biryanihouse/cli")
 
-export { Query } from "@medusajs/modules-sdk"
+export { Query } from "@biryanihouse/modules-sdk"

@@ -1,10 +1,10 @@
-import { batchPromotionRulesWorkflow } from "@medusajs/core-flows"
+import { batchPromotionRulesWorkflow } from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { BatchMethodRequest, HttpTypes } from "@medusajs/framework/types"
-import { RuleType } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/http"
+import { BatchMethodRequest, HttpTypes } from "@biryanihouse/framework/types"
+import { RuleType } from "@biryanihouse/framework/utils"
 import { refetchBatchRules } from "../../../helpers"
 
 export const POST = async (

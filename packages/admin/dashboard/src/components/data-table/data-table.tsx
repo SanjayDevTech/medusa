@@ -11,7 +11,7 @@ import {
   Heading,
   DataTable as Primitive,
   useDataTable,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import React, { ReactNode, useCallback, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { Link, useNavigate, useSearchParams } from "react-router-dom"

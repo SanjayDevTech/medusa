@@ -1,5 +1,5 @@
-import { FulfillmentWorkflow } from "@medusajs/framework/types"
-import { createWorkflow, WorkflowData } from "@medusajs/framework/workflows-sdk"
+import { FulfillmentWorkflow } from "@biryanihouse/framework/types"
+import { createWorkflow, WorkflowData } from "@biryanihouse/framework/workflows-sdk"
 import { deleteShippingOptionsStep } from "../steps"
 import { removeRemoteLinkStep } from "../../common"
 

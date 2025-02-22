@@ -19,7 +19,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "```ts\nimport { AbstractNotificationProviderService } from \"@medusajs/framework/utils\"\nimport { Logger } from \"@medusajs/framework/types\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyNotificationProviderService extends AbstractNotificationProviderService {\n  protected logger_: Logger\n  protected options_: Options\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super()\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n}\n\nexport default MyNotificationProviderService\n```"
+						"text": "```ts\nimport { AbstractNotificationProviderService } from \"@biryanihouse/framework/utils\"\nimport { Logger } from \"@biryanihouse/framework/types\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyNotificationProviderService extends AbstractNotificationProviderService {\n  protected logger_: Logger\n  protected options_: Options\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super()\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n}\n\nexport default MyNotificationProviderService\n```"
 					}
 				]
 			},
@@ -142,7 +142,7 @@
 								"type": "reference",
 								"target": 41930,
 								"name": "AbstractNotificationProviderService",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						}
 					]
@@ -190,7 +190,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\n// other imports...\nimport {\n  ProviderSendNotificationDTO,\n  ProviderSendNotificationResultsDTO\n} from \"@medusajs/framework/types\"\n\nclass MyNotificationProviderService extends AbstractNotificationProviderService {\n  // ...\n  async send(\n    notification: ProviderSendNotificationDTO\n  ): Promise<ProviderSendNotificationResultsDTO> {\n    // TODO send the notification using a third-party\n    // provider or custom logic.\n    // for example:\n    return this.client.send({\n      email: notification.to,\n      template: notification.template,\n      template_data: notification.data\n    })\n  }\n}\n```"
+												"text": "```ts\n// other imports...\nimport {\n  ProviderSendNotificationDTO,\n  ProviderSendNotificationResultsDTO\n} from \"@biryanihouse/framework/types\"\n\nclass MyNotificationProviderService extends AbstractNotificationProviderService {\n  // ...\n  async send(\n    notification: ProviderSendNotificationDTO\n  ): Promise<ProviderSendNotificationResultsDTO> {\n    // TODO send the notification using a third-party\n    // provider or custom logic.\n    // for example:\n    return this.client.send({\n      email: notification.to,\n      template: notification.template,\n      template_data: notification.data\n    })\n  }\n}\n```"
 											}
 										]
 									}
@@ -226,7 +226,7 @@
 											"qualifiedName": "ProviderSendNotificationDTO"
 										},
 										"name": "ProviderSendNotificationDTO",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -244,7 +244,7 @@
 											"qualifiedName": "ProviderSendNotificationResultsDTO"
 										},
 										"name": "ProviderSendNotificationResultsDTO",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								],
 								"name": "Promise",
@@ -295,7 +295,7 @@
 						"qualifiedName": "INotificationProvider"
 					},
 					"name": "INotificationProvider",
-					"package": "@medusajs/types"
+					"package": "@biryanihouse/types"
 				}
 			]
 		}
@@ -308,7 +308,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@biryanihouse/utils",
 	"symbolIdMap": {
 		"41929": {
 			"sourceFileName": "../../../../packages/core/utils/src/notification/abstract-notification-provider.ts",

@@ -1,5 +1,5 @@
-import { OrderDetailDTO } from "@medusajs/framework/types"
-import { isDefined, MathBN } from "@medusajs/framework/utils"
+import { OrderDetailDTO } from "@biryanihouse/framework/types"
+import { isDefined, MathBN } from "@biryanihouse/framework/utils"
 
 export const getLastPaymentStatus = (order: OrderDetailDTO) => {
   const PaymentStatus = {

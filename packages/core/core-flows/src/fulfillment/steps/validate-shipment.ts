@@ -1,6 +1,6 @@
-import { IFulfillmentModuleService } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { IFulfillmentModuleService } from "@biryanihouse/framework/types"
+import { MedusaError, Modules } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The ID of the shipment to validate.

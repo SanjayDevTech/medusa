@@ -1,9 +1,9 @@
-import { MedusaContainer } from "@medusajs/types"
+import { MedusaContainer } from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   isString,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import { MedusaRequest } from "../types"
 
 export const refetchEntities = async (

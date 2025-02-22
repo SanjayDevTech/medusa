@@ -1,6 +1,6 @@
 import { NextFunction, Response } from "express"
 
-import { ContainerRegistrationKeys, MedusaError } from "@medusajs/utils"
+import { ContainerRegistrationKeys, MedusaError } from "@biryanihouse/utils"
 import { formatException } from "./exception-formatter"
 import { MedusaRequest } from "../types"
 

@@ -1,9 +1,9 @@
 import {
   IRegionModuleService,
   IStoreModuleService,
-} from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/types"
+import { MedusaError, Modules } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The details of the region to find.

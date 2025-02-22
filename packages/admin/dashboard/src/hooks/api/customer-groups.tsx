@@ -1,5 +1,5 @@
-import { FetchError } from "@medusajs/js-sdk"
-import { HttpTypes } from "@medusajs/types"
+import { FetchError } from "@biryanihouse/js-sdk"
+import { HttpTypes } from "@biryanihouse/types"
 import {
   QueryKey,
   UseMutationOptions,

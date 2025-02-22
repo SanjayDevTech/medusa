@@ -1,5 +1,5 @@
-import { IModuleService } from "@medusajs/types"
-import { MedusaContext } from "@medusajs/utils"
+import { IModuleService } from "@biryanihouse/types"
+import { MedusaContext } from "@biryanihouse/utils"
 
 // @ts-expect-error
 export class ModuleService implements IModuleService {

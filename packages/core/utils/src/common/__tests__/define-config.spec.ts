@@ -12,61 +12,61 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@biryanihouse/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -79,50 +79,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -171,61 +171,61 @@ describe("defineConfig", function () {
             "resolve": "./modules/github",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@biryanihouse/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -238,50 +238,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -338,61 +338,61 @@ describe("defineConfig", function () {
             )}",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@biryanihouse/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -405,50 +405,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -506,61 +506,61 @@ describe("defineConfig", function () {
             )}",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@biryanihouse/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -573,50 +573,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -662,61 +662,61 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@biryanihouse/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -729,50 +729,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -821,61 +821,61 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@biryanihouse/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@biryanihouse/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@biryanihouse/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@biryanihouse/medusa/cache-inmemory",
           },
           "cart": {
             "disable": true,
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@biryanihouse/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@biryanihouse/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@biryanihouse/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@biryanihouse/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@biryanihouse/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@biryanihouse/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@biryanihouse/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@biryanihouse/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@biryanihouse/medusa/locking",
           },
           "notification": {
             "options": {
@@ -888,50 +888,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@biryanihouse/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@biryanihouse/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@biryanihouse/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@biryanihouse/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@biryanihouse/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@biryanihouse/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@biryanihouse/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@biryanihouse/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@biryanihouse/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@biryanihouse/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@biryanihouse/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@biryanihouse/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@biryanihouse/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@biryanihouse/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],

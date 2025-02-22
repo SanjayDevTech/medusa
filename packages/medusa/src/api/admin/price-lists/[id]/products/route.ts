@@ -1,10 +1,10 @@
-import { batchPriceListPricesWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+import { batchPriceListPricesWorkflow } from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { fetchPriceList, fetchPriceListPriceIdsForProduct } from "../../helpers"
 
 export const POST = async (

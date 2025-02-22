@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@biryanihouse/framework/utils"
 import { Product, ProductOptionValue } from "@models"
 
 const ProductVariant = model

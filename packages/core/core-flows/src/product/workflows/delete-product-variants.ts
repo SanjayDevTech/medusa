@@ -1,14 +1,14 @@
 import {
   Modules,
   ProductVariantWorkflowEvents,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createHook,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import {
   emitEventStep,
   removeRemoteLinkStep,

@@ -1,9 +1,9 @@
-import { cancelBeginOrderEditWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { cancelBeginOrderEditWorkflow } from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
 export const DELETE = async (
   req: AuthenticatedMedusaRequest,

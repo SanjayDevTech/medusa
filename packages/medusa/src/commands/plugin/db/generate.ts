@@ -1,9 +1,9 @@
-import { logger } from "@medusajs/framework/logger"
+import { logger } from "@biryanihouse/framework/logger"
 import {
   defineMikroOrmCliConfig,
   DmlEntity,
   dynamicImport,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { dirname, join } from "path"
 
 import { MetadataStorage } from "@mikro-orm/core"

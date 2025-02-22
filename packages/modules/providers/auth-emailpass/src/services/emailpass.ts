@@ -5,12 +5,12 @@ import {
   AuthIdentityProviderService,
   EmailPassAuthProviderOptions,
   Logger,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   AbstractAuthModuleProvider,
   isString,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import Scrypt from "scrypt-kdf"
 
 type InjectedDependencies = {

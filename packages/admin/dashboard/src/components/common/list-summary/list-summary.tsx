@@ -1,4 +1,4 @@
-import { Tooltip, clx } from "@medusajs/ui"
+import { Tooltip, clx } from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 
 type ListSummaryProps = {

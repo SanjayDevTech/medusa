@@ -1,5 +1,5 @@
-import { BigNumberInput } from "@medusajs/framework/types"
-import { BigNumber, MathBN } from "@medusajs/framework/utils"
+import { BigNumberInput } from "@biryanihouse/framework/types"
+import { BigNumber, MathBN } from "@biryanihouse/framework/utils"
 
 function getCurrencyMultiplier(currency) {
   const currencyMultipliers = {

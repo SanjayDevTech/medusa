@@ -1,11 +1,11 @@
-import { completeCartWorkflow } from "@medusajs/core-flows"
-import { prepareRetrieveQuery } from "@medusajs/framework"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+import { completeCartWorkflow } from "@biryanihouse/core-flows"
+import { prepareRetrieveQuery } from "@biryanihouse/framework"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { refetchCart } from "../../helpers"
 import { defaultStoreCartFields } from "../../query-config"
 

@@ -1,4 +1,4 @@
-import { Select } from "@medusajs/ui"
+import { Select } from "@biryanihouse/ui"
 
 export default function SelectSmall() {
   return (

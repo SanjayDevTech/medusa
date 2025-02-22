@@ -1,5 +1,5 @@
-import { ModuleJoinerConfig } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { ModuleJoinerConfig } from "@biryanihouse/framework/types"
+import { Modules } from "@biryanihouse/framework/utils"
 
 export const CartSalesChannel: ModuleJoinerConfig = {
   isLink: true,

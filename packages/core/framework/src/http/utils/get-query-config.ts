@@ -1,10 +1,10 @@
-import { FindConfig, QueryConfig, RequestQueryFields } from "@medusajs/types"
+import { FindConfig, QueryConfig, RequestQueryFields } from "@biryanihouse/types"
 import {
   isDefined,
   isPresent,
   MedusaError,
   stringToSelectRelationObject,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import { pick } from "lodash"
 
 export function pickByConfig<TModel>(

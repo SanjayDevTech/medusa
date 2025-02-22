@@ -1,5 +1,5 @@
-import { AdminSalesChannelResponse } from "@medusajs/types"
-import { Button, Checkbox } from "@medusajs/ui"
+import { AdminSalesChannelResponse } from "@biryanihouse/types"
+import { Button, Checkbox } from "@biryanihouse/ui"
 import {
   OnChangeFn,
   RowSelectionState,

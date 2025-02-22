@@ -1,5 +1,5 @@
-import { MiddlewareRoute } from "@medusajs/framework/http"
-import { validateAndTransformBody } from "@medusajs/framework"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
+import { validateAndTransformBody } from "@biryanihouse/framework"
 import {
   AdminPostOrderEditsAddItemsReqSchema,
   AdminPostOrderEditsItemsActionReqSchema,

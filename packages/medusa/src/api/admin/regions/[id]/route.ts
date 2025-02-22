@@ -1,15 +1,15 @@
 import {
   deleteRegionsWorkflow,
   updateRegionsWorkflow,
-} from "@medusajs/core-flows"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@biryanihouse/core-flows"
+import { MedusaError } from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { refetchRegion } from "../helpers"
 import { AdminGetRegionParamsType, AdminUpdateRegionType } from "../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<AdminGetRegionParamsType>,

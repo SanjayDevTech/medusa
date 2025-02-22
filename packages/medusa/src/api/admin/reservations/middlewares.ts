@@ -1,10 +1,10 @@
 import * as QueryConfig from "./query-config"
 
-import { MiddlewareRoute } from "@medusajs/framework/http"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@biryanihouse/framework"
 import {
   AdminCreateReservation,
   AdminGetReservationParams,

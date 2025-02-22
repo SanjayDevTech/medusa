@@ -1,4 +1,4 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   ICartModuleService,
   IFulfillmentModuleService,
@@ -9,8 +9,8 @@ import {
   ISalesChannelModuleService,
   IStockLocationServiceNext,
   ITaxModuleService,
-} from "@medusajs/types"
-import { ContainerRegistrationKeys, Modules } from "@medusajs/utils"
+} from "@biryanihouse/types"
+import { ContainerRegistrationKeys, Modules } from "@biryanihouse/utils"
 import {
   adminHeaders,
   createAdminUser,

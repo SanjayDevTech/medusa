@@ -4,9 +4,9 @@ import {
   IPaymentModuleService,
   IRegionModuleService,
   ISalesChannelModuleService,
-} from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 
 jest.setTimeout(50000)
 

@@ -5,11 +5,11 @@ import checkbox from "@inquirer/checkbox"
 import {
   ContainerRegistrationKeys,
   mergePluginModules,
-} from "@medusajs/framework/utils"
-import { LinkMigrationsPlannerAction } from "@medusajs/framework/types"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { MedusaAppLoader } from "@medusajs/framework"
+} from "@biryanihouse/framework/utils"
+import { LinkMigrationsPlannerAction } from "@biryanihouse/framework/types"
+import { LinkLoader } from "@biryanihouse/framework/links"
+import { logger } from "@biryanihouse/framework/logger"
+import { MedusaAppLoader } from "@biryanihouse/framework"
 
 import { ensureDbExists } from "../utils"
 import { initializeContainer } from "../../loaders"

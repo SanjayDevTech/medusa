@@ -1,11 +1,11 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { PencilSquare } from "@medusajs/icons"
+import { PencilSquare } from "@biryanihouse/icons"
 import {
   AdminOrder,
   AdminOrderPreview,
   AdminReturn,
   InventoryLevelDTO,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   Alert,
   Button,
@@ -16,7 +16,7 @@ import {
   Text,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import { useEffect, useMemo, useState } from "react"
 import { useFieldArray, useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"

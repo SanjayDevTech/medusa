@@ -21,7 +21,7 @@ const {
   simpleOrderFactory,
   simpleCustomerFactory,
 } = require("../../../factories")
-const { OrderEditItemChangeType } = require("@medusajs/medusa")
+const { OrderEditItemChangeType } = require("@biryanihouse/medusa")
 const setupServer = require("../../../environment-helpers/setup-server")
 
 jest.setTimeout(30000)

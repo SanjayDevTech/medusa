@@ -2,7 +2,7 @@ import {
   kebabCase,
   ProductStatus,
   toMikroORMEntity,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import {
   ProductImage,
@@ -14,7 +14,7 @@ import {
 } from "@models"
 
 import ProductOption from "../../../src/models/product-option"
-import { InferEntityType } from "@medusajs/types"
+import { InferEntityType } from "@biryanihouse/types"
 
 export * from "./data/create-product"
 

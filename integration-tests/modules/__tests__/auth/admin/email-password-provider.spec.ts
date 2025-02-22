@@ -1,6 +1,6 @@
-import { IAuthModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { IAuthModuleService } from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import Scrypt from "scrypt-kdf"
 import {
   adminHeaders,

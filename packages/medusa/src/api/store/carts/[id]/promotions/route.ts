@@ -1,12 +1,12 @@
-import { updateCartPromotionsWorkflow } from "@medusajs/core-flows"
-import { PromotionActions } from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { updateCartPromotionsWorkflow } from "@biryanihouse/core-flows"
+import { PromotionActions } from "@biryanihouse/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@biryanihouse/framework/http"
 import { refetchCart } from "../../helpers"
 import {
   StoreAddCartPromotionsType,
   StoreRemoveCartPromotionsType,
 } from "../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: MedusaRequest<StoreAddCartPromotionsType>,

@@ -1,17 +1,17 @@
 import {
   removeReturnShippingMethodWorkflow,
   updateReturnShippingMethodWorkflow,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminPostReturnsShippingActionReqSchemaType } from "../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminPostReturnsShippingActionReqSchemaType>,

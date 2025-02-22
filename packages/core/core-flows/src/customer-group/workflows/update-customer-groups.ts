@@ -2,12 +2,12 @@ import {
   CustomerGroupDTO,
   FilterableCustomerGroupProps,
   CustomerGroupUpdatableFields,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { updateCustomerGroupsStep } from "../steps"
 
 /**

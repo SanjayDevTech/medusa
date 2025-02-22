@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Container, Heading } from "@medusajs/ui"
+import { HttpTypes } from "@biryanihouse/types"
+import { Container, Heading } from "@biryanihouse/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useTranslation } from "react-i18next"
 import { useTaxRates } from "../../../../../hooks/api/tax-rates"

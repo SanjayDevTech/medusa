@@ -1,10 +1,10 @@
-import { linkCustomersToCustomerGroupWorkflow } from "@medusajs/core-flows"
+import { linkCustomersToCustomerGroupWorkflow } from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
+import { HttpTypes, LinkMethodRequest } from "@biryanihouse/framework/types"
 import { refetchCustomerGroup } from "../../helpers"
 
 export const POST = async (

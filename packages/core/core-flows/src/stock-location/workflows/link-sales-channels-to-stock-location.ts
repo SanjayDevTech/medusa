@@ -1,6 +1,6 @@
-import { LinkWorkflowInput } from "@medusajs/framework/types"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
-import { transform } from "@medusajs/framework/workflows-sdk"
+import { LinkWorkflowInput } from "@biryanihouse/framework/types"
+import { WorkflowData, createWorkflow } from "@biryanihouse/framework/workflows-sdk"
+import { transform } from "@biryanihouse/framework/workflows-sdk"
 import {
   associateLocationsWithSalesChannelsStep,
   detachLocationsFromSalesChannelsStep,

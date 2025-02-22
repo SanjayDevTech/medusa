@@ -45,7 +45,7 @@ medusaIntegrationTestRunner({
         PriceList,
         MoneyAmount,
         ProductVariantMoneyAmount,
-      } = require("@medusajs/medusa"))
+      } = require("@biryanihouse/medusa"))
       ;({
         simpleCartFactory,
         simpleRegionFactory,

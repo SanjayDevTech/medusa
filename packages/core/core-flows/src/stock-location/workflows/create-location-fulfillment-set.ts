@@ -1,9 +1,9 @@
-import { CreateLocationFulfillmentSetWorkflowInputDTO } from "@medusajs/framework/types"
+import { CreateLocationFulfillmentSetWorkflowInputDTO } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { createFulfillmentSets } from "../../fulfillment"
 import { associateFulfillmentSetsWithLocationStep } from "../steps/associate-locations-with-fulfillment-sets"
 

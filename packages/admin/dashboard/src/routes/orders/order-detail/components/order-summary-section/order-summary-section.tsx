@@ -11,7 +11,7 @@ import {
   ExclamationCircle,
   PencilSquare,
   TriangleDownMini,
-} from "@medusajs/icons"
+} from "@biryanihouse/icons"
 import {
   AdminClaim,
   AdminExchange,
@@ -21,7 +21,7 @@ import {
   AdminRegion,
   AdminReturn,
   AdminPaymentCollection,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   Badge,
   Button,
@@ -34,9 +34,9 @@ import {
   toast,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 
-import { AdminReservation } from "@medusajs/types/src/http"
+import { AdminReservation } from "@biryanihouse/types/src/http"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { Thumbnail } from "../../../../../components/common/thumbnail"
 import { useClaims } from "../../../../../hooks/api/claims"

@@ -94,7 +94,7 @@
 										"type": "reference",
 										"target": 2474,
 										"name": "FindConfigOrder",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									},
 									{
 										"type": "literal",
@@ -173,7 +173,7 @@
 										"type": "reference",
 										"target": 2425,
 										"name": "Entity",
-										"package": "@medusajs/types",
+										"package": "@biryanihouse/types",
 										"qualifiedName": "FindConfig.Entity",
 										"refersToTypeParameter": true
 									}
@@ -330,7 +330,7 @@
 						"type": "reference",
 						"target": 2474,
 						"name": "FindConfigOrder",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -778,7 +778,7 @@
 									"type": "reference",
 									"target": 2444,
 									"name": "FilterableCurrencyProps",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								},
 								{
 									"type": "reference",
@@ -788,11 +788,11 @@
 											"type": "reference",
 											"target": 2444,
 											"name": "FilterableCurrencyProps",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								}
 							]
 						}
@@ -836,7 +836,7 @@
 									"type": "reference",
 									"target": 2444,
 									"name": "FilterableCurrencyProps",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								},
 								{
 									"type": "reference",
@@ -846,11 +846,11 @@
 											"type": "reference",
 											"target": 2444,
 											"name": "FilterableCurrencyProps",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								}
 							]
 						}
@@ -889,11 +889,11 @@
 							"type": "reference",
 							"target": 2444,
 							"name": "FilterableCurrencyProps",
-							"package": "@medusajs/types"
+							"package": "@biryanihouse/types"
 						}
 					],
 					"name": "BaseFilterable",
-					"package": "@medusajs/types"
+					"package": "@biryanihouse/types"
 				}
 			]
 		},
@@ -1029,11 +1029,11 @@
 												"type": "reference",
 												"target": 2426,
 												"name": "CurrencyDTO",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -1056,7 +1056,7 @@
 										"type": "reference",
 										"target": 2431,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -1071,7 +1071,7 @@
 										"type": "reference",
 										"target": 2426,
 										"name": "CurrencyDTO",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								],
 								"name": "Promise",
@@ -1202,7 +1202,7 @@
 										"type": "reference",
 										"target": 2444,
 										"name": "FilterableCurrencyProps",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -1245,11 +1245,11 @@
 												"type": "reference",
 												"target": 2426,
 												"name": "CurrencyDTO",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -1272,7 +1272,7 @@
 										"type": "reference",
 										"target": 2431,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -1289,7 +1289,7 @@
 											"type": "reference",
 											"target": 2426,
 											"name": "CurrencyDTO",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									}
 								],
@@ -1421,7 +1421,7 @@
 										"type": "reference",
 										"target": 2444,
 										"name": "FilterableCurrencyProps",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -1464,11 +1464,11 @@
 												"type": "reference",
 												"target": 2426,
 												"name": "CurrencyDTO",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -1491,7 +1491,7 @@
 										"type": "reference",
 										"target": 2431,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -1511,7 +1511,7 @@
 													"type": "reference",
 													"target": 2426,
 													"name": "CurrencyDTO",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											},
 											{
@@ -1551,7 +1551,7 @@
 					"type": "reference",
 					"target": 2402,
 					"name": "IModuleService",
-					"package": "@medusajs/types"
+					"package": "@biryanihouse/types"
 				}
 			]
 		},
@@ -1606,19 +1606,19 @@
 											"type": "reference",
 											"target": 2496,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@biryanihouse/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								},
 								{
 									"type": "reference",
 									"target": 2496,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@biryanihouse/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -1662,19 +1662,19 @@
 											"type": "reference",
 											"target": 2496,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@biryanihouse/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								},
 								{
 									"type": "reference",
 									"target": 2496,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@biryanihouse/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -1873,7 +1873,7 @@
 								"type": "reference",
 								"target": 2562,
 								"name": "EventMetadata",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -1893,7 +1893,7 @@
 								"type": "reference",
 								"target": 2561,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@biryanihouse/types",
 								"refersToTypeParameter": true
 							}
 						}
@@ -1955,12 +1955,12 @@
 								"type": "reference",
 								"target": 2524,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@biryanihouse/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "Event",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					{
 						"type": "reflection",
@@ -2097,7 +2097,7 @@
 								"type": "reference",
 								"target": 2541,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@biryanihouse/types",
 								"refersToTypeParameter": true
 							}
 						},
@@ -2183,7 +2183,7 @@
 										"type": "reference",
 										"target": 2431,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									},
 									{
 										"type": "literal",
@@ -2667,7 +2667,7 @@
 								"type": "reference",
 								"target": 2542,
 								"name": "JoinerServiceConfigAlias",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							},
 							{
 								"type": "array",
@@ -2675,7 +2675,7 @@
 									"type": "reference",
 									"target": 2542,
 									"name": "JoinerServiceConfigAlias",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								}
 							}
 						]
@@ -2838,7 +2838,7 @@
 							"type": "reference",
 							"target": 2546,
 							"name": "JoinerRelationship",
-							"package": "@medusajs/types"
+							"package": "@biryanihouse/types"
 						}
 					}
 				},
@@ -2923,7 +2923,7 @@
 											"type": "reference",
 											"target": 2546,
 											"name": "JoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									}
 								],
@@ -3286,7 +3286,7 @@
 								"type": "reference",
 								"target": 2497,
 								"name": "JoinerServiceConfig",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							},
 							{
 								"type": "union",
@@ -3371,7 +3371,7 @@
 											"type": "reference",
 											"target": 2512,
 											"name": "ModuleJoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									}
 								},
@@ -3586,7 +3586,7 @@
 															"type": "reference",
 															"target": 2512,
 															"name": "ModuleJoinerRelationship",
-															"package": "@medusajs/types"
+															"package": "@biryanihouse/types"
 														}
 													}
 												],
@@ -3884,7 +3884,7 @@
 														"type": "reference",
 														"target": 2515,
 														"name": "LinkModulesExtraFields",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												}
 											],
@@ -3958,7 +3958,7 @@
 						"type": "reference",
 						"target": 2546,
 						"name": "JoinerRelationship",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					{
 						"type": "reflection",
@@ -4064,7 +4064,7 @@
 								"type": "reference",
 								"target": 2449,
 								"name": "ModuleJoinerConfig",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					]
@@ -4552,7 +4552,7 @@
 												"type": "reference",
 												"target": 2521,
 												"name": "Message",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -4560,7 +4560,7 @@
 													"type": "reference",
 													"target": 2521,
 													"name": "Message",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -4614,7 +4614,7 @@
 										"type": "reference",
 										"target": 2525,
 										"name": "MessageAggregatorFormat",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -4635,7 +4635,7 @@
 											"type": "reference",
 											"target": 2521,
 											"name": "Message",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									}
 								],
@@ -4733,12 +4733,12 @@
 														"type": "reference",
 														"target": 2490,
 														"name": "T",
-														"package": "@medusajs/types",
+														"package": "@biryanihouse/types",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "RawMessageFormat",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -4750,12 +4750,12 @@
 															"type": "reference",
 															"target": 2490,
 															"name": "T",
-															"package": "@medusajs/types",
+															"package": "@biryanihouse/types",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "RawMessageFormat",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -4895,7 +4895,7 @@
 						"type": "reference",
 						"target": 2443,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@biryanihouse/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -4942,7 +4942,7 @@
 						"type": "reference",
 						"target": 2443,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@biryanihouse/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -5117,7 +5117,7 @@
 						"type": "reference",
 						"target": 2479,
 						"name": "IMessageAggregator",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -5277,7 +5277,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/types",
+	"packageName": "@biryanihouse/types",
 	"symbolIdMap": {
 		"2372": {
 			"sourceFileName": "../../../../packages/core/types/src/currency/service.ts",

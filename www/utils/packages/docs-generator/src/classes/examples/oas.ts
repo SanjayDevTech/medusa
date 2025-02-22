@@ -84,7 +84,7 @@ class OasExamplesGenerator {
     responseBody?: OpenAPIV3.SchemaObject
   }) {
     const exampleArr = [
-      `import Medusa from "@medusajs/medusa-js"`,
+      `import Medusa from "@biryanihouse/medusa-js"`,
       `const medusa = new Medusa({ baseUrl: MEDUSA_BACKEND_URL, maxRetries: 3 })`,
     ]
 

@@ -42,7 +42,7 @@ export async function plugin(options: PluginOptions) {
     "react-dom",
     "react/jsx-runtime",
     "react-router-dom",
-    "@medusajs/admin-sdk",
+    "@biryanihouse/admin-sdk",
     "@tanstack/react-query",
   ])
 

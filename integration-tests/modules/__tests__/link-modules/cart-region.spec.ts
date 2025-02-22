@@ -1,6 +1,6 @@
-import { ICartModuleService, IRegionModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { ICartModuleService, IRegionModuleService } from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 
 jest.setTimeout(50000)
 

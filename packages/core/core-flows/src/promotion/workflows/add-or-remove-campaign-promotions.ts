@@ -1,9 +1,9 @@
-import { LinkWorkflowInput } from "@medusajs/framework/types"
+import { LinkWorkflowInput } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   createWorkflow,
   parallelize,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import {
   addCampaignPromotionsStep,
   removeCampaignPromotionsStep,

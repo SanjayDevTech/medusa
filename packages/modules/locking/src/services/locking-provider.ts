@@ -2,8 +2,8 @@ import {
   Constructor,
   ILockingProvider,
   Logger,
-} from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/types"
+import { MedusaError } from "@biryanihouse/framework/utils"
 import { LockingProviderRegistrationPrefix } from "../types"
 
 type InjectedDependencies = {

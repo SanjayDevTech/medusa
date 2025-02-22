@@ -1,6 +1,6 @@
 import multer from "multer"
-import { MiddlewareRoute } from "@medusajs/framework/http"
-import { validateAndTransformQuery } from "@medusajs/framework"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
+import { validateAndTransformQuery } from "@biryanihouse/framework"
 import { retrieveUploadConfig } from "./query-config"
 import { AdminGetUploadParams } from "./validators"
 

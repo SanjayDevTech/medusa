@@ -1,7 +1,7 @@
 import React from "react"
 import { InlineCode } from "../../../InlineCode"
-import { Text } from "@medusajs/ui"
-import { Bolt, InformationCircle } from "@medusajs/icons"
+import { Text } from "@biryanihouse/ui"
+import { Bolt, InformationCircle } from "@biryanihouse/icons"
 
 export const WorkflowDiagramLegend = () => {
   return (

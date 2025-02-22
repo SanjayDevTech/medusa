@@ -6,15 +6,15 @@ import {
   deleteOrderChangeActionsWorkflowId,
   updateOrderChangeActionsWorkflow,
   updateOrderChangeActionsWorkflowId,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 import {
   IOrderModuleService,
   OrderChangeActionDTO,
   OrderChangeDTO,
   OrderDTO,
-} from "@medusajs/types"
-import { ChangeActionType, Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/types"
+import { ChangeActionType, Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { createOrderFixture, prepareDataFixtures } from "./__fixtures__"
 
 jest.setTimeout(50000)

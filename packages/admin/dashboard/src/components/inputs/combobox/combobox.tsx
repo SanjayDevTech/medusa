@@ -14,8 +14,8 @@ import {
   PlusMini,
   TrianglesMini,
   XMarkMini,
-} from "@medusajs/icons"
-import { clx, Text } from "@medusajs/ui"
+} from "@biryanihouse/icons"
+import { clx, Text } from "@biryanihouse/ui"
 import { matchSorter } from "match-sorter"
 import {
   ComponentPropsWithoutRef,

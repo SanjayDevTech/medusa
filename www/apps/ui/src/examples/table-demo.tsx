@@ -1,4 +1,4 @@
-import { Table } from "@medusajs/ui"
+import { Table } from "@biryanihouse/ui"
 
 type Order = {
   id: string

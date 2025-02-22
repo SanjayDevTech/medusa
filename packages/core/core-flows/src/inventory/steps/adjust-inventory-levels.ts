@@ -1,7 +1,7 @@
-import { InventoryTypes } from "@medusajs/framework/types"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { InventoryTypes } from "@biryanihouse/framework/types"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
-import { MathBN, Modules } from "@medusajs/framework/utils"
+import { MathBN, Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The data to adjust the inventory levels.

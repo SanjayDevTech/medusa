@@ -1,11 +1,11 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   ICustomerModuleService,
   IPricingModuleService,
   IProductModuleService,
   IRegionModuleService,
-} from "@medusajs/types"
-import { Modules, PriceListStatus, PriceListType } from "@medusajs/utils"
+} from "@biryanihouse/types"
+import { Modules, PriceListStatus, PriceListType } from "@biryanihouse/utils"
 import { createAdminUser } from "../../../../helpers/create-admin-user"
 import { createVariantPriceSet } from "../../../helpers/create-variant-price-set"
 

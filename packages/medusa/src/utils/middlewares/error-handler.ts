@@ -1,3 +1,3 @@
-import { errorHandler as originalErrorHandler } from "@medusajs/framework/http"
+import { errorHandler as originalErrorHandler } from "@biryanihouse/framework/http"
 
 export const errorHandler = originalErrorHandler

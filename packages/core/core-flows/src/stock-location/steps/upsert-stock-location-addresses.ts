@@ -1,14 +1,14 @@
 import {
   IStockLocationService,
   UpsertStockLocationAddressInput,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   getSelectsAndRelationsFromObjectArray,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The data to upsert stock location addresses.

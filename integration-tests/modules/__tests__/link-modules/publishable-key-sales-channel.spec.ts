@@ -1,9 +1,9 @@
 import {
   IApiKeyModuleService,
   ISalesChannelModuleService,
-} from "@medusajs/types"
-import { Modules, remoteQueryObjectFromString } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/types"
+import { Modules, remoteQueryObjectFromString } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 
 jest.setTimeout(50000)
 

@@ -1,12 +1,12 @@
-import { ProductCategoryDTO, ProductCategoryWorkflow } from "@medusajs/framework/types"
-import { ProductCategoryWorkflowEvents } from "@medusajs/framework/utils"
+import { ProductCategoryDTO, ProductCategoryWorkflow } from "@biryanihouse/framework/types"
+import { ProductCategoryWorkflowEvents } from "@biryanihouse/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   createHook,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { updateProductCategoriesStep } from "../steps"
 

@@ -1,7 +1,7 @@
-import { PencilSquare, Trash } from "@medusajs/icons"
-import { toast, usePrompt } from "@medusajs/ui"
+import { PencilSquare, Trash } from "@biryanihouse/icons"
+import { toast, usePrompt } from "@biryanihouse/ui"
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@biryanihouse/types"
 import { useTranslation } from "react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { useDeleteReservationItem } from "../../../../../hooks/api/reservations"

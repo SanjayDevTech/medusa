@@ -1,9 +1,9 @@
-import { logger } from "@medusajs/framework/logger"
-import { FileSystem } from "@medusajs/framework/utils"
+import { logger } from "@biryanihouse/framework/logger"
+import { FileSystem } from "@biryanihouse/framework/utils"
 import { join } from "path"
 import main from "../../generate"
 
-jest.mock("@medusajs/framework/logger")
+jest.mock("@biryanihouse/framework/logger")
 
 describe("plugin-generate", () => {
   beforeEach(() => {

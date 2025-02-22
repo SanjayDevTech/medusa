@@ -1,4 +1,4 @@
-import { CurrencyInput } from "@medusajs/ui"
+import { CurrencyInput } from "@biryanihouse/ui"
 
 export default function CurrencyInputBase() {
   return (

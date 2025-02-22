@@ -5,7 +5,7 @@ import {
   MikroOrmBase,
   PriceListStatus,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 import {
   CalculatedPriceSetDTO,
@@ -13,7 +13,7 @@ import {
   PricingContext,
   PricingFilters,
   PricingRepositoryService,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import { Knex, SqlEntityManager } from "@mikro-orm/postgresql"
 
 export class PricingRepository

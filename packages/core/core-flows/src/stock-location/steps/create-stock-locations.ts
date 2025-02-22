@@ -1,10 +1,10 @@
 import {
   CreateStockLocationInput,
   IStockLocationService,
-} from "@medusajs/framework/types"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/types"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The stock locations to create.

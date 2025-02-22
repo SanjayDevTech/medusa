@@ -1,13 +1,13 @@
-import { batchLinkProductsToCategoryWorkflow } from "@medusajs/core-flows"
+import { batchLinkProductsToCategoryWorkflow } from "@biryanihouse/core-flows"
 import {
   AdminProductCategoryResponse,
   LinkMethodRequest,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntity,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<LinkMethodRequest>,

@@ -1,10 +1,10 @@
-import { AdditionalData, UpdateCampaignDTO } from "@medusajs/framework/types"
+import { AdditionalData, UpdateCampaignDTO } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createHook,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { updateCampaignsStep } from "../steps"
 
 /**

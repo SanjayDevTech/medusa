@@ -3,13 +3,13 @@ import {
   IFulfillmentModuleService,
   ShippingOptionDTO,
   UpsertShippingOptionDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Modules,
   arrayDifference,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to create or update shipping options.

@@ -4,7 +4,7 @@ import {
   FindConfig,
   InferEntityType,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   FreeTextSearchFilterKeyPrefix,
   InjectManager,
@@ -13,7 +13,7 @@ import {
   MedusaContext,
   MedusaError,
   ModulesSdkUtils,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { ProductCategory } from "@models"
 import { ProductCategoryRepository } from "@repositories"
 import { UpdateCategoryInput } from "@types"

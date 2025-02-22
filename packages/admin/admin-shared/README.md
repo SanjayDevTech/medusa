@@ -1,1 +1,1 @@
-# @medusajs/admin-shared
+# @biryanihouse/admin-shared

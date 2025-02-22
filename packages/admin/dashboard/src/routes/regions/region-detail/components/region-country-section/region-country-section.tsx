@@ -1,6 +1,6 @@
-import { PlusMini, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Checkbox, Container, Heading, toast, usePrompt } from "@medusajs/ui"
+import { PlusMini, Trash } from "@biryanihouse/icons"
+import { HttpTypes } from "@biryanihouse/types"
+import { Checkbox, Container, Heading, toast, usePrompt } from "@biryanihouse/ui"
 import {
   ColumnDef,
   RowSelectionState,

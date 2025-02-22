@@ -1,4 +1,4 @@
-import { isDefined, OrchestrationUtils } from "@medusajs/utils"
+import { isDefined, OrchestrationUtils } from "@biryanihouse/utils"
 import { ulid } from "ulid"
 import { createStep } from "./create-step"
 import { StepResponse } from "./helpers/step-response"
@@ -33,7 +33,7 @@ type ThenFunc = <ThenResolver extends () => any>(
  *   createWorkflow,
  *   WorkflowResponse,
  *   when,
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@biryanihouse/framework/workflows-sdk"
  * // step imports...
  * 
  * const workflow = createWorkflow(

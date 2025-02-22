@@ -1,6 +1,6 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@biryanihouse/types"
 import { Divider } from "../../../../components/common/divider"
-import { Text } from "@medusajs/ui"
+import { Text } from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 
 export const ImportSummary = ({

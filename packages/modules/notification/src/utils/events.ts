@@ -3,7 +3,7 @@ import {
   moduleEventBuilderFactory,
   Modules,
   NotificationEvents,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export const eventBuilders = {
   createdNotification: moduleEventBuilderFactory({

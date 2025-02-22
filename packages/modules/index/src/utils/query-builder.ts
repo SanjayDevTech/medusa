@@ -1,5 +1,5 @@
-import { IndexTypes } from "@medusajs/framework/types"
-import { GraphQLUtils, isObject, isString } from "@medusajs/framework/utils"
+import { IndexTypes } from "@biryanihouse/framework/types"
+import { GraphQLUtils, isObject, isString } from "@biryanihouse/framework/utils"
 import { Knex } from "@mikro-orm/knex"
 import { OrderBy, QueryFormat, QueryOptions, Select } from "@types"
 

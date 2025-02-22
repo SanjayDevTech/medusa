@@ -1,9 +1,9 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   ContainerRegistrationKeys,
   Modules,
   RuleOperator,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import {
   adminHeaders,
   createAdminUser,

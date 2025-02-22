@@ -3,7 +3,7 @@ import {
   WorkflowResponse,
   createHook,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { deleteCustomerAddressesStep } from "../steps"
 
 /**

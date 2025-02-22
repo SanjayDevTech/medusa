@@ -1,13 +1,13 @@
 import {
   IOrderModuleService,
   UpdateOrderChangeActionDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   Modules,
   deduplicate,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The order change actions to update.

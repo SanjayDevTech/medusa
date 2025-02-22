@@ -1,4 +1,4 @@
-import { MiddlewareRoute } from "@medusajs/framework/http"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
 
 export const hooksRoutesMiddlewares: MiddlewareRoute[] = [
   {

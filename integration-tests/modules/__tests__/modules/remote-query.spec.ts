@@ -1,6 +1,6 @@
-import { IRegionModuleService, RemoteQueryFunction } from "@medusajs/types"
-import { ContainerRegistrationKeys, Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { IRegionModuleService, RemoteQueryFunction } from "@biryanihouse/types"
+import { ContainerRegistrationKeys, Modules } from "@biryanihouse/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { createAdminUser } from "../../..//helpers/create-admin-user"
 import { adminHeaders } from "../../../helpers/create-admin-user"
 

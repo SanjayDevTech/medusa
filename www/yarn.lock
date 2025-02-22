@@ -1676,36 +1676,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/icons@npm:^1.2.2":
+"@biryanihouse/icons@npm:^1.2.2":
   version: 1.2.2
-  resolution: "@medusajs/icons@npm:1.2.2"
+  resolution: "@biryanihouse/icons@npm:1.2.2"
   peerDependencies:
     react: ^16.x || ^17.x || ^18.x
   checksum: 610117b959ddbd68f927caa12e70fb5fc849e8c68a25ca38f4d137aca1363f36552455aa83669847bd42753cccf36ad57b82f9bd5be7794e5b23af1046f78967
   languageName: node
   linkType: hard
 
-"@medusajs/icons@npm:^2.2.0":
+"@biryanihouse/icons@npm:^2.2.0":
   version: 2.3.1
-  resolution: "@medusajs/icons@npm:2.3.1"
+  resolution: "@biryanihouse/icons@npm:2.3.1"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
   checksum: ad37dc6061e89661b6a1158edceb8efa3106b5a8fe0284e600372133ca42a16d4f8c9575066d94cf07facf0ed28a20abf06b2d7f20cdf8b744b9eaa564322ee5
   languageName: node
   linkType: hard
 
-"@medusajs/icons@npm:~2.0.0":
+"@biryanihouse/icons@npm:~2.0.0":
   version: 2.0.7
-  resolution: "@medusajs/icons@npm:2.0.7"
+  resolution: "@biryanihouse/icons@npm:2.0.7"
   peerDependencies:
     react: ^16.x || ^17.x || ^18.x
   checksum: 84d9d0c8fe2fb3174e286291a86292f80a71a1582b4e8bcba001bcf061a8a4b7654c88bc80c69aee6fd68961e618011e059641c92174eba413e380e148a7ea52
   languageName: node
   linkType: hard
 
-"@medusajs/ui-preset@npm:~1.1.2, @medusajs/ui-preset@npm:~1.1.3":
+"@biryanihouse/ui-preset@npm:~1.1.2, @biryanihouse/ui-preset@npm:~1.1.3":
   version: 1.1.4
-  resolution: "@medusajs/ui-preset@npm:1.1.4"
+  resolution: "@biryanihouse/ui-preset@npm:1.1.4"
   dependencies:
     "@tailwindcss/forms": ^0.5.3
     tailwindcss-animate: ^1.0.6
@@ -1715,11 +1715,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/ui@npm:~3.0.0":
+"@biryanihouse/ui@npm:~3.0.0":
   version: 3.0.1
-  resolution: "@medusajs/ui@npm:3.0.1"
+  resolution: "@biryanihouse/ui@npm:3.0.1"
   dependencies:
-    "@medusajs/icons": ^1.2.2
+    "@biryanihouse/icons": ^1.2.2
     "@radix-ui/react-accordion": ^1.1.2
     "@radix-ui/react-alert-dialog": ^1.0.4
     "@radix-ui/react-avatar": ^1.0.3
@@ -1755,11 +1755,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/ui@npm:~4.0.0":
+"@biryanihouse/ui@npm:~4.0.0":
   version: 4.0.3
-  resolution: "@medusajs/ui@npm:4.0.3"
+  resolution: "@biryanihouse/ui@npm:4.0.3"
   dependencies:
-    "@medusajs/icons": ^2.2.0
+    "@biryanihouse/icons": ^2.2.0
     "@radix-ui/react-accordion": 1.2.0
     "@radix-ui/react-alert-dialog": 1.1.1
     "@radix-ui/react-avatar": 1.1.0
@@ -6786,8 +6786,8 @@ __metadata:
   dependencies:
     "@mdx-js/loader": ^3.1.0
     "@mdx-js/react": ^3.1.0
-    "@medusajs/icons": ~2.0.0
-    "@medusajs/ui": ~3.0.0
+    "@biryanihouse/icons": ~2.0.0
+    "@biryanihouse/ui": ~3.0.0
     "@next/bundle-analyzer": 15.0.4
     "@next/mdx": 15.0.4
     "@react-hook/resize-observer": ^2.0.2
@@ -7128,7 +7128,7 @@ __metadata:
   dependencies:
     "@mdx-js/loader": ^3.1.0
     "@mdx-js/react": ^3.1.0
-    "@medusajs/icons": ~2.0.0
+    "@biryanihouse/icons": ~2.0.0
     "@next/mdx": 15.0.4
     "@types/mdx": ^2.0.13
     "@types/node": ^20
@@ -8427,8 +8427,8 @@ __metadata:
   resolution: "docs-ui@workspace:packages/docs-ui"
   dependencies:
     "@emotion/is-prop-valid": ^1.3.1
-    "@medusajs/icons": ~2.0.0
-    "@medusajs/ui": ~4.0.0
+    "@biryanihouse/icons": ~2.0.0
+    "@biryanihouse/ui": ~4.0.0
     "@next/third-parties": 15.0.4
     "@octokit/request": ^8.1.1
     "@react-hook/resize-observer": ^1.2.6
@@ -14827,7 +14827,7 @@ __metadata:
   dependencies:
     "@mdx-js/loader": ^3.1.0
     "@mdx-js/react": ^3.1.0
-    "@medusajs/icons": ~2.0.0
+    "@biryanihouse/icons": ~2.0.0
     "@next/bundle-analyzer": ^15.1.1
     "@next/mdx": 15.0.4
     "@types/mdx": ^2.0.13
@@ -15710,7 +15710,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tailwind@workspace:packages/tailwind"
   dependencies:
-    "@medusajs/ui-preset": ~1.1.2
+    "@biryanihouse/ui-preset": ~1.1.2
     tailwindcss-animate: ^1.0.7
   peerDependencies:
     docs-ui: "*"
@@ -16267,7 +16267,7 @@ turbo@latest:
   version: 0.0.0-use.local
   resolution: "types@workspace:packages/types"
   dependencies:
-    "@medusajs/icons": ~2.0.0
+    "@biryanihouse/icons": ~2.0.0
     "@types/node": ^20.11.20
     rimraf: ^5.0.5
     tsconfig: "*"
@@ -16355,9 +16355,9 @@ turbo@latest:
   dependencies:
     "@faker-js/faker": ^8.0.2
     "@mdx-js/react": ^3.1.0
-    "@medusajs/icons": ~2.0.0
-    "@medusajs/ui": ~4.0.0
-    "@medusajs/ui-preset": ~1.1.3
+    "@biryanihouse/icons": ~2.0.0
+    "@biryanihouse/ui": ~4.0.0
+    "@biryanihouse/ui-preset": ~1.1.3
     "@types/node": 20.4.9
     "@types/react": "npm:types-react@rc"
     "@types/react-dom": "npm:types-react@rc"
@@ -16733,7 +16733,7 @@ turbo@latest:
   dependencies:
     "@mdx-js/loader": ^3.1.0
     "@mdx-js/react": ^3.1.0
-    "@medusajs/icons": ~2.0.0
+    "@biryanihouse/icons": ~2.0.0
     "@next/mdx": 15.0.4
     "@types/mdx": ^2.0.13
     "@types/node": ^20

@@ -1,8 +1,8 @@
-import { MiddlewareRoute, unlessPath } from "@medusajs/framework/http"
+import { MiddlewareRoute, unlessPath } from "@biryanihouse/framework/http"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@biryanihouse/framework"
 import * as queryConfig from "./query-config"
 import {
   AdminCreatePaymentCapture,

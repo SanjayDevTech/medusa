@@ -1,6 +1,6 @@
-import { MiddlewareRoute } from "@medusajs/framework/http"
-import { maybeApplyLinkFilter } from "@medusajs/framework/http"
-import { validateAndTransformQuery } from "@medusajs/framework"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
+import { maybeApplyLinkFilter } from "@biryanihouse/framework/http"
+import { validateAndTransformQuery } from "@biryanihouse/framework"
 import * as QueryConfig from "./query-config"
 import { AdminFulfillmentProvidersParams } from "./validators"
 

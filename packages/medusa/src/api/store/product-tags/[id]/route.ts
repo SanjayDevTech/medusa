@@ -1,12 +1,12 @@
-import { StoreProductTagResponse } from "@medusajs/framework/types"
+import { StoreProductTagResponse } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
 import { StoreProductTagParamsType } from "../validators"
 

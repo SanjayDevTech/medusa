@@ -4,9 +4,9 @@ import {
   IPricingModuleService,
   IRegionModuleService,
   PriceRule,
-} from "@medusajs/framework/types"
-import { isString, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/types"
+import { isString, Modules } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to create price sets for a currency code.

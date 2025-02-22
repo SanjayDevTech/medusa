@@ -1,9 +1,9 @@
 import path from "path"
 import chokidar from "chokidar"
 import type tsStatic from "typescript"
-import { FileSystem, getConfigFile } from "@medusajs/utils"
+import { FileSystem, getConfigFile } from "@biryanihouse/utils"
 import { rm, access, constants, copyFile } from "fs/promises"
-import type { AdminOptions, ConfigModule, Logger } from "@medusajs/types"
+import type { AdminOptions, ConfigModule, Logger } from "@biryanihouse/types"
 
 /**
  * The compiler exposes the opinionated APIs for compiling Medusa
@@ -326,7 +326,7 @@ export class Compiler {
 
   /**
    * Builds the frontend source code of a Medusa application
-   * using the "@medusajs/admin-bundler" package.
+   * using the "@biryanihouse/admin-bundler" package.
    */
   async buildAppFrontend(
     adminOnly: boolean,

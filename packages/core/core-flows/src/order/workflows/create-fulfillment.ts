@@ -6,13 +6,13 @@ import {
   OrderLineItemDTO,
   OrderWorkflow,
   ReservationItemDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   MathBN,
   MedusaError,
   Modules,
   OrderWorkflowEvents,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -21,7 +21,7 @@ import {
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import {
   createRemoteLinkStep,
   emitEventStep,

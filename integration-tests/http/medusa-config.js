@@ -1,4 +1,4 @@
-const { defineConfig, Modules } = require("@medusajs/utils")
+const { defineConfig, Modules } = require("@biryanihouse/utils")
 const os = require("os")
 const path = require("path")
 
@@ -11,7 +11,7 @@ process.env.DATABASE_URL = DB_URL
 process.env.LOG_LEVEL = "error"
 
 const customFulfillmentProvider = {
-  resolve: "@medusajs/fulfillment-manual",
+  resolve: "@biryanihouse/fulfillment-manual",
   id: "test-provider",
 }
 
@@ -32,7 +32,7 @@ module.exports = defineConfig({
   },
   modules: {
     [Modules.FULFILLMENT]: {
-      /** @type {import('@medusajs/fulfillment').FulfillmentModuleOptions} */
+      /** @type {import('@biryanihouse/fulfillment').FulfillmentModuleOptions} */
       options: {
         providers: [
           customFulfillmentProvider,
@@ -41,11 +41,11 @@ module.exports = defineConfig({
       },
     },
     [Modules.NOTIFICATION]: {
-      resolve: "@medusajs/notification",
+      resolve: "@biryanihouse/notification",
       options: {
         providers: [
           {
-            resolve: "@medusajs/notification-local",
+            resolve: "@biryanihouse/notification-local",
             id: "local",
             options: {
               name: "Local Notification Provider",
@@ -56,11 +56,11 @@ module.exports = defineConfig({
       },
     },
     [Modules.FILE]: {
-      resolve: "@medusajs/file",
+      resolve: "@biryanihouse/file",
       options: {
         providers: [
           {
-            resolve: "@medusajs/file-local",
+            resolve: "@biryanihouse/file-local",
             id: "local",
             options: {
               // This is the directory where we can reliably write in CI environments

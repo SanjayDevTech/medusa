@@ -1,4 +1,4 @@
-import { Input } from "@medusajs/ui"
+import { Input } from "@biryanihouse/ui"
 
 export default function InputError() {
   return (

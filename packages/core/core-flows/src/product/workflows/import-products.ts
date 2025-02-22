@@ -3,8 +3,8 @@ import {
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
-import { WorkflowTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework/workflows-sdk"
+import { WorkflowTypes } from "@biryanihouse/framework/types"
 import { notifyOnFailureStep, sendNotificationsStep } from "../../notification"
 import {
   waitConfirmationProductImportStep,
@@ -47,14 +47,14 @@ export const importProductsWorkflowId = "import-products"
  * import {
  *   AuthenticatedMedusaRequest,
  *   MedusaResponse,
- * } from "@medusajs/framework/http"
+ * } from "@biryanihouse/framework/http"
  * import {
  *   importProductsWorkflowId,
  *   waitConfirmationProductImportStepId,
- * } from "@medusajs/core-flows"
- * import { IWorkflowEngineService } from "@medusajs/framework/types"
- * import { Modules, TransactionHandlerType } from "@medusajs/framework/utils"
- * import { StepResponse } from "@medusajs/framework/workflows-sdk"
+ * } from "@biryanihouse/core-flows"
+ * import { IWorkflowEngineService } from "@biryanihouse/framework/types"
+ * import { Modules, TransactionHandlerType } from "@biryanihouse/framework/utils"
+ * import { StepResponse } from "@biryanihouse/framework/workflows-sdk"
  * 
  * export const POST = async (
  *   req: AuthenticatedMedusaRequest,

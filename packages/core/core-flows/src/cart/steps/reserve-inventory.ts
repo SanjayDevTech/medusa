@@ -1,6 +1,6 @@
-import { MathBN, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import { BigNumberInput } from "@medusajs/types"
+import { MathBN, Modules } from "@biryanihouse/framework/utils"
+import { createStep, StepResponse } from "@biryanihouse/framework/workflows-sdk"
+import { BigNumberInput } from "@biryanihouse/types"
 
 
 /**

@@ -1,4 +1,4 @@
-import { Context } from "@medusajs/types"
+import { Context } from "@biryanihouse/types"
 import { MedusaContextType } from "./context-parameter"
 
 export function InjectManager(managerProperty?: string): MethodDecorator {

@@ -41,7 +41,7 @@
 								"type": "reference",
 								"target": 8810,
 								"name": "OrderAddress",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -68,7 +68,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -643,7 +643,7 @@
 								"type": "reference",
 								"target": 8885,
 								"name": "OrderClaimItemImage",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -672,7 +672,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -731,7 +731,7 @@
 						"type": "reference",
 						"target": 8862,
 						"name": "OrderClaimItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -1015,7 +1015,7 @@
 								"type": "reference",
 								"target": 8862,
 								"name": "OrderClaimItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -1044,7 +1044,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -1091,7 +1091,7 @@
 								"type": "reference",
 								"target": 8885,
 								"name": "OrderClaimItemImage",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -1132,7 +1132,7 @@
 									"qualifiedName": "ClaimReason"
 								},
 								"name": "ClaimReason",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -1192,7 +1192,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -1232,7 +1232,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -1273,7 +1273,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -1584,7 +1584,7 @@
 								"type": "reference",
 								"target": 8833,
 								"name": "OrderClaim",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -1613,7 +1613,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -1672,7 +1672,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -1694,7 +1694,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -1786,7 +1786,7 @@
 							"qualifiedName": "ClaimType"
 						},
 						"name": "ClaimType",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					}
 				},
 				{
@@ -1846,7 +1846,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -1872,7 +1872,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -1900,7 +1900,7 @@
 								"type": "reference",
 								"target": 8862,
 								"name": "OrderClaimItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -1938,7 +1938,7 @@
 								"type": "reference",
 								"target": 8862,
 								"name": "OrderClaimItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -1976,7 +1976,7 @@
 								"type": "reference",
 								"target": 9186,
 								"name": "OrderShipping",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -2014,7 +2014,7 @@
 								"type": "reference",
 								"target": 9363,
 								"name": "OrderTransaction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -2364,7 +2364,7 @@
 								"type": "reference",
 								"target": 8901,
 								"name": "OrderCreditLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -2393,7 +2393,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -2452,7 +2452,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -2542,7 +2542,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -2568,7 +2568,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -2835,7 +2835,7 @@
 								"type": "reference",
 								"target": 8948,
 								"name": "OrderExchangeItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -2864,7 +2864,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -2940,7 +2940,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -2980,7 +2980,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -3021,7 +3021,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -3309,7 +3309,7 @@
 								"type": "reference",
 								"target": 8920,
 								"name": "OrderExchange",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -3338,7 +3338,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -3397,7 +3397,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -3419,7 +3419,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -3547,7 +3547,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -3573,7 +3573,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -3621,7 +3621,7 @@
 								"type": "reference",
 								"target": 8948,
 								"name": "OrderExchangeItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -3659,7 +3659,7 @@
 								"type": "reference",
 								"target": 9186,
 								"name": "OrderShipping",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -3697,7 +3697,7 @@
 								"type": "reference",
 								"target": 9363,
 								"name": "OrderTransaction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -4046,7 +4046,7 @@
 								"type": "reference",
 								"target": 9007,
 								"name": "OrderLineItemAdjustment",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							"inheritedFrom": {
@@ -4085,7 +4085,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -4257,7 +4257,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -4290,7 +4290,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -4455,7 +4455,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -4600,7 +4600,7 @@
 						"qualifiedName": "default"
 					},
 					"name": "default",
-					"package": "@medusajs/order"
+					"package": "@biryanihouse/order"
 				}
 			]
 		},
@@ -4628,7 +4628,7 @@
 								"type": "reference",
 								"target": 9027,
 								"name": "OrderLineItemTaxLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							"inheritedFrom": {
@@ -4662,7 +4662,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -4911,7 +4911,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -4944,7 +4944,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -5140,7 +5140,7 @@
 						"qualifiedName": "default"
 					},
 					"name": "default",
-					"package": "@medusajs/order"
+					"package": "@biryanihouse/order"
 				}
 			]
 		},
@@ -5168,7 +5168,7 @@
 								"type": "reference",
 								"target": 8968,
 								"name": "OrderLineItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -5197,7 +5197,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -5782,7 +5782,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -5816,7 +5816,7 @@
 									"qualifiedName": "BigNumberRawValue"
 								},
 								"name": "BigNumberRawValue",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						]
 					},
@@ -5850,7 +5850,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -5876,7 +5876,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -5924,7 +5924,7 @@
 								"type": "reference",
 								"target": 9027,
 								"name": "OrderLineItemTaxLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -5962,7 +5962,7 @@
 								"type": "reference",
 								"target": 9007,
 								"name": "OrderLineItemAdjustment",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -6259,7 +6259,7 @@
 								"type": "reference",
 								"target": 9116,
 								"name": "OrderChangeAction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -6288,7 +6288,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -6383,7 +6383,7 @@
 								"type": "reference",
 								"target": 9046,
 								"name": "Order",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						]
@@ -6437,7 +6437,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -6488,7 +6488,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -6539,7 +6539,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -6625,7 +6625,7 @@
 								"type": "reference",
 								"target": 9079,
 								"name": "OrderChange",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						]
@@ -6776,7 +6776,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -6810,7 +6810,7 @@
 									"qualifiedName": "BigNumberRawValue"
 								},
 								"name": "BigNumberRawValue",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						]
 					},
@@ -7098,7 +7098,7 @@
 								"type": "reference",
 								"target": 9079,
 								"name": "OrderChange",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -7127,7 +7127,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -7186,7 +7186,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -7237,7 +7237,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -7288,7 +7288,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -7339,7 +7339,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -7416,7 +7416,7 @@
 								"type": "reference",
 								"target": 9116,
 								"name": "OrderChangeAction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -7479,7 +7479,7 @@
 							"qualifiedName": "OrderChangeStatus"
 						},
 						"name": "OrderChangeStatus",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					"defaultValue": "OrderChangeStatus.PENDING"
 				},
@@ -8088,7 +8088,7 @@
 								"type": "reference",
 								"target": 9148,
 								"name": "OrderItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -8117,7 +8117,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8176,7 +8176,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -8236,7 +8236,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -8272,7 +8272,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8306,7 +8306,7 @@
 									"qualifiedName": "BigNumberRawValue"
 								},
 								"name": "BigNumberRawValue",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						]
 					},
@@ -8344,7 +8344,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8378,7 +8378,7 @@
 									"qualifiedName": "BigNumberRawValue"
 								},
 								"name": "BigNumberRawValue",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						]
 					},
@@ -8412,7 +8412,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -8438,7 +8438,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8469,7 +8469,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8496,7 +8496,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8527,7 +8527,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8554,7 +8554,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8585,7 +8585,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8612,7 +8612,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8643,7 +8643,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8670,7 +8670,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8701,7 +8701,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8728,7 +8728,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8759,7 +8759,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8786,7 +8786,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -8817,7 +8817,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -8844,7 +8844,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -9130,7 +9130,7 @@
 								"type": "reference",
 								"target": 9186,
 								"name": "OrderShipping",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -9159,7 +9159,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -9218,7 +9218,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9269,7 +9269,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9319,7 +9319,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9369,7 +9369,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9429,7 +9429,7 @@
 						"type": "reference",
 						"target": 9302,
 						"name": "OrderShippingMethod",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9657,7 +9657,7 @@
 								"type": "reference",
 								"target": 9209,
 								"name": "OrderSummary",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -9719,7 +9719,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -9771,7 +9771,7 @@
 									"qualifiedName": "OrderSummaryTotals"
 								},
 								"name": "OrderSummaryTotals",
-								"package": "@medusajs/order"
+								"package": "@biryanihouse/order"
 							}
 						]
 					},
@@ -9993,7 +9993,7 @@
 								"type": "reference",
 								"target": 9046,
 								"name": "Order",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -10022,7 +10022,7 @@
 							"qualifiedName": "OptionalOrderProps"
 						},
 						"name": "OptionalOrderProps",
-						"package": "@medusajs/order"
+						"package": "@biryanihouse/order"
 					}
 				},
 				{
@@ -10191,7 +10191,7 @@
 							"qualifiedName": "OrderStatus"
 						},
 						"name": "OrderStatus",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					}
 				},
 				{
@@ -10319,7 +10319,7 @@
 								"type": "reference",
 								"target": 8810,
 								"name": "OrderAddress",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						]
@@ -10382,7 +10382,7 @@
 								"type": "reference",
 								"target": 8810,
 								"name": "OrderAddress",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						]
@@ -10442,7 +10442,7 @@
 								"type": "reference",
 								"target": 9209,
 								"name": "OrderSummary",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -10524,7 +10524,7 @@
 								"type": "reference",
 								"target": 9148,
 								"name": "OrderItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -10562,7 +10562,7 @@
 								"type": "reference",
 								"target": 8901,
 								"name": "OrderCreditLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -10600,7 +10600,7 @@
 								"type": "reference",
 								"target": 9186,
 								"name": "OrderShipping",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -10638,7 +10638,7 @@
 								"type": "reference",
 								"target": 9363,
 								"name": "OrderTransaction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -10919,7 +10919,7 @@
 								"type": "reference",
 								"target": 9257,
 								"name": "ReturnItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -10948,7 +10948,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -11017,7 +11017,7 @@
 						"type": "reference",
 						"target": 9283,
 						"name": "ReturnReason",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -11075,7 +11075,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -11133,7 +11133,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -11191,7 +11191,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -11231,7 +11231,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -11272,7 +11272,7 @@
 						"type": "reference",
 						"target": 8968,
 						"name": "OrderLineItem",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -11566,7 +11566,7 @@
 								"type": "reference",
 								"target": 9283,
 								"name": "ReturnReason",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -11595,7 +11595,7 @@
 							"qualifiedName": "OptionalOrderProps"
 						},
 						"name": "OptionalOrderProps",
-						"package": "@medusajs/order"
+						"package": "@biryanihouse/order"
 					}
 				},
 				{
@@ -11741,7 +11741,7 @@
 								"type": "reference",
 								"target": 9283,
 								"name": "ReturnReason",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						]
@@ -11767,7 +11767,7 @@
 							"type": "reference",
 							"target": 9283,
 							"name": "ReturnReason",
-							"package": "@medusajs/order",
+							"package": "@biryanihouse/order",
 							"qualifiedName": "default"
 						}
 					}
@@ -12036,7 +12036,7 @@
 								"type": "reference",
 								"target": 9224,
 								"name": "Return",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -12065,7 +12065,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -12124,7 +12124,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -12146,7 +12146,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -12197,7 +12197,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -12289,7 +12289,7 @@
 							"qualifiedName": "ReturnStatus"
 						},
 						"name": "ReturnStatus",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					"defaultValue": "ReturnStatus.OPEN"
 				},
@@ -12379,7 +12379,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -12405,7 +12405,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -12433,7 +12433,7 @@
 								"type": "reference",
 								"target": 9257,
 								"name": "ReturnItem",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -12471,7 +12471,7 @@
 								"type": "reference",
 								"target": 9186,
 								"name": "OrderShipping",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -12509,7 +12509,7 @@
 								"type": "reference",
 								"target": 9363,
 								"name": "OrderTransaction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -12931,7 +12931,7 @@
 								"type": "reference",
 								"target": 9324,
 								"name": "OrderShippingMethodAdjustment",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							"inheritedFrom": {
@@ -12970,7 +12970,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -13142,7 +13142,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -13175,7 +13175,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -13340,7 +13340,7 @@
 						"type": "reference",
 						"target": 9302,
 						"name": "OrderShippingMethod",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -13485,7 +13485,7 @@
 						"qualifiedName": "default"
 					},
 					"name": "default",
-					"package": "@medusajs/order"
+					"package": "@biryanihouse/order"
 				}
 			]
 		},
@@ -13513,7 +13513,7 @@
 								"type": "reference",
 								"target": 9344,
 								"name": "OrderShippingMethodTaxLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							"inheritedFrom": {
@@ -13547,7 +13547,7 @@
 						"type": "reference",
 						"target": 9302,
 						"name": "OrderShippingMethod",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -13796,7 +13796,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					},
@@ -13829,7 +13829,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					"inheritedFrom": {
 						"type": "reference",
@@ -14025,7 +14025,7 @@
 						"qualifiedName": "default"
 					},
 					"name": "default",
-					"package": "@medusajs/order"
+					"package": "@biryanihouse/order"
 				}
 			]
 		},
@@ -14053,7 +14053,7 @@
 								"type": "reference",
 								"target": 9302,
 								"name": "OrderShippingMethod",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -14154,7 +14154,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -14180,7 +14180,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -14365,7 +14365,7 @@
 								"type": "reference",
 								"target": 9344,
 								"name": "OrderShippingMethodTaxLine",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -14403,7 +14403,7 @@
 								"type": "reference",
 								"target": 9324,
 								"name": "OrderShippingMethodAdjustment",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							},
 							{
@@ -14639,7 +14639,7 @@
 								"type": "reference",
 								"target": 9363,
 								"name": "OrderTransaction",
-								"package": "@medusajs/order",
+								"package": "@biryanihouse/order",
 								"qualifiedName": "default"
 							}
 						}
@@ -14668,7 +14668,7 @@
 							"qualifiedName": "ModelDateColumns"
 						},
 						"name": "ModelDateColumns",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -14727,7 +14727,7 @@
 						"type": "reference",
 						"target": 9046,
 						"name": "Order",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -14778,7 +14778,7 @@
 						"type": "reference",
 						"target": 9224,
 						"name": "Return",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -14828,7 +14828,7 @@
 						"type": "reference",
 						"target": 8920,
 						"name": "OrderExchange",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -14878,7 +14878,7 @@
 						"type": "reference",
 						"target": 8833,
 						"name": "OrderClaim",
-						"package": "@medusajs/order",
+						"package": "@biryanihouse/order",
 						"qualifiedName": "default"
 					}
 				},
@@ -14930,7 +14930,7 @@
 									"qualifiedName": "BigNumber"
 								},
 								"name": "BigNumber",
-								"package": "@medusajs/utils"
+								"package": "@biryanihouse/utils"
 							}
 						]
 					}
@@ -14956,7 +14956,7 @@
 							"qualifiedName": "BigNumberRawValue"
 						},
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					}
 				},
 				{
@@ -15270,7 +15270,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/order",
+	"packageName": "@biryanihouse/order",
 	"symbolIdMap": {
 		"8809": {
 			"sourceFileName": "../../../../packages/modules/order/src/models/index.ts",

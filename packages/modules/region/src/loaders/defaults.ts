@@ -2,11 +2,11 @@ import {
   LoaderOptions,
   Logger,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   DefaultsUtils,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { Country } from "@models"
 
 export default async ({ container }: LoaderOptions): Promise<void> => {

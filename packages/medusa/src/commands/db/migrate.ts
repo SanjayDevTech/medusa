@@ -1,10 +1,10 @@
-import { MEDUSA_CLI_PATH, MedusaAppLoader } from "@medusajs/framework"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
+import { MEDUSA_CLI_PATH, MedusaAppLoader } from "@biryanihouse/framework"
+import { LinkLoader } from "@biryanihouse/framework/links"
+import { logger } from "@biryanihouse/framework/logger"
 import {
   ContainerRegistrationKeys,
   mergePluginModules,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { join } from "path"
 
 import { fork } from "child_process"

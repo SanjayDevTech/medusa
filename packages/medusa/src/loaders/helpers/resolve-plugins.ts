@@ -1,7 +1,7 @@
 import path from "path"
 import fs from "fs/promises"
-import { isString, readDir } from "@medusajs/framework/utils"
-import { ConfigModule, PluginDetails } from "@medusajs/framework/types"
+import { isString, readDir } from "@biryanihouse/framework/utils"
+import { ConfigModule, PluginDetails } from "@biryanihouse/framework/types"
 
 const MEDUSA_APP_SOURCE_PATH = "src"
 const MEDUSA_PLUGIN_SOURCE_PATH = ".medusa/server/src"

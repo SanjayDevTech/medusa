@@ -1,1 +1,1 @@
-# @medusajs/admin-sdk
+# @biryanihouse/admin-sdk

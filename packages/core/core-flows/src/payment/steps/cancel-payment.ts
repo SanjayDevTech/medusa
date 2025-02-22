@@ -1,10 +1,10 @@
-import { IPaymentModuleService, Logger } from "@medusajs/framework/types"
+import { IPaymentModuleService, Logger } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { createStep } from "@biryanihouse/framework/workflows-sdk"
 
 /**
  * The data to cancel one or more payments.

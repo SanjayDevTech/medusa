@@ -1,11 +1,11 @@
-import { ConfirmVariantInventoryWorkflowInputDTO } from "@medusajs/framework/types"
+import { ConfirmVariantInventoryWorkflowInputDTO } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
-import { BigNumberInput } from "@medusajs/types"
+} from "@biryanihouse/framework/workflows-sdk"
+import { BigNumberInput } from "@biryanihouse/types"
 import { confirmInventoryStep } from "../steps"
 import { prepareConfirmInventoryInput } from "../utils/prepare-confirm-inventory-input"
 

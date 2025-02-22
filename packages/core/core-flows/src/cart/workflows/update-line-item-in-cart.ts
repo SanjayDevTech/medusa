@@ -1,5 +1,5 @@
-import { UpdateLineItemInCartWorkflowInputDTO } from "@medusajs/framework/types"
-import { isDefined, MedusaError } from "@medusajs/framework/utils"
+import { UpdateLineItemInCartWorkflowInputDTO } from "@biryanihouse/framework/types"
+import { isDefined, MedusaError } from "@biryanihouse/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -7,7 +7,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { useQueryGraphStep } from "../../common"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"
 import { updateLineItemsStepWithSelector } from "../../line-item/steps"

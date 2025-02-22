@@ -1,5 +1,5 @@
-import { BatchMethodRequest } from "@medusajs/framework/types"
-import { ProductStatus } from "@medusajs/framework/utils"
+import { BatchMethodRequest } from "@biryanihouse/framework/types"
+import { ProductStatus } from "@biryanihouse/framework/utils"
 import { z } from "zod"
 import {
   applyAndAndOrOperators,

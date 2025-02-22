@@ -2,7 +2,7 @@ import {
   JoinerRelationship,
   ModuleExports,
   ModuleJoinerConfig,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import { getModuleService, getReadOnlyModuleService } from "@services"
 import { getLoaders } from "../loaders"
 

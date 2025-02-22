@@ -1,10 +1,10 @@
-import { uploadFilesWorkflow } from "@medusajs/core-flows"
+import { uploadFilesWorkflow } from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { MedusaError } from "@medusajs/framework/utils"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework/http"
+import { MedusaError } from "@biryanihouse/framework/utils"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminUploadFile>,

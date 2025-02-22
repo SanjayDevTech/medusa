@@ -10,11 +10,11 @@ import {
   FileTypes,
   Logger,
   S3FileServiceOptions,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   AbstractFileProviderService,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import path from "path"
 import { ulid } from "ulid"
 

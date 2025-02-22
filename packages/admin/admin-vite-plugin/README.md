@@ -1,1 +1,1 @@
-# @medusajs/admin-vite-plugin
+# @biryanihouse/admin-vite-plugin

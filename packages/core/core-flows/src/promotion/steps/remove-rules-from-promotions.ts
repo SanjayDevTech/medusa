@@ -3,9 +3,9 @@ import {
   IPromotionModuleService,
   PromotionRuleDTO,
   RemovePromotionRulesWorkflowDTO,
-} from "@medusajs/framework/types"
-import { Modules, RuleType } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/types"
+import { Modules, RuleType } from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
 export const removeRulesFromPromotionsStepId = "remove-rules-from-promotions"
 /**

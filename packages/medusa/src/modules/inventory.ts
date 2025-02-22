@@ -1,6 +1,6 @@
-import InventoryModule from "@medusajs/inventory"
+import InventoryModule from "@biryanihouse/inventory"
 
-export * from "@medusajs/inventory"
+export * from "@biryanihouse/inventory"
 
 export default InventoryModule
-export const discoveryPath = require.resolve("@medusajs/inventory")
+export const discoveryPath = require.resolve("@biryanihouse/inventory")

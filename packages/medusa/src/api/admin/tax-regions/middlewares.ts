@@ -10,8 +10,8 @@ import {
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
-import { MiddlewareRoute } from "@medusajs/framework/http"
+} from "@biryanihouse/framework"
+import { MiddlewareRoute } from "@biryanihouse/framework/http"
 
 export const adminTaxRegionRoutesMiddlewares: MiddlewareRoute[] = [
   {

@@ -4,7 +4,7 @@ import {
   HttpTypes,
   PaginatedResponse,
   SelectParams,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 
 import { Client } from "../client"
 import { ClientHeaders } from "../types"

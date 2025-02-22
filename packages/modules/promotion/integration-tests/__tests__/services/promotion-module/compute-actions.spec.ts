@@ -1,11 +1,11 @@
-import { IPromotionModuleService } from "@medusajs/framework/types"
+import { IPromotionModuleService } from "@biryanihouse/framework/types"
 import {
   ApplicationMethodType,
   Modules,
   PromotionStatus,
   PromotionType,
-} from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner, SuiteOptions } from "@medusajs/test-utils"
+} from "@biryanihouse/framework/utils"
+import { moduleIntegrationTestRunner, SuiteOptions } from "@biryanihouse/test-utils"
 import { createCampaigns } from "../../../__fixtures__/campaigns"
 import { createDefaultPromotion } from "../../../__fixtures__/promotion"
 

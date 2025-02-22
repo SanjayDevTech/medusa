@@ -1,4 +1,4 @@
-import { MedusaContainer } from "@medusajs/types"
+import { MedusaContainer } from "@biryanihouse/types"
 import { Knex } from "@mikro-orm/knex"
 import { glob } from "glob"
 import { join } from "path"

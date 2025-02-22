@@ -6,16 +6,16 @@ import {
   MedusaContainer,
   ModulesSdkTypes,
   WorkflowsSdkTypes,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   InjectSharedContext,
   MedusaContext,
   ModulesSdkUtils,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import type {
   ReturnWorkflow,
   UnwrapWorkflowInputDataType,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { WorkflowExecution } from "@models"
 import { WorkflowOrchestratorService } from "@services"
 

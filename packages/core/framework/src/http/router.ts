@@ -5,7 +5,7 @@ import {
   readDirRecursive,
   resolveExports,
   wrapHandler,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 import cors from "cors"
 import {
   type Express,

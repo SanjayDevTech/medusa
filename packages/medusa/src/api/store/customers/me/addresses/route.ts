@@ -1,9 +1,9 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
-import { createCustomerAddressesWorkflow } from "@medusajs/core-flows"
+import { createCustomerAddressesWorkflow } from "@biryanihouse/core-flows"
 import {
   StoreCreateCustomerAddressType,
   StoreGetCustomerAddressesParamsType,
@@ -11,9 +11,9 @@ import {
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { refetchCustomer } from "../../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<StoreGetCustomerAddressesParamsType>,

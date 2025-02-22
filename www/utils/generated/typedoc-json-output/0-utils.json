@@ -3041,7 +3041,7 @@
 							"type": "reference",
 							"target": 52738,
 							"name": "Argument",
-							"package": "@medusajs/utils"
+							"package": "@biryanihouse/utils"
 						}
 					}
 				}
@@ -3130,7 +3130,7 @@
 							"type": "reference",
 							"target": 52738,
 							"name": "Argument",
-							"package": "@medusajs/utils"
+							"package": "@biryanihouse/utils"
 						}
 					}
 				},
@@ -3197,7 +3197,7 @@
 											"type": "reference",
 											"target": 52741,
 											"name": "Directive",
-											"package": "@medusajs/utils"
+											"package": "@biryanihouse/utils"
 										}
 									}
 								}
@@ -3722,7 +3722,7 @@
 										"type": "reference",
 										"target": 52457,
 										"name": "GraphQLParser",
-										"package": "@medusajs/utils"
+										"package": "@biryanihouse/utils"
 									}
 								}
 							]
@@ -3765,7 +3765,7 @@
 											"qualifiedName": "RemoteJoinerQuery"
 										},
 										"name": "RemoteJoinerQuery",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							]
@@ -4074,7 +4074,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@biryanihouse/types"
 														}
 													}
 												},
@@ -4190,7 +4190,7 @@
 					"type": "reference",
 					"target": 52290,
 					"name": "MedusaModuleType",
-					"package": "@medusajs/utils"
+					"package": "@biryanihouse/utils"
 				}
 			},
 			"defaultValue": "..."
@@ -4217,7 +4217,7 @@
 					"type": "reference",
 					"target": 52291,
 					"name": "MedusaModuleProviderType",
-					"package": "@medusajs/utils"
+					"package": "@biryanihouse/utils"
 				}
 			},
 			"defaultValue": "..."
@@ -4271,7 +4271,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					"defaultValue": "..."
 				}
@@ -4995,7 +4995,7 @@
 					}
 				],
 				"name": "ReturnType",
-				"package": "@medusajs/utils"
+				"package": "@biryanihouse/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -7122,7 +7122,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					"defaultValue": "..."
 				},
@@ -7488,7 +7488,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@biryanihouse/utils"
 					},
 					"defaultValue": "..."
 				},
@@ -7723,7 +7723,7 @@
 													"qualifiedName": "RemoteQueryFunction"
 												},
 												"name": "RemoteQueryFunction",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "intrinsic",
@@ -7752,7 +7752,7 @@
 										"type": "reference",
 										"target": 52752,
 										"name": "VariantAvailabilityData",
-										"package": "@medusajs/utils"
+										"package": "@biryanihouse/utils"
 									}
 								}
 							],
@@ -7767,7 +7767,7 @@
 										"type": "reference",
 										"target": 52638,
 										"name": "VariantAvailabilityResult",
-										"package": "@medusajs/utils"
+										"package": "@biryanihouse/utils"
 									}
 								],
 								"name": "Promise",
@@ -7853,7 +7853,7 @@
 													"qualifiedName": "RemoteQueryFunction"
 												},
 												"name": "RemoteQueryFunction",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "intrinsic",
@@ -7882,7 +7882,7 @@
 										"type": "reference",
 										"target": 52756,
 										"name": "TotalVariantAvailabilityData",
-										"package": "@medusajs/utils"
+										"package": "@biryanihouse/utils"
 									}
 								}
 							],
@@ -9447,7 +9447,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@biryanihouse/utils",
 	"symbolIdMap": {
 		"52289": {
 			"sourceFileName": "../../../../packages/core/utils/src/index.ts",

@@ -1,5 +1,5 @@
 import { sync as existsSync } from "fs-exists-cached"
-import { setTelemetryEnabled } from "@medusajs/telemetry"
+import { setTelemetryEnabled } from "@biryanihouse/telemetry"
 import path from "path"
 import resolveCwd from "resolve-cwd"
 import { newStarter } from "./commands/new"
@@ -37,7 +37,7 @@ function buildLocalCommands(cli, isLocalProject) {
     }
 
     try {
-      const cmdPath = resolveCwd.silent(`@medusajs/medusa/commands/${command}`)!
+      const cmdPath = resolveCwd.silent(`@biryanihouse/medusa/commands/${command}`)!
       return require(cmdPath).default
     } catch (err) {
       console.error(err)
@@ -507,8 +507,8 @@ function isLocalMedusaProject() {
       `./package.json`
     ))
     inMedusaProject = !!(
-      (dependencies && dependencies["@medusajs/medusa"]) ||
-      (devDependencies && devDependencies["@medusajs/medusa"])
+      (dependencies && dependencies["@biryanihouse/medusa"]) ||
+      (devDependencies && devDependencies["@biryanihouse/medusa"])
     )
   } catch (err) {
     // ignore
@@ -526,7 +526,7 @@ function getVersionInfo() {
       medusaVersion = require(path.join(
         process.cwd(),
         `node_modules`,
-        `@medusajs/medusa`,
+        `@biryanihouse/medusa`,
         `package.json`
       )).version
     } catch (e) {

@@ -1,12 +1,12 @@
-import { AdditionalData, CreateCustomerDTO } from "@medusajs/framework/types"
-import { CustomerWorkflowEvents } from "@medusajs/framework/utils"
+import { AdditionalData, CreateCustomerDTO } from "@biryanihouse/framework/types"
+import { CustomerWorkflowEvents } from "@biryanihouse/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createHook,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { createCustomersStep } from "../steps"
 

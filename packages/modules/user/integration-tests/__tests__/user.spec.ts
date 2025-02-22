@@ -1,10 +1,10 @@
-import { IUserModuleService } from "@medusajs/framework/types"
-import { Module, Modules, UserEvents } from "@medusajs/framework/utils"
+import { IUserModuleService } from "@biryanihouse/framework/types"
+import { Module, Modules, UserEvents } from "@biryanihouse/framework/utils"
 import { UserModuleService } from "@services"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@biryanihouse/test-utils"
 
 jest.setTimeout(30000)
 

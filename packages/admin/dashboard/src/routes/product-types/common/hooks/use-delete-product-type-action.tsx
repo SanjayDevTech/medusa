@@ -1,4 +1,4 @@
-import { toast, usePrompt } from "@medusajs/ui"
+import { toast, usePrompt } from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 import { useDeleteProductType } from "../../../../hooks/api/product-types"
 

@@ -1,15 +1,15 @@
 import {
   ProductCategoryDTO,
   ProductCategoryWorkflow,
-} from "@medusajs/framework/types"
-import { ProductCategoryWorkflowEvents } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/types"
+import { ProductCategoryWorkflowEvents } from "@biryanihouse/framework/utils"
 import {
   createHook,
   createWorkflow,
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { createProductCategoriesStep } from "../steps"
 

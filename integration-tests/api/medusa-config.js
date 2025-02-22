@@ -1,4 +1,4 @@
-const { Modules } = require("@medusajs/utils")
+const { Modules } = require("@biryanihouse/utils")
 
 const DB_HOST = process.env.DB_HOST
 const DB_USERNAME = process.env.DB_USERNAME
@@ -12,13 +12,13 @@ const enableMedusaV2 = process.env.MEDUSA_FF_MEDUSA_V2 == "true"
 
 const customPaymentProvider = {
   resolve: {
-    services: [require("@medusajs/payment/dist/providers/system").default],
+    services: [require("@biryanihouse/payment/dist/providers/system").default],
   },
   id: "default_2",
 }
 
 const customFulfillmentProvider = {
-  resolve: "@medusajs/fulfillment-manual",
+  resolve: "@biryanihouse/fulfillment-manual",
   id: "test-provider",
 }
 
@@ -42,29 +42,29 @@ module.exports = {
     [Modules.AUTH]: true,
     [Modules.USER]: {
       scope: "internal",
-      resolve: "@medusajs/user",
+      resolve: "@biryanihouse/user",
       options: {
         jwt_secret: "test",
       },
     },
     [Modules.CACHE]: {
-      resolve: "@medusajs/cache-inmemory",
+      resolve: "@biryanihouse/cache-inmemory",
       options: { ttl: 0 }, // Cache disabled
     },
     [Modules.STOCK_LOCATION]: {
-      resolve: "@medusajs/stock-location",
+      resolve: "@biryanihouse/stock-location",
       options: {},
     },
     [Modules.INVENTORY]: {
-      resolve: "@medusajs/inventory",
+      resolve: "@biryanihouse/inventory",
       options: {},
     },
     [Modules.FILE]: {
-      resolve: "@medusajs/file",
+      resolve: "@biryanihouse/file",
       options: {
         providers: [
           {
-            resolve: "@medusajs/file-local",
+            resolve: "@biryanihouse/file-local",
             id: "local",
           },
         ],
@@ -85,24 +85,24 @@ module.exports = {
     [Modules.CURRENCY]: true,
     [Modules.ORDER]: true,
     [Modules.PAYMENT]: {
-      resolve: "@medusajs/payment",
-      /** @type {import('@medusajs/payment').PaymentModuleOptions}*/
+      resolve: "@biryanihouse/payment",
+      /** @type {import('@biryanihouse/payment').PaymentModuleOptions}*/
       options: {
         providers: [customPaymentProvider],
       },
     },
     [Modules.FULFILLMENT]: {
-      /** @type {import('@medusajs/fulfillment').FulfillmentModuleOptions} */
+      /** @type {import('@biryanihouse/fulfillment').FulfillmentModuleOptions} */
       options: {
         providers: [customFulfillmentProvider],
       },
     },
     [Modules.NOTIFICATION]: {
-      /** @type {import('@medusajs/types').LocalNotificationServiceOptions} */
+      /** @type {import('@biryanihouse/types').LocalNotificationServiceOptions} */
       options: {
         providers: [
           {
-            resolve: "@medusajs/notification-local",
+            resolve: "@biryanihouse/notification-local",
             id: "local-notification-provider",
             options: {
               name: "Local Notification Provider",

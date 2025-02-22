@@ -1,4 +1,4 @@
-import { Avatar } from "@medusajs/ui"
+import { Avatar } from "@biryanihouse/ui"
 
 export default function AvatarDemo() {
   return (

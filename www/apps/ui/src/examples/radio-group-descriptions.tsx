@@ -1,4 +1,4 @@
-import { Label, RadioGroup, Text } from "@medusajs/ui"
+import { Label, RadioGroup, Text } from "@biryanihouse/ui"
 
 export default function RadioGroupDescriptions() {
   return (

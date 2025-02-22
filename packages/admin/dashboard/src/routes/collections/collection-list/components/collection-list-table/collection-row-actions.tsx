@@ -1,6 +1,6 @@
-import { PencilSquare, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { usePrompt } from "@medusajs/ui"
+import { PencilSquare, Trash } from "@biryanihouse/icons"
+import { HttpTypes } from "@biryanihouse/types"
+import { usePrompt } from "@biryanihouse/ui"
 import { useTranslation } from "react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"

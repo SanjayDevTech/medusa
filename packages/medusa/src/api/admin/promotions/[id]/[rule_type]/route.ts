@@ -1,14 +1,14 @@
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
   RuleOperator,
   RuleType,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import {
   getRuleAttributesMap,
   operatorsMap,

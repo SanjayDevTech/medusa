@@ -1,4 +1,4 @@
-import { Text } from "@medusajs/ui"
+import { Text } from "@biryanihouse/ui"
 import { allDocs } from "contentlayer/generated"
 import { notFound } from "next/navigation"
 

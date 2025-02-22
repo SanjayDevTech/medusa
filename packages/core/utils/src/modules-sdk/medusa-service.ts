@@ -9,7 +9,7 @@ import {
   RepositoryService,
   RestoreReturn,
   SoftDeleteReturn,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   camelToSnakeCase,
   isString,

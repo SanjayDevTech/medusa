@@ -1,22 +1,22 @@
 import {
   deleteTaxRatesWorkflow,
   updateTaxRatesWorkflow,
-} from "@medusajs/core-flows"
+} from "@biryanihouse/core-flows"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { refetchTaxRate } from "../helpers"
 import {
   AdminGetTaxRateParamsType,
   AdminUpdateTaxRateType,
 } from "../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminUpdateTaxRateType>,

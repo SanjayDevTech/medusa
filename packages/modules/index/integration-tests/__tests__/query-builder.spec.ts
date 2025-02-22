@@ -3,15 +3,15 @@ import {
   container,
   logger,
   MedusaAppLoader,
-} from "@medusajs/framework"
-import { MedusaAppOutput, MedusaModule } from "@medusajs/framework/modules-sdk"
-import { IndexTypes } from "@medusajs/framework/types"
+} from "@biryanihouse/framework"
+import { MedusaAppOutput, MedusaModule } from "@biryanihouse/framework/modules-sdk"
+import { IndexTypes } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   ModuleRegistrationName,
   Modules,
-} from "@medusajs/framework/utils"
-import { initDb, TestDatabaseUtils } from "@medusajs/test-utils"
+} from "@biryanihouse/framework/utils"
+import { initDb, TestDatabaseUtils } from "@biryanihouse/test-utils"
 import { EntityManager } from "@mikro-orm/postgresql"
 import { IndexData, IndexRelation } from "@models"
 import { asValue } from "awilix"

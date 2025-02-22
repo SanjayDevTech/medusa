@@ -1,5 +1,5 @@
-import { Compiler } from "@medusajs/framework/build-tools"
-import { logger } from "@medusajs/framework/logger"
+import { Compiler } from "@biryanihouse/framework/build-tools"
+import { logger } from "@biryanihouse/framework/logger"
 export default async function build({
   directory,
 }: {
@@ -14,7 +14,7 @@ export default async function build({
     return false
   }
 
-  const bundler = await import("@medusajs/admin-bundler")
+  const bundler = await import("@biryanihouse/admin-bundler")
   await compiler.buildPluginBackend(tsConfig)
   await compiler.buildPluginAdminExtensions(bundler)
   return true

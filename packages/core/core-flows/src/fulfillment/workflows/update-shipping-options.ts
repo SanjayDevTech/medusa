@@ -1,18 +1,18 @@
-import { FulfillmentWorkflow } from "@medusajs/framework/types"
+import { FulfillmentWorkflow } from "@biryanihouse/framework/types"
 import {
   createWorkflow,
   parallelize,
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import {
   setShippingOptionsPricesStep,
   upsertShippingOptionsStep,
 } from "../steps"
 import { validateFulfillmentProvidersStep } from "../steps/validate-fulfillment-providers"
 import { validateShippingOptionPricesStep } from "../steps/validate-shipping-option-prices"
-import { ShippingOptionPriceType } from "@medusajs/framework/utils"
+import { ShippingOptionPriceType } from "@biryanihouse/framework/utils"
 
 /**
  * The data to update the shipping options.

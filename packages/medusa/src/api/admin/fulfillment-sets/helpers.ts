@@ -1,8 +1,8 @@
-import { MedusaContainer } from "@medusajs/framework/types"
+import { MedusaContainer } from "@biryanihouse/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export const refetchFulfillmentSet = async (
   fulfillmentSetId: string,

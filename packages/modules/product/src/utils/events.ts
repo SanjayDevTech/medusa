@@ -3,7 +3,7 @@ import {
   moduleEventBuilderFactory,
   Modules,
   ProductEvents,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export const eventBuilders = {
   createdProduct: moduleEventBuilderFactory({

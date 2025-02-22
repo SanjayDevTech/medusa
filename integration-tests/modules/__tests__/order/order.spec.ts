@@ -1,6 +1,6 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { IOrderModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
+import { IOrderModuleService } from "@biryanihouse/types"
+import { Modules } from "@biryanihouse/utils"
 import {
   adminHeaders,
   createAdminUser,

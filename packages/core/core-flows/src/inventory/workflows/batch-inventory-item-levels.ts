@@ -4,8 +4,8 @@ import {
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { BatchWorkflowInput, BatchWorkflowOutput, InventoryLevelDTO, InventoryTypes } from "@medusajs/types"
+} from "@biryanihouse/framework/workflows-sdk"
+import { BatchWorkflowInput, BatchWorkflowOutput, InventoryLevelDTO, InventoryTypes } from "@biryanihouse/types"
 import { createInventoryLevelsStep, updateInventoryLevelsStep } from "../steps"
 import { deleteInventoryLevelsWorkflow } from "./delete-inventory-levels"
 

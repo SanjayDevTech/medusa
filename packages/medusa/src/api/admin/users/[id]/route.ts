@@ -1,18 +1,18 @@
 import {
   removeUserAccountWorkflow,
   updateUsersWorkflow,
-} from "@medusajs/core-flows"
-import { HttpTypes, UpdateUserDTO } from "@medusajs/framework/types"
+} from "@biryanihouse/core-flows"
+import { HttpTypes, UpdateUserDTO } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 
 import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import { refetchUser } from "../helpers"
 import { AdminUpdateUserType } from "../validators"
 

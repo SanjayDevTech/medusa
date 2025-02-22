@@ -1,6 +1,6 @@
-import { IPaymentModuleService } from "@medusajs/framework/types"
-import { Module, Modules, promiseAll } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { IPaymentModuleService } from "@biryanihouse/framework/types"
+import { Module, Modules, promiseAll } from "@biryanihouse/framework/utils"
+import { moduleIntegrationTestRunner } from "@biryanihouse/test-utils"
 import { PaymentModuleService } from "@services"
 import {
   createPaymentCollections,

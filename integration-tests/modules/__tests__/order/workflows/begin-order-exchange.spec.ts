@@ -3,8 +3,8 @@ import {
   createShippingOptionsWorkflow,
   orderExchangeAddNewItemWorkflow,
   orderExchangeRequestItemReturnWorkflow,
-} from "@medusajs/core-flows"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@biryanihouse/core-flows"
+import { medusaIntegrationTestRunner } from "@biryanihouse/test-utils"
 import {
   FulfillmentWorkflow,
   IRegionModuleService,
@@ -15,13 +15,13 @@ import {
   SalesChannelDTO,
   StockLocationDTO,
   UserDTO,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   RuleOperator,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@biryanihouse/utils"
 
 jest.setTimeout(500000)
 

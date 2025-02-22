@@ -1,6 +1,6 @@
 import clsx from "clsx"
 import { Card, IconHeadline, WindowPaintbrushIcon } from "docs-ui"
-import { Book } from "@medusajs/icons"
+import { Book } from "@biryanihouse/icons"
 import { basePathUrl } from "../../../utils/base-path-url"
 import HomepageCodeTabs from "../CodeTabs"
 

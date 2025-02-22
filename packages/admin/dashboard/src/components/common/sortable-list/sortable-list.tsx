@@ -20,8 +20,8 @@ import {
   useSortable,
 } from "@dnd-kit/sortable"
 import { CSS } from "@dnd-kit/utilities"
-import { DotsSix } from "@medusajs/icons"
-import { IconButton, clx } from "@medusajs/ui"
+import { DotsSix } from "@biryanihouse/icons"
+import { IconButton, clx } from "@biryanihouse/ui"
 import {
   CSSProperties,
   Fragment,

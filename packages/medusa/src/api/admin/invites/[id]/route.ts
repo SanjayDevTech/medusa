@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/http"
+import { MedusaError } from "@biryanihouse/framework/utils"
 
-import { deleteInvitesWorkflow } from "@medusajs/core-flows"
+import { deleteInvitesWorkflow } from "@biryanihouse/core-flows"
 import { refetchInvite } from "../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

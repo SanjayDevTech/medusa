@@ -2,16 +2,16 @@ import {
   CreateShippingOptionDTO,
   IFulfillmentModuleService,
   UpdateShippingOptionDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   FulfillmentEvents,
   GeoZoneType,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@biryanihouse/test-utils"
 import { FulfillmentProviderService } from "@services"
 import { resolve } from "path"
 import {

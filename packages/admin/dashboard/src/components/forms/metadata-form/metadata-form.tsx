@@ -6,7 +6,7 @@ import {
   IconButton,
   clx,
   toast,
-} from "@medusajs/ui"
+} from "@biryanihouse/ui"
 import { useFieldArray, useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 import { z } from "zod"
@@ -16,8 +16,8 @@ import {
   ArrowUpMini,
   EllipsisVertical,
   Trash,
-} from "@medusajs/icons"
-import { FetchError } from "@medusajs/js-sdk"
+} from "@biryanihouse/icons"
+import { FetchError } from "@biryanihouse/js-sdk"
 import { ComponentPropsWithoutRef, forwardRef } from "react"
 import { ConditionalTooltip } from "../../common/conditional-tooltip"
 import { Form } from "../../common/form"

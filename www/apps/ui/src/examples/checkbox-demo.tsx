@@ -1,4 +1,4 @@
-import { Checkbox, Label } from "@medusajs/ui"
+import { Checkbox, Label } from "@biryanihouse/ui"
 
 export default function CheckboxDemo() {
   return (

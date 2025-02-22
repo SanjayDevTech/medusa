@@ -2925,6 +2925,1659 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@biryanihouse/admin-bundler@workspace:packages/admin/admin-bundler, @biryanihouse/admin-bundler@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/admin-bundler@workspace:packages/admin/admin-bundler"
+  dependencies:
+    "@biryanihouse/admin-shared": 2.4.0
+    "@biryanihouse/admin-vite-plugin": 2.4.0
+    "@biryanihouse/dashboard": 2.4.0
+    "@biryanihouse/types": ~2.4.0
+    "@rollup/plugin-node-resolve": ^16.0.0
+    "@types/compression": ^1.7.5
+    "@vitejs/plugin-react": ^4.2.1
+    autoprefixer: ^10.4.16
+    compression: ^1.7.4
+    copyfiles: ^2.4.1
+    express: ^4.21.0
+    glob: ^10.3.10
+    postcss: ^8.4.32
+    tailwindcss: ^3.3.6
+    tsup: ^8.0.1
+    typescript: ^5.3.3
+    vite: ^5.2.11
+  peerDependencies:
+    express: ^4.21.0
+    react-dom: ^18.0.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/admin-sdk@workspace:packages/admin/admin-sdk":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/admin-sdk@workspace:packages/admin/admin-sdk"
+  dependencies:
+    "@biryanihouse/admin-shared": ~2.4.0
+    "@types/react": ^18.3.2
+    tsup: ^8.0.1
+    typescript: ^5.3.3
+    zod: ^3.22
+  peerDependencies:
+    zod: ^3.22
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/admin-shared@2.4.0, @biryanihouse/admin-shared@workspace:packages/admin/admin-shared, @biryanihouse/admin-shared@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/admin-shared@workspace:packages/admin/admin-shared"
+  dependencies:
+    "@types/react": ^18.3.2
+    tsup: ^8.0.2
+    typescript: ^5.3.3
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/admin-vite-plugin@2.4.0, @biryanihouse/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin"
+  dependencies:
+    "@babel/parser": 7.25.6
+    "@babel/traverse": 7.25.6
+    "@babel/types": 7.25.6
+    "@biryanihouse/admin-shared": 2.4.0
+    "@types/node": ^20.10.4
+    chokidar: 3.5.3
+    fdir: 6.1.1
+    magic-string: 0.30.5
+    outdent: ^0.8.0
+    picocolors: ^1.1.0
+    tsup: 8.0.1
+    typescript: 5.3.3
+    vite: ^5.2.11
+    vitest: ^2.1.3
+  peerDependencies:
+    vite: ^5.0.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/api-key@workspace:^, @biryanihouse/api-key@workspace:packages/modules/api-key, @biryanihouse/api-key@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/api-key@workspace:packages/modules/api-key"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/auth-emailpass@workspace:packages/modules/providers/auth-emailpass, @biryanihouse/auth-emailpass@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/auth-emailpass@workspace:packages/modules/providers/auth-emailpass"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    scrypt-kdf: ^2.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/auth-github@workspace:packages/modules/providers/auth-github, @biryanihouse/auth-github@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/auth-github@workspace:packages/modules/providers/auth-github"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    msw: ^2.3.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/auth-google@workspace:packages/modules/providers/auth-google, @biryanihouse/auth-google@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/auth-google@workspace:packages/modules/providers/auth-google"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    msw: ^2.3.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/auth@workspace:*, @biryanihouse/auth@workspace:packages/modules/auth, @biryanihouse/auth@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/auth@workspace:packages/modules/auth"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/cache-inmemory@workspace:*, @biryanihouse/cache-inmemory@workspace:packages/modules/cache-inmemory, @biryanihouse/cache-inmemory@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/cache-inmemory@workspace:packages/modules/cache-inmemory"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/cache-redis@workspace:packages/modules/cache-redis, @biryanihouse/cache-redis@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/cache-redis@workspace:packages/modules/cache-redis"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/cart@workspace:packages/modules/cart, @biryanihouse/cart@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/cart@workspace:packages/modules/cart"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/cli@workspace:packages/cli/medusa-cli, @biryanihouse/cli@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/cli@workspace:packages/cli/medusa-cli"
+  dependencies:
+    "@biryanihouse/telemetry": ~2.4.0
+    "@biryanihouse/utils": 2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.17
+    "@types/yargs": ^15.0.15
+    awilix: ^8.0.1
+    chalk: ^4.0.0
+    configstore: 5.0.1
+    dotenv: ^16.4.5
+    execa: ^5.1.1
+    express: ^4.21.0
+    fs-exists-cached: ^1.0.0
+    fs-extra: ^10.0.0
+    glob: ^10.3.10
+    hosted-git-info: ^4.0.2
+    inquirer: ^8.0.0
+    is-valid-path: ^0.1.1
+    jest: ^29.7.0
+    meant: ^1.0.3
+    ora: ^5.4.1
+    pg: ^8.13.0
+    pg-god: ^1.0.12
+    prompts: ^2.4.2
+    resolve-cwd: ^3.0.0
+    rimraf: ^5.0.1
+    stack-trace: ^0.0.10
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+    winston: ^3.8.2
+    yargs: ^15.3.1
+  peerDependencies:
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    pg: ^8.13.0
+  bin:
+    medusa: cli.js
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/core-flows@workspace:*, @biryanihouse/core-flows@workspace:^, @biryanihouse/core-flows@workspace:packages/core/core-flows, @biryanihouse/core-flows@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/core-flows@workspace:packages/core/core-flows"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    expect-type: ^0.20.0
+    jest: ^29.7.0
+    json-2-csv: ^5.5.4
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/currency@workspace:^, @biryanihouse/currency@workspace:packages/modules/currency, @biryanihouse/currency@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/currency@workspace:packages/modules/currency"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/customer@workspace:^, @biryanihouse/customer@workspace:packages/modules/customer, @biryanihouse/customer@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/customer@workspace:packages/modules/customer"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/dashboard@2.4.0, @biryanihouse/dashboard@workspace:packages/admin/dashboard":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/dashboard@workspace:packages/admin/dashboard"
+  dependencies:
+    "@ariakit/react": ^0.4.15
+    "@biryanihouse/admin-shared": ~2.4.0
+    "@biryanihouse/admin-vite-plugin": 2.4.0
+    "@biryanihouse/icons": 2.4.0
+    "@biryanihouse/js-sdk": 2.4.0
+    "@biryanihouse/types": 2.4.0
+    "@biryanihouse/ui": 4.0.4
+    "@biryanihouse/ui-preset": 2.4.0
+    "@dnd-kit/core": ^6.1.0
+    "@dnd-kit/sortable": ^8.0.0
+    "@hookform/error-message": ^2.0.1
+    "@hookform/resolvers": 3.4.2
+    "@radix-ui/react-collapsible": 1.1.0
+    "@tanstack/react-query": 5.64.2
+    "@tanstack/react-table": 8.20.5
+    "@tanstack/react-virtual": ^3.8.3
+    "@types/node": ^20.11.15
+    "@types/react": ^18.2.79
+    "@types/react-dom": ^18.2.25
+    "@uiw/react-json-view": ^2.0.0-alpha.17
+    "@vitejs/plugin-react": 4.2.1
+    ajv: ^8.17.1
+    autoprefixer: ^10.4.17
+    cmdk: ^0.2.0
+    date-fns: ^3.6.0
+    i18next: 23.7.11
+    i18next-browser-languagedetector: 7.2.0
+    i18next-http-backend: 2.4.2
+    lodash: ^4.17.21
+    match-sorter: ^6.3.4
+    motion: ^11.15.0
+    postcss: ^8.4.33
+    prettier: ^3.1.1
+    qs: ^6.12.0
+    react: ^18.2.0
+    react-country-flag: ^3.1.0
+    react-currency-input-field: ^3.6.11
+    react-dom: ^18.2.0
+    react-helmet-async: ^2.0.5
+    react-hook-form: 7.49.1
+    react-i18next: 13.5.0
+    react-jwt: ^1.2.0
+    react-router-dom: 6.20.1
+    tailwindcss: ^3.4.1
+    tsup: ^8.0.2
+    typescript: 5.2.2
+    vite: ^5.2.11
+    vite-plugin-inspect: ^0.8.7
+    vitest: ^2.1.4
+    zod: 3.22.4
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/event-bus-local@workspace:*, @biryanihouse/event-bus-local@workspace:packages/modules/event-bus-local, @biryanihouse/event-bus-local@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/event-bus-local@workspace:packages/modules/event-bus-local"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/event-bus-redis@workspace:packages/modules/event-bus-redis, @biryanihouse/event-bus-redis@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/event-bus-redis@workspace:packages/modules/event-bus-redis"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    bullmq: 5.13.0
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/file-local@workspace:packages/modules/providers/file-local, @biryanihouse/file-local@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/file-local@workspace:packages/modules/providers/file-local"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/file-s3@workspace:packages/modules/providers/file-s3, @biryanihouse/file-s3@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/file-s3@workspace:packages/modules/providers/file-s3"
+  dependencies:
+    "@aws-sdk/client-s3": ^3.556.0
+    "@aws-sdk/s3-request-presigner": ^3.556.0
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    axios: ^1.6.8
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/file@workspace:packages/modules/file, @biryanihouse/file@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/file@workspace:packages/modules/file"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/framework@workspace:^, @biryanihouse/framework@workspace:packages/core/framework, @biryanihouse/framework@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/framework@workspace:packages/core/framework"
+  dependencies:
+    "@biryanihouse/cli": ~2.4.0
+    "@biryanihouse/modules-sdk": ~2.4.0
+    "@biryanihouse/orchestration": ~2.4.0
+    "@biryanihouse/telemetry": ~2.4.0
+    "@biryanihouse/types": ~2.4.0
+    "@biryanihouse/utils": ~2.4.0
+    "@biryanihouse/workflows-sdk": ~2.4.0
+    "@jercle/yargonaut": ^1.1.5
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@opentelemetry/api": ^1.9.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/cors": ^2.8.17
+    "@types/express": ^4.17.17
+    "@types/jsonwebtoken": ^8.5.9
+    awilix: ^8.0.1
+    chokidar: ^3.4.2
+    compression: 1.7.4
+    connect-redis: 5.2.0
+    cookie-parser: ^1.4.6
+    cors: ^2.8.5
+    express: ^4.21.0
+    express-session: ^1.17.3
+    glob: 7.2.3
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    lodash: 4.17.21
+    morgan: ^1.9.1
+    pg: ^8.13.0
+    rimraf: ^3.0.2
+    supertest: ^4.0.2
+    tsconfig-paths: ^4.2.0
+    typescript: ^5.6.2
+    vite: ^5.2.11
+    zod: 3.22.4
+  peerDependencies:
+    "@biryanihouse/cli": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    pg: ^8.13.0
+    vite: ^5.2.11
+  peerDependenciesMeta:
+    "@mikro-orm/cli":
+      optional: true
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  bin:
+    medusa-mikro-orm: ./dist/mikro-orm-cli/bin.js
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/fulfillment-manual@workspace:^, @biryanihouse/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual, @biryanihouse/fulfillment-manual@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/fulfillment@workspace:^, @biryanihouse/fulfillment@workspace:packages/modules/fulfillment, @biryanihouse/fulfillment@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/fulfillment@workspace:packages/modules/fulfillment"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/icons@2.4.0, @biryanihouse/icons@workspace:packages/design-system/icons, @biryanihouse/icons@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/icons@workspace:packages/design-system/icons"
+  dependencies:
+    "@atomico/rollup-plugin-sizes": ^1.1.4
+    "@biryanihouse/toolbox": ~2.4.0
+    "@rollup/plugin-node-resolve": ^15.1.0
+    "@rollup/plugin-replace": ^5.0.2
+    "@testing-library/dom": ^9.3.1
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@types/jsdom": ^21.1.1
+    "@types/react": ^18.2.14
+    "@types/react-dom": ^18.2.6
+    esbuild: ^0.18.11
+    eslint: ^7.32.0
+    jsdom: ^22.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    resize-observer-polyfill: ^1.5.1
+    rimraf: ^5.0.1
+    rollup: ^3.26.0
+    rollup-plugin-esbuild: ^5.0.0
+    rollup-plugin-license: ^3.0.1
+    rollup-plugin-ts: ^3.2.0
+    rollup-plugin-visualizer: ^5.9.2
+    typescript: ^5.1.6
+    vite: ^4.3.9
+    vitest: ^0.32.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/index@workspace:packages/modules/index, @biryanihouse/index@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/index@workspace:packages/modules/index"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/inventory@workspace:^, @biryanihouse/inventory@workspace:packages/modules/inventory, @biryanihouse/inventory@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/inventory@workspace:packages/modules/inventory"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/js-sdk@2.4.0, @biryanihouse/js-sdk@workspace:packages/core/js-sdk":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/js-sdk@workspace:packages/core/js-sdk"
+  dependencies:
+    "@biryanihouse/types": ~2.4.0
+    fetch-event-stream: ^0.1.5
+    jest: ^29.7.0
+    msw: ^2.3.0
+    qs: ^6.12.1
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/link-modules@workspace:^, @biryanihouse/link-modules@workspace:packages/modules/link-modules, @biryanihouse/link-modules@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/link-modules@workspace:packages/modules/link-modules"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    cross-env: ^5.2.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/locking-postgres@workspace:packages/modules/providers/locking-postgres, @biryanihouse/locking-postgres@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/locking-postgres@workspace:packages/modules/providers/locking-postgres"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/locking-redis@workspace:packages/modules/providers/locking-redis, @biryanihouse/locking-redis@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/locking-redis@workspace:packages/modules/providers/locking-redis"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/locking@workspace:packages/modules/locking, @biryanihouse/locking@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/locking@workspace:packages/modules/locking"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/medusa-oas-cli@2.4.0, @biryanihouse/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli"
+  dependencies:
+    "@biryanihouse/medusa": ~2.4.0
+    "@biryanihouse/types": ~2.4.0
+    "@biryanihouse/utils": ~2.4.0
+    "@readme/json-schema-ref-parser": ^1.2.0
+    "@readme/openapi-parser": ^2.4.0
+    "@redocly/cli": ^1.7.0
+    "@types/js-yaml": ^4.0.9
+    "@types/lodash": ^4.14.191
+    commander: ^10.0.0
+    execa: 1.0.0
+    jest: ^29.1.0
+    js-yaml: ^4.1.0
+    lodash: ^4.17.21
+    openapi3-ts: ^3.1.2
+    swagger-inline: ^6.1.0
+    ts-jest: ^29.1.0
+    ts-node: ^10.9.1
+    typescript: 4.9.5
+    uuid: ^9.0.0
+    yargs: ^17.7.2
+  bin:
+    medusa-oas: ./dist/index.js
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/medusa@workspace:*, @biryanihouse/medusa@workspace:packages/medusa, @biryanihouse/medusa@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/medusa@workspace:packages/medusa"
+  dependencies:
+    "@biryanihouse/admin-bundler": ~2.4.0
+    "@biryanihouse/api-key": ~2.4.0
+    "@biryanihouse/auth": ~2.4.0
+    "@biryanihouse/auth-emailpass": ~2.4.0
+    "@biryanihouse/auth-github": ~2.4.0
+    "@biryanihouse/auth-google": ~2.4.0
+    "@biryanihouse/cache-inmemory": ~2.4.0
+    "@biryanihouse/cache-redis": ~2.4.0
+    "@biryanihouse/cart": ~2.4.0
+    "@biryanihouse/core-flows": ~2.4.0
+    "@biryanihouse/currency": ~2.4.0
+    "@biryanihouse/customer": ~2.4.0
+    "@biryanihouse/event-bus-local": ~2.4.0
+    "@biryanihouse/event-bus-redis": ~2.4.0
+    "@biryanihouse/file": ~2.4.0
+    "@biryanihouse/file-local": ~2.4.0
+    "@biryanihouse/file-s3": ~2.4.0
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/fulfillment": ~2.4.0
+    "@biryanihouse/fulfillment-manual": ~2.4.0
+    "@biryanihouse/index": ~2.4.0
+    "@biryanihouse/inventory": ~2.4.0
+    "@biryanihouse/link-modules": ~2.4.0
+    "@biryanihouse/locking": ~2.4.0
+    "@biryanihouse/locking-postgres": ~2.4.0
+    "@biryanihouse/locking-redis": ~2.4.0
+    "@biryanihouse/notification": ~2.4.0
+    "@biryanihouse/notification-local": ~2.4.0
+    "@biryanihouse/notification-sendgrid": ~2.4.0
+    "@biryanihouse/order": ~2.4.0
+    "@biryanihouse/payment": ~2.4.0
+    "@biryanihouse/payment-stripe": ~2.4.0
+    "@biryanihouse/pricing": ~2.4.0
+    "@biryanihouse/product": ~2.4.0
+    "@biryanihouse/promotion": ~2.4.0
+    "@biryanihouse/region": ~2.4.0
+    "@biryanihouse/sales-channel": ~2.4.0
+    "@biryanihouse/stock-location": ~2.4.0
+    "@biryanihouse/store": ~2.4.0
+    "@biryanihouse/tax": ~2.4.0
+    "@biryanihouse/telemetry": ~2.4.0
+    "@biryanihouse/user": ~2.4.0
+    "@biryanihouse/workflow-engine-inmemory": ~2.4.0
+    "@biryanihouse/workflow-engine-redis": ~2.4.0
+    "@inquirer/checkbox": ^2.3.11
+    "@inquirer/input": ^2.2.9
+    "@opentelemetry/api": ^1.9.0
+    "@opentelemetry/instrumentation": ^0.53.0
+    "@opentelemetry/instrumentation-pg": ^0.44.0
+    "@opentelemetry/resources": ^1.26.0
+    "@opentelemetry/sdk-node": ^0.53.0
+    "@opentelemetry/sdk-trace-node": ^1.26.0
+    "@swc/core": ^1.7.28
+    "@swc/helpers": ^0.5.11
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.17
+    "@types/jsonwebtoken": ^8.5.9
+    "@types/lodash": ^4.14.191
+    "@types/multer": ^1.4.7
+    boxen: ^5.0.1
+    chalk: ^4.0.0
+    chokidar: ^3.4.2
+    compression: ^1.7.4
+    express: ^4.21.0
+    fs-exists-cached: ^1.0.0
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    lodash: ^4.17.21
+    multer: ^1.4.5-lts.1
+    node-schedule: ^2.1.1
+    qs: ^6.11.2
+    request-ip: ^3.3.0
+    rimraf: ^5.0.1
+    slugify: ^1.6.6
+    typescript: ^5.6.2
+    uuid: ^9.0.0
+    yalc: 1.0.0-pre.53
+    zod: 3.22.4
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    yalc: 1.0.0-pre.53
+  peerDependenciesMeta:
+    yalc:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/modules-sdk@workspace:^, @biryanihouse/modules-sdk@workspace:packages/core/modules-sdk, @biryanihouse/modules-sdk@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/modules-sdk@workspace:packages/core/modules-sdk"
+  dependencies:
+    "@biryanihouse/orchestration": ~2.4.0
+    "@biryanihouse/types": ~2.4.0
+    "@biryanihouse/utils": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    cross-env: ^5.2.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/notification-local@workspace:packages/modules/providers/notification-local, @biryanihouse/notification-local@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/notification-local@workspace:packages/modules/providers/notification-local"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid, @biryanihouse/notification-sendgrid@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@sendgrid/mail": ^8.1.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/notification@workspace:packages/modules/notification, @biryanihouse/notification@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/notification@workspace:packages/modules/notification"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/oas-github-ci@workspace:packages/cli/oas/oas-github-ci":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/oas-github-ci@workspace:packages/cli/oas/oas-github-ci"
+  dependencies:
+    "@biryanihouse/medusa-oas-cli": 2.4.0
+    execa: ^5.1.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/orchestration@workspace:packages/core/orchestration, @biryanihouse/orchestration@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/orchestration@workspace:packages/core/orchestration"
+  dependencies:
+    "@biryanihouse/types": ~2.4.0
+    "@biryanihouse/utils": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/order@workspace:packages/modules/order, @biryanihouse/order@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/order@workspace:packages/modules/order"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/payment-stripe@workspace:packages/modules/providers/payment-stripe, @biryanihouse/payment-stripe@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/payment-stripe@workspace:packages/modules/providers/payment-stripe"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    stripe: ^15.5.0
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/payment@workspace:^, @biryanihouse/payment@workspace:packages/modules/payment, @biryanihouse/payment@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/payment@workspace:packages/modules/payment"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/pricing@workspace:^, @biryanihouse/pricing@workspace:packages/modules/pricing, @biryanihouse/pricing@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/pricing@workspace:packages/modules/pricing"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/product@workspace:^, @biryanihouse/product@workspace:packages/modules/product, @biryanihouse/product@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/product@workspace:packages/modules/product"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    faker: ^5.5.3
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/promotion@workspace:^, @biryanihouse/promotion@workspace:packages/modules/promotion, @biryanihouse/promotion@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/promotion@workspace:packages/modules/promotion"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/region@workspace:^, @biryanihouse/region@workspace:packages/modules/region, @biryanihouse/region@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/region@workspace:packages/modules/region"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/sales-channel@workspace:packages/modules/sales-channel, @biryanihouse/sales-channel@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/sales-channel@workspace:packages/modules/sales-channel"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/stock-location@workspace:^, @biryanihouse/stock-location@workspace:packages/modules/stock-location, @biryanihouse/stock-location@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/stock-location@workspace:packages/modules/stock-location"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/store@workspace:^, @biryanihouse/store@workspace:packages/modules/store, @biryanihouse/store@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/store@workspace:packages/modules/store"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/tax@workspace:^, @biryanihouse/tax@workspace:packages/modules/tax, @biryanihouse/tax@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/tax@workspace:packages/modules/tax"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/telemetry@workspace:packages/medusa-telemetry, @biryanihouse/telemetry@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/telemetry@workspace:packages/medusa-telemetry"
+  dependencies:
+    "@babel/runtime": ^7.22.10
+    axios: ^0.21.4
+    axios-retry: ^3.1.9
+    boxen: ^5.0.1
+    ci-info: ^3.2.0
+    configstore: 5.0.1
+    cross-env: ^5.2.1
+    global: ^4.4.0
+    is-docker: ^2.2.1
+    jest: ^29.7.0
+    nodemon: ^2.0.20
+    remove-trailing-slash: ^0.1.1
+    rimraf: ^3.0.2
+    typescript: ^5.6.2
+    uuid: ^8.3.2
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/test-utils@workspace:*, @biryanihouse/test-utils@workspace:packages/medusa-test-utils, @biryanihouse/test-utils@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/test-utils@workspace:packages/medusa-test-utils"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@types/express": ^4.17.17
+    awilix: ^8.0.1
+    axios: ^0.21.4
+    express: ^4.21.0
+    get-port: ^5.1.0
+    jest: ^29.7.0
+    pg: ^8.13.0
+    pg-god: ^1.0.12
+    randomatic: ^3.1.1
+    rimraf: ^3.0.2
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/medusa": ~2.4.0
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  peerDependenciesMeta:
+    "@biryanihouse/medusa":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/toolbox@workspace:packages/design-system/toolbox, @biryanihouse/toolbox@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/toolbox@workspace:packages/design-system/toolbox"
+  dependencies:
+    "@svgr/core": 8.0.0
+    "@svgr/plugin-jsx": 8.0.1
+    "@svgr/plugin-prettier": 8.0.1
+    "@svgr/plugin-svgo": 8.0.1
+    "@types/fs-extra": 11.0.1
+    "@types/react": ^18.2.14
+    axios: ^0.24.0
+    axios-retry: ^3.1.9
+    commander: 11.0.0
+    dotenv: ^16.4.5
+    eslint: 7.32.0
+    fs-extra: 11.1.1
+    picocolors: ^1.0.0
+    react: ^18.2.0
+    ts-dedent: 2.2.0
+    tsup: 7.1.0
+    typescript: 5.1.6
+  bin:
+    toolbox: ./bin/toolbox.js
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/types@2.4.0, @biryanihouse/types@workspace:^, @biryanihouse/types@workspace:packages/core/types, @biryanihouse/types@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/types@workspace:packages/core/types"
+  dependencies:
+    awilix: ^8.0.1
+    bignumber.js: ^9.1.2
+    expect-type: ^0.20.0
+    ioredis: ^5.4.1
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    vite: ^5.2.11
+  peerDependencies:
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    vite: ^5.2.11
+  peerDependenciesMeta:
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/ui-preset@2.4.0, @biryanihouse/ui-preset@workspace:packages/design-system/ui-preset, @biryanihouse/ui-preset@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/ui-preset@workspace:packages/design-system/ui-preset"
+  dependencies:
+    "@biryanihouse/toolbox": ~2.4.0
+    "@tailwindcss/forms": ^0.5.3
+    tailwindcss: ^3.4.1
+    tailwindcss-animate: ^1.0.6
+    tsup: ^7.1.0
+    typescript: ^5.1.6
+  peerDependencies:
+    tailwindcss: ">=3.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/ui@4.0.4, @biryanihouse/ui@workspace:packages/design-system/ui":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/ui@workspace:packages/design-system/ui"
+  dependencies:
+    "@biryanihouse/icons": ~2.4.0
+    "@biryanihouse/ui-preset": ~2.4.0
+    "@faker-js/faker": ^9.2.0
+    "@radix-ui/react-accordion": 1.2.0
+    "@radix-ui/react-alert-dialog": 1.1.1
+    "@radix-ui/react-avatar": 1.1.0
+    "@radix-ui/react-checkbox": 1.1.1
+    "@radix-ui/react-dialog": 1.1.1
+    "@radix-ui/react-dropdown-menu": 2.1.1
+    "@radix-ui/react-label": 2.1.0
+    "@radix-ui/react-popover": 1.1.1
+    "@radix-ui/react-portal": 1.1.1
+    "@radix-ui/react-radio-group": 1.2.0
+    "@radix-ui/react-select": 2.1.1
+    "@radix-ui/react-slot": 1.1.0
+    "@radix-ui/react-switch": 1.1.0
+    "@radix-ui/react-tabs": 1.1.0
+    "@radix-ui/react-tooltip": 1.1.2
+    "@storybook/addon-essentials": ^8.3.5
+    "@storybook/addon-interactions": ^8.3.5
+    "@storybook/addon-links": ^8.3.5
+    "@storybook/addon-styling": ^1.3.7
+    "@storybook/blocks": ^8.3.5
+    "@storybook/react": ^8.3.5
+    "@storybook/react-vite": ^8.3.5
+    "@storybook/testing-library": ^0.2.2
+    "@tanstack/react-table": 8.20.5
+    "@testing-library/dom": ^9.3.1
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@testing-library/user-event": ^14.4.3
+    "@types/jsdom": ^21.1.1
+    "@types/react": ^18.2.0
+    "@types/react-dom": ^18.2.0
+    "@vitejs/plugin-react": ^4.0.1
+    "@vitest/coverage-v8": ^0.32.2
+    autoprefixer: ^10.4.19
+    chromatic: ^6.20.0
+    clsx: ^1.2.1
+    copy-to-clipboard: ^3.3.3
+    cva: 1.0.0-beta.1
+    eslint: ^7.32.0
+    eslint-plugin-storybook: ^0.6.12
+    jsdom: ^22.1.0
+    postcss: ^8.4.38
+    prism-react-renderer: ^2.0.6
+    prismjs: ^1.29.0
+    prop-types: ^15.8.1
+    react: ^18.3.1
+    react-aria: ^3.33.1
+    react-currency-input-field: ^3.6.11
+    react-dom: ^18.3.1
+    react-stately: ^3.31.1
+    resize-observer-polyfill: ^1.5.1
+    rimraf: ^5.0.1
+    sonner: ^1.5.0
+    storybook: ^8.3.5
+    tailwind-merge: ^2.2.1
+    tailwindcss: ^3.4.3
+    tsc-alias: ^1.8.7
+    typescript: ^5.1.6
+    vite: ^4.3.9
+    vite-plugin-turbosnap: ^1.0.2
+    vitest: ^0.32.2
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+    react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/user@workspace:^, @biryanihouse/user@workspace:packages/modules/user, @biryanihouse/user@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/user@workspace:packages/modules/user"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/utils@2.4.0, @biryanihouse/utils@workspace:^, @biryanihouse/utils@workspace:packages/core/utils, @biryanihouse/utils@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/utils@workspace:packages/core/utils"
+  dependencies:
+    "@biryanihouse/types": ~2.4.0
+    "@graphql-codegen/core": ^4.0.2
+    "@graphql-codegen/typescript": ^4.0.9
+    "@graphql-tools/merge": ^9.0.7
+    "@graphql-tools/schema": ^10.0.6
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.21
+    "@types/pluralize": ^0.0.33
+    awilix: ^8.0.1
+    bignumber.js: ^9.1.2
+    dotenv: ^16.4.5
+    dotenv-expand: ^11.0.6
+    expect-type: ^0.20.0
+    express: ^4.21.0
+    graphql: ^16.9.0
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    pg: ^8.13.0
+    pg-connection-string: ^2.7.0
+    pg-god: ^1.0.12
+    pluralize: ^8.0.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/workflow-engine-inmemory@workspace:*, @biryanihouse/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory, @biryanihouse/workflow-engine-inmemory@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    cron-parser: ^4.9.0
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis, @biryanihouse/workflow-engine-redis@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis"
+  dependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@biryanihouse/test-utils": ~2.4.0
+    "@mikro-orm/cli": 6.4.3
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    bullmq: 5.13.0
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@biryanihouse/framework": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@biryanihouse/workflows-sdk@workspace:packages/core/workflows-sdk, @biryanihouse/workflows-sdk@~2.4.0":
+  version: 0.0.0-use.local
+  resolution: "@biryanihouse/workflows-sdk@workspace:packages/core/workflows-sdk"
+  dependencies:
+    "@biryanihouse/modules-sdk": ~2.4.0
+    "@biryanihouse/orchestration": ~2.4.0
+    "@biryanihouse/types": ~2.4.0
+    "@biryanihouse/utils": ~2.4.0
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 6.4.3
+    "@mikro-orm/knex": 6.4.3
+    "@mikro-orm/migrations": 6.4.3
+    "@mikro-orm/postgresql": 6.4.3
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
 "@bundled-es-modules/cookie@npm:^2.0.0":
   version: 2.0.0
   resolution: "@bundled-es-modules/cookie@npm:2.0.0"
@@ -5244,1659 +6897,6 @@ __metadata:
   checksum: d210d926ef488d39ad65f04d821936b668eadcdde3b6421e94ec4200ca7ad17f17d24c5cbc543882586af9f08b10e2eea715c728ce6277487945e05c5199f532
   languageName: node
   linkType: hard
-
-"@medusajs/admin-bundler@workspace:packages/admin/admin-bundler, @medusajs/admin-bundler@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-bundler@workspace:packages/admin/admin-bundler"
-  dependencies:
-    "@medusajs/admin-shared": 2.4.0
-    "@medusajs/admin-vite-plugin": 2.4.0
-    "@medusajs/dashboard": 2.4.0
-    "@medusajs/types": ~2.4.0
-    "@rollup/plugin-node-resolve": ^16.0.0
-    "@types/compression": ^1.7.5
-    "@vitejs/plugin-react": ^4.2.1
-    autoprefixer: ^10.4.16
-    compression: ^1.7.4
-    copyfiles: ^2.4.1
-    express: ^4.21.0
-    glob: ^10.3.10
-    postcss: ^8.4.32
-    tailwindcss: ^3.3.6
-    tsup: ^8.0.1
-    typescript: ^5.3.3
-    vite: ^5.2.11
-  peerDependencies:
-    express: ^4.21.0
-    react-dom: ^18.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-sdk@workspace:packages/admin/admin-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-sdk@workspace:packages/admin/admin-sdk"
-  dependencies:
-    "@medusajs/admin-shared": ~2.4.0
-    "@types/react": ^18.3.2
-    tsup: ^8.0.1
-    typescript: ^5.3.3
-    zod: ^3.22
-  peerDependencies:
-    zod: ^3.22
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-shared@2.4.0, @medusajs/admin-shared@workspace:packages/admin/admin-shared, @medusajs/admin-shared@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-shared@workspace:packages/admin/admin-shared"
-  dependencies:
-    "@types/react": ^18.3.2
-    tsup: ^8.0.2
-    typescript: ^5.3.3
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-vite-plugin@2.4.0, @medusajs/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin"
-  dependencies:
-    "@babel/parser": 7.25.6
-    "@babel/traverse": 7.25.6
-    "@babel/types": 7.25.6
-    "@medusajs/admin-shared": 2.4.0
-    "@types/node": ^20.10.4
-    chokidar: 3.5.3
-    fdir: 6.1.1
-    magic-string: 0.30.5
-    outdent: ^0.8.0
-    picocolors: ^1.1.0
-    tsup: 8.0.1
-    typescript: 5.3.3
-    vite: ^5.2.11
-    vitest: ^2.1.3
-  peerDependencies:
-    vite: ^5.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/api-key@workspace:^, @medusajs/api-key@workspace:packages/modules/api-key, @medusajs/api-key@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/api-key@workspace:packages/modules/api-key"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-emailpass@workspace:packages/modules/providers/auth-emailpass, @medusajs/auth-emailpass@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-emailpass@workspace:packages/modules/providers/auth-emailpass"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    scrypt-kdf: ^2.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-github@workspace:packages/modules/providers/auth-github, @medusajs/auth-github@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-github@workspace:packages/modules/providers/auth-github"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    msw: ^2.3.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-google@workspace:packages/modules/providers/auth-google, @medusajs/auth-google@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-google@workspace:packages/modules/providers/auth-google"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    msw: ^2.3.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth@workspace:*, @medusajs/auth@workspace:packages/modules/auth, @medusajs/auth@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth@workspace:packages/modules/auth"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cache-inmemory@workspace:*, @medusajs/cache-inmemory@workspace:packages/modules/cache-inmemory, @medusajs/cache-inmemory@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cache-inmemory@workspace:packages/modules/cache-inmemory"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cache-redis@workspace:packages/modules/cache-redis, @medusajs/cache-redis@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cache-redis@workspace:packages/modules/cache-redis"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cart@workspace:packages/modules/cart, @medusajs/cart@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cart@workspace:packages/modules/cart"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cli@workspace:packages/cli/medusa-cli, @medusajs/cli@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cli@workspace:packages/cli/medusa-cli"
-  dependencies:
-    "@medusajs/telemetry": ~2.4.0
-    "@medusajs/utils": 2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.17
-    "@types/yargs": ^15.0.15
-    awilix: ^8.0.1
-    chalk: ^4.0.0
-    configstore: 5.0.1
-    dotenv: ^16.4.5
-    execa: ^5.1.1
-    express: ^4.21.0
-    fs-exists-cached: ^1.0.0
-    fs-extra: ^10.0.0
-    glob: ^10.3.10
-    hosted-git-info: ^4.0.2
-    inquirer: ^8.0.0
-    is-valid-path: ^0.1.1
-    jest: ^29.7.0
-    meant: ^1.0.3
-    ora: ^5.4.1
-    pg: ^8.13.0
-    pg-god: ^1.0.12
-    prompts: ^2.4.2
-    resolve-cwd: ^3.0.0
-    rimraf: ^5.0.1
-    stack-trace: ^0.0.10
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-    winston: ^3.8.2
-    yargs: ^15.3.1
-  peerDependencies:
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    pg: ^8.13.0
-  bin:
-    medusa: cli.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/core-flows@workspace:*, @medusajs/core-flows@workspace:^, @medusajs/core-flows@workspace:packages/core/core-flows, @medusajs/core-flows@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/core-flows@workspace:packages/core/core-flows"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    expect-type: ^0.20.0
-    jest: ^29.7.0
-    json-2-csv: ^5.5.4
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/currency@workspace:^, @medusajs/currency@workspace:packages/modules/currency, @medusajs/currency@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/currency@workspace:packages/modules/currency"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/customer@workspace:^, @medusajs/customer@workspace:packages/modules/customer, @medusajs/customer@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/customer@workspace:packages/modules/customer"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/dashboard@2.4.0, @medusajs/dashboard@workspace:packages/admin/dashboard":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/dashboard@workspace:packages/admin/dashboard"
-  dependencies:
-    "@ariakit/react": ^0.4.15
-    "@dnd-kit/core": ^6.1.0
-    "@dnd-kit/sortable": ^8.0.0
-    "@hookform/error-message": ^2.0.1
-    "@hookform/resolvers": 3.4.2
-    "@medusajs/admin-shared": ~2.4.0
-    "@medusajs/admin-vite-plugin": 2.4.0
-    "@medusajs/icons": 2.4.0
-    "@medusajs/js-sdk": 2.4.0
-    "@medusajs/types": 2.4.0
-    "@medusajs/ui": 4.0.4
-    "@medusajs/ui-preset": 2.4.0
-    "@radix-ui/react-collapsible": 1.1.0
-    "@tanstack/react-query": 5.64.2
-    "@tanstack/react-table": 8.20.5
-    "@tanstack/react-virtual": ^3.8.3
-    "@types/node": ^20.11.15
-    "@types/react": ^18.2.79
-    "@types/react-dom": ^18.2.25
-    "@uiw/react-json-view": ^2.0.0-alpha.17
-    "@vitejs/plugin-react": 4.2.1
-    ajv: ^8.17.1
-    autoprefixer: ^10.4.17
-    cmdk: ^0.2.0
-    date-fns: ^3.6.0
-    i18next: 23.7.11
-    i18next-browser-languagedetector: 7.2.0
-    i18next-http-backend: 2.4.2
-    lodash: ^4.17.21
-    match-sorter: ^6.3.4
-    motion: ^11.15.0
-    postcss: ^8.4.33
-    prettier: ^3.1.1
-    qs: ^6.12.0
-    react: ^18.2.0
-    react-country-flag: ^3.1.0
-    react-currency-input-field: ^3.6.11
-    react-dom: ^18.2.0
-    react-helmet-async: ^2.0.5
-    react-hook-form: 7.49.1
-    react-i18next: 13.5.0
-    react-jwt: ^1.2.0
-    react-router-dom: 6.20.1
-    tailwindcss: ^3.4.1
-    tsup: ^8.0.2
-    typescript: 5.2.2
-    vite: ^5.2.11
-    vite-plugin-inspect: ^0.8.7
-    vitest: ^2.1.4
-    zod: 3.22.4
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/event-bus-local@workspace:*, @medusajs/event-bus-local@workspace:packages/modules/event-bus-local, @medusajs/event-bus-local@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/event-bus-local@workspace:packages/modules/event-bus-local"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/event-bus-redis@workspace:packages/modules/event-bus-redis, @medusajs/event-bus-redis@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/event-bus-redis@workspace:packages/modules/event-bus-redis"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    bullmq: 5.13.0
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file-local@workspace:packages/modules/providers/file-local, @medusajs/file-local@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file-local@workspace:packages/modules/providers/file-local"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file-s3@workspace:packages/modules/providers/file-s3, @medusajs/file-s3@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file-s3@workspace:packages/modules/providers/file-s3"
-  dependencies:
-    "@aws-sdk/client-s3": ^3.556.0
-    "@aws-sdk/s3-request-presigner": ^3.556.0
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    axios: ^1.6.8
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file@workspace:packages/modules/file, @medusajs/file@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file@workspace:packages/modules/file"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/framework@workspace:^, @medusajs/framework@workspace:packages/core/framework, @medusajs/framework@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/framework@workspace:packages/core/framework"
-  dependencies:
-    "@jercle/yargonaut": ^1.1.5
-    "@medusajs/cli": ~2.4.0
-    "@medusajs/modules-sdk": ~2.4.0
-    "@medusajs/orchestration": ~2.4.0
-    "@medusajs/telemetry": ~2.4.0
-    "@medusajs/types": ~2.4.0
-    "@medusajs/utils": ~2.4.0
-    "@medusajs/workflows-sdk": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@opentelemetry/api": ^1.9.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/cors": ^2.8.17
-    "@types/express": ^4.17.17
-    "@types/jsonwebtoken": ^8.5.9
-    awilix: ^8.0.1
-    chokidar: ^3.4.2
-    compression: 1.7.4
-    connect-redis: 5.2.0
-    cookie-parser: ^1.4.6
-    cors: ^2.8.5
-    express: ^4.21.0
-    express-session: ^1.17.3
-    glob: 7.2.3
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    lodash: 4.17.21
-    morgan: ^1.9.1
-    pg: ^8.13.0
-    rimraf: ^3.0.2
-    supertest: ^4.0.2
-    tsconfig-paths: ^4.2.0
-    typescript: ^5.6.2
-    vite: ^5.2.11
-    zod: 3.22.4
-  peerDependencies:
-    "@medusajs/cli": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    ioredis: ^5.4.1
-    pg: ^8.13.0
-    vite: ^5.2.11
-  peerDependenciesMeta:
-    "@mikro-orm/cli":
-      optional: true
-    ioredis:
-      optional: true
-    vite:
-      optional: true
-  bin:
-    medusa-mikro-orm: ./dist/mikro-orm-cli/bin.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/fulfillment-manual@workspace:^, @medusajs/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual, @medusajs/fulfillment-manual@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/fulfillment@workspace:^, @medusajs/fulfillment@workspace:packages/modules/fulfillment, @medusajs/fulfillment@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/fulfillment@workspace:packages/modules/fulfillment"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/icons@2.4.0, @medusajs/icons@workspace:packages/design-system/icons, @medusajs/icons@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/icons@workspace:packages/design-system/icons"
-  dependencies:
-    "@atomico/rollup-plugin-sizes": ^1.1.4
-    "@medusajs/toolbox": ~2.4.0
-    "@rollup/plugin-node-resolve": ^15.1.0
-    "@rollup/plugin-replace": ^5.0.2
-    "@testing-library/dom": ^9.3.1
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^14.0.0
-    "@types/jsdom": ^21.1.1
-    "@types/react": ^18.2.14
-    "@types/react-dom": ^18.2.6
-    esbuild: ^0.18.11
-    eslint: ^7.32.0
-    jsdom: ^22.1.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    resize-observer-polyfill: ^1.5.1
-    rimraf: ^5.0.1
-    rollup: ^3.26.0
-    rollup-plugin-esbuild: ^5.0.0
-    rollup-plugin-license: ^3.0.1
-    rollup-plugin-ts: ^3.2.0
-    rollup-plugin-visualizer: ^5.9.2
-    typescript: ^5.1.6
-    vite: ^4.3.9
-    vitest: ^0.32.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/index@workspace:packages/modules/index, @medusajs/index@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/index@workspace:packages/modules/index"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/inventory@workspace:^, @medusajs/inventory@workspace:packages/modules/inventory, @medusajs/inventory@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/inventory@workspace:packages/modules/inventory"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/js-sdk@2.4.0, @medusajs/js-sdk@workspace:packages/core/js-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/js-sdk@workspace:packages/core/js-sdk"
-  dependencies:
-    "@medusajs/types": ~2.4.0
-    fetch-event-stream: ^0.1.5
-    jest: ^29.7.0
-    msw: ^2.3.0
-    qs: ^6.12.1
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/link-modules@workspace:^, @medusajs/link-modules@workspace:packages/modules/link-modules, @medusajs/link-modules@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/link-modules@workspace:packages/modules/link-modules"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    cross-env: ^5.2.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking-postgres@workspace:packages/modules/providers/locking-postgres, @medusajs/locking-postgres@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking-postgres@workspace:packages/modules/providers/locking-postgres"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking-redis@workspace:packages/modules/providers/locking-redis, @medusajs/locking-redis@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking-redis@workspace:packages/modules/providers/locking-redis"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking@workspace:packages/modules/locking, @medusajs/locking@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking@workspace:packages/modules/locking"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa-oas-cli@2.4.0, @medusajs/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli"
-  dependencies:
-    "@medusajs/medusa": ~2.4.0
-    "@medusajs/types": ~2.4.0
-    "@medusajs/utils": ~2.4.0
-    "@readme/json-schema-ref-parser": ^1.2.0
-    "@readme/openapi-parser": ^2.4.0
-    "@redocly/cli": ^1.7.0
-    "@types/js-yaml": ^4.0.9
-    "@types/lodash": ^4.14.191
-    commander: ^10.0.0
-    execa: 1.0.0
-    jest: ^29.1.0
-    js-yaml: ^4.1.0
-    lodash: ^4.17.21
-    openapi3-ts: ^3.1.2
-    swagger-inline: ^6.1.0
-    ts-jest: ^29.1.0
-    ts-node: ^10.9.1
-    typescript: 4.9.5
-    uuid: ^9.0.0
-    yargs: ^17.7.2
-  bin:
-    medusa-oas: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa@workspace:*, @medusajs/medusa@workspace:packages/medusa, @medusajs/medusa@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa@workspace:packages/medusa"
-  dependencies:
-    "@inquirer/checkbox": ^2.3.11
-    "@inquirer/input": ^2.2.9
-    "@medusajs/admin-bundler": ~2.4.0
-    "@medusajs/api-key": ~2.4.0
-    "@medusajs/auth": ~2.4.0
-    "@medusajs/auth-emailpass": ~2.4.0
-    "@medusajs/auth-github": ~2.4.0
-    "@medusajs/auth-google": ~2.4.0
-    "@medusajs/cache-inmemory": ~2.4.0
-    "@medusajs/cache-redis": ~2.4.0
-    "@medusajs/cart": ~2.4.0
-    "@medusajs/core-flows": ~2.4.0
-    "@medusajs/currency": ~2.4.0
-    "@medusajs/customer": ~2.4.0
-    "@medusajs/event-bus-local": ~2.4.0
-    "@medusajs/event-bus-redis": ~2.4.0
-    "@medusajs/file": ~2.4.0
-    "@medusajs/file-local": ~2.4.0
-    "@medusajs/file-s3": ~2.4.0
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/fulfillment": ~2.4.0
-    "@medusajs/fulfillment-manual": ~2.4.0
-    "@medusajs/index": ~2.4.0
-    "@medusajs/inventory": ~2.4.0
-    "@medusajs/link-modules": ~2.4.0
-    "@medusajs/locking": ~2.4.0
-    "@medusajs/locking-postgres": ~2.4.0
-    "@medusajs/locking-redis": ~2.4.0
-    "@medusajs/notification": ~2.4.0
-    "@medusajs/notification-local": ~2.4.0
-    "@medusajs/notification-sendgrid": ~2.4.0
-    "@medusajs/order": ~2.4.0
-    "@medusajs/payment": ~2.4.0
-    "@medusajs/payment-stripe": ~2.4.0
-    "@medusajs/pricing": ~2.4.0
-    "@medusajs/product": ~2.4.0
-    "@medusajs/promotion": ~2.4.0
-    "@medusajs/region": ~2.4.0
-    "@medusajs/sales-channel": ~2.4.0
-    "@medusajs/stock-location": ~2.4.0
-    "@medusajs/store": ~2.4.0
-    "@medusajs/tax": ~2.4.0
-    "@medusajs/telemetry": ~2.4.0
-    "@medusajs/user": ~2.4.0
-    "@medusajs/workflow-engine-inmemory": ~2.4.0
-    "@medusajs/workflow-engine-redis": ~2.4.0
-    "@opentelemetry/api": ^1.9.0
-    "@opentelemetry/instrumentation": ^0.53.0
-    "@opentelemetry/instrumentation-pg": ^0.44.0
-    "@opentelemetry/resources": ^1.26.0
-    "@opentelemetry/sdk-node": ^0.53.0
-    "@opentelemetry/sdk-trace-node": ^1.26.0
-    "@swc/core": ^1.7.28
-    "@swc/helpers": ^0.5.11
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.17
-    "@types/jsonwebtoken": ^8.5.9
-    "@types/lodash": ^4.14.191
-    "@types/multer": ^1.4.7
-    boxen: ^5.0.1
-    chalk: ^4.0.0
-    chokidar: ^3.4.2
-    compression: ^1.7.4
-    express: ^4.21.0
-    fs-exists-cached: ^1.0.0
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    lodash: ^4.17.21
-    multer: ^1.4.5-lts.1
-    node-schedule: ^2.1.1
-    qs: ^6.11.2
-    request-ip: ^3.3.0
-    rimraf: ^5.0.1
-    slugify: ^1.6.6
-    typescript: ^5.6.2
-    uuid: ^9.0.0
-    yalc: 1.0.0-pre.53
-    zod: 3.22.4
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    yalc: 1.0.0-pre.53
-  peerDependenciesMeta:
-    yalc:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/modules-sdk@workspace:^, @medusajs/modules-sdk@workspace:packages/core/modules-sdk, @medusajs/modules-sdk@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/modules-sdk@workspace:packages/core/modules-sdk"
-  dependencies:
-    "@medusajs/orchestration": ~2.4.0
-    "@medusajs/types": ~2.4.0
-    "@medusajs/utils": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    cross-env: ^5.2.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification-local@workspace:packages/modules/providers/notification-local, @medusajs/notification-local@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification-local@workspace:packages/modules/providers/notification-local"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid, @medusajs/notification-sendgrid@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@sendgrid/mail": ^8.1.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification@workspace:packages/modules/notification, @medusajs/notification@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification@workspace:packages/modules/notification"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/oas-github-ci@workspace:packages/cli/oas/oas-github-ci":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/oas-github-ci@workspace:packages/cli/oas/oas-github-ci"
-  dependencies:
-    "@medusajs/medusa-oas-cli": 2.4.0
-    execa: ^5.1.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/orchestration@workspace:packages/core/orchestration, @medusajs/orchestration@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/orchestration@workspace:packages/core/orchestration"
-  dependencies:
-    "@medusajs/types": ~2.4.0
-    "@medusajs/utils": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/order@workspace:packages/modules/order, @medusajs/order@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/order@workspace:packages/modules/order"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/payment-stripe@workspace:packages/modules/providers/payment-stripe, @medusajs/payment-stripe@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/payment-stripe@workspace:packages/modules/providers/payment-stripe"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    stripe: ^15.5.0
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/payment@workspace:^, @medusajs/payment@workspace:packages/modules/payment, @medusajs/payment@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/payment@workspace:packages/modules/payment"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/pricing@workspace:^, @medusajs/pricing@workspace:packages/modules/pricing, @medusajs/pricing@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/pricing@workspace:packages/modules/pricing"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/product@workspace:^, @medusajs/product@workspace:packages/modules/product, @medusajs/product@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/product@workspace:packages/modules/product"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    faker: ^5.5.3
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/promotion@workspace:^, @medusajs/promotion@workspace:packages/modules/promotion, @medusajs/promotion@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/promotion@workspace:packages/modules/promotion"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/region@workspace:^, @medusajs/region@workspace:packages/modules/region, @medusajs/region@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/region@workspace:packages/modules/region"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/sales-channel@workspace:packages/modules/sales-channel, @medusajs/sales-channel@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/sales-channel@workspace:packages/modules/sales-channel"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/stock-location@workspace:^, @medusajs/stock-location@workspace:packages/modules/stock-location, @medusajs/stock-location@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/stock-location@workspace:packages/modules/stock-location"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/store@workspace:^, @medusajs/store@workspace:packages/modules/store, @medusajs/store@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/store@workspace:packages/modules/store"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/tax@workspace:^, @medusajs/tax@workspace:packages/modules/tax, @medusajs/tax@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/tax@workspace:packages/modules/tax"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/telemetry@workspace:packages/medusa-telemetry, @medusajs/telemetry@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/telemetry@workspace:packages/medusa-telemetry"
-  dependencies:
-    "@babel/runtime": ^7.22.10
-    axios: ^0.21.4
-    axios-retry: ^3.1.9
-    boxen: ^5.0.1
-    ci-info: ^3.2.0
-    configstore: 5.0.1
-    cross-env: ^5.2.1
-    global: ^4.4.0
-    is-docker: ^2.2.1
-    jest: ^29.7.0
-    nodemon: ^2.0.20
-    remove-trailing-slash: ^0.1.1
-    rimraf: ^3.0.2
-    typescript: ^5.6.2
-    uuid: ^8.3.2
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/test-utils@workspace:*, @medusajs/test-utils@workspace:packages/medusa-test-utils, @medusajs/test-utils@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/test-utils@workspace:packages/medusa-test-utils"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@types/express": ^4.17.17
-    awilix: ^8.0.1
-    axios: ^0.21.4
-    express: ^4.21.0
-    get-port: ^5.1.0
-    jest: ^29.7.0
-    pg: ^8.13.0
-    pg-god: ^1.0.12
-    randomatic: ^3.1.1
-    rimraf: ^3.0.2
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/medusa": ~2.4.0
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  peerDependenciesMeta:
-    "@medusajs/medusa":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/toolbox@workspace:packages/design-system/toolbox, @medusajs/toolbox@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/toolbox@workspace:packages/design-system/toolbox"
-  dependencies:
-    "@svgr/core": 8.0.0
-    "@svgr/plugin-jsx": 8.0.1
-    "@svgr/plugin-prettier": 8.0.1
-    "@svgr/plugin-svgo": 8.0.1
-    "@types/fs-extra": 11.0.1
-    "@types/react": ^18.2.14
-    axios: ^0.24.0
-    axios-retry: ^3.1.9
-    commander: 11.0.0
-    dotenv: ^16.4.5
-    eslint: 7.32.0
-    fs-extra: 11.1.1
-    picocolors: ^1.0.0
-    react: ^18.2.0
-    ts-dedent: 2.2.0
-    tsup: 7.1.0
-    typescript: 5.1.6
-  bin:
-    toolbox: ./bin/toolbox.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/types@2.4.0, @medusajs/types@workspace:^, @medusajs/types@workspace:packages/core/types, @medusajs/types@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/types@workspace:packages/core/types"
-  dependencies:
-    awilix: ^8.0.1
-    bignumber.js: ^9.1.2
-    expect-type: ^0.20.0
-    ioredis: ^5.4.1
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    vite: ^5.2.11
-  peerDependencies:
-    awilix: ^8.0.1
-    ioredis: ^5.4.1
-    vite: ^5.2.11
-  peerDependenciesMeta:
-    ioredis:
-      optional: true
-    vite:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/ui-preset@2.4.0, @medusajs/ui-preset@workspace:packages/design-system/ui-preset, @medusajs/ui-preset@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/ui-preset@workspace:packages/design-system/ui-preset"
-  dependencies:
-    "@medusajs/toolbox": ~2.4.0
-    "@tailwindcss/forms": ^0.5.3
-    tailwindcss: ^3.4.1
-    tailwindcss-animate: ^1.0.6
-    tsup: ^7.1.0
-    typescript: ^5.1.6
-  peerDependencies:
-    tailwindcss: ">=3.0.0"
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/ui@4.0.4, @medusajs/ui@workspace:packages/design-system/ui":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/ui@workspace:packages/design-system/ui"
-  dependencies:
-    "@faker-js/faker": ^9.2.0
-    "@medusajs/icons": ~2.4.0
-    "@medusajs/ui-preset": ~2.4.0
-    "@radix-ui/react-accordion": 1.2.0
-    "@radix-ui/react-alert-dialog": 1.1.1
-    "@radix-ui/react-avatar": 1.1.0
-    "@radix-ui/react-checkbox": 1.1.1
-    "@radix-ui/react-dialog": 1.1.1
-    "@radix-ui/react-dropdown-menu": 2.1.1
-    "@radix-ui/react-label": 2.1.0
-    "@radix-ui/react-popover": 1.1.1
-    "@radix-ui/react-portal": 1.1.1
-    "@radix-ui/react-radio-group": 1.2.0
-    "@radix-ui/react-select": 2.1.1
-    "@radix-ui/react-slot": 1.1.0
-    "@radix-ui/react-switch": 1.1.0
-    "@radix-ui/react-tabs": 1.1.0
-    "@radix-ui/react-tooltip": 1.1.2
-    "@storybook/addon-essentials": ^8.3.5
-    "@storybook/addon-interactions": ^8.3.5
-    "@storybook/addon-links": ^8.3.5
-    "@storybook/addon-styling": ^1.3.7
-    "@storybook/blocks": ^8.3.5
-    "@storybook/react": ^8.3.5
-    "@storybook/react-vite": ^8.3.5
-    "@storybook/testing-library": ^0.2.2
-    "@tanstack/react-table": 8.20.5
-    "@testing-library/dom": ^9.3.1
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^14.0.0
-    "@testing-library/user-event": ^14.4.3
-    "@types/jsdom": ^21.1.1
-    "@types/react": ^18.2.0
-    "@types/react-dom": ^18.2.0
-    "@vitejs/plugin-react": ^4.0.1
-    "@vitest/coverage-v8": ^0.32.2
-    autoprefixer: ^10.4.19
-    chromatic: ^6.20.0
-    clsx: ^1.2.1
-    copy-to-clipboard: ^3.3.3
-    cva: 1.0.0-beta.1
-    eslint: ^7.32.0
-    eslint-plugin-storybook: ^0.6.12
-    jsdom: ^22.1.0
-    postcss: ^8.4.38
-    prism-react-renderer: ^2.0.6
-    prismjs: ^1.29.0
-    prop-types: ^15.8.1
-    react: ^18.3.1
-    react-aria: ^3.33.1
-    react-currency-input-field: ^3.6.11
-    react-dom: ^18.3.1
-    react-stately: ^3.31.1
-    resize-observer-polyfill: ^1.5.1
-    rimraf: ^5.0.1
-    sonner: ^1.5.0
-    storybook: ^8.3.5
-    tailwind-merge: ^2.2.1
-    tailwindcss: ^3.4.3
-    tsc-alias: ^1.8.7
-    typescript: ^5.1.6
-    vite: ^4.3.9
-    vite-plugin-turbosnap: ^1.0.2
-    vitest: ^0.32.2
-  peerDependencies:
-    react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-    react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/user@workspace:^, @medusajs/user@workspace:packages/modules/user, @medusajs/user@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/user@workspace:packages/modules/user"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/utils@2.4.0, @medusajs/utils@workspace:^, @medusajs/utils@workspace:packages/core/utils, @medusajs/utils@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/utils@workspace:packages/core/utils"
-  dependencies:
-    "@graphql-codegen/core": ^4.0.2
-    "@graphql-codegen/typescript": ^4.0.9
-    "@graphql-tools/merge": ^9.0.7
-    "@graphql-tools/schema": ^10.0.6
-    "@medusajs/types": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.21
-    "@types/pluralize": ^0.0.33
-    awilix: ^8.0.1
-    bignumber.js: ^9.1.2
-    dotenv: ^16.4.5
-    dotenv-expand: ^11.0.6
-    expect-type: ^0.20.0
-    express: ^4.21.0
-    graphql: ^16.9.0
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    pg: ^8.13.0
-    pg-connection-string: ^2.7.0
-    pg-god: ^1.0.12
-    pluralize: ^8.0.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflow-engine-inmemory@workspace:*, @medusajs/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory, @medusajs/workflow-engine-inmemory@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    cron-parser: ^4.9.0
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis, @medusajs/workflow-engine-redis@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis"
-  dependencies:
-    "@medusajs/framework": ~2.4.0
-    "@medusajs/test-utils": ~2.4.0
-    "@mikro-orm/cli": 6.4.3
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    bullmq: 5.13.0
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflows-sdk@workspace:packages/core/workflows-sdk, @medusajs/workflows-sdk@~2.4.0":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflows-sdk@workspace:packages/core/workflows-sdk"
-  dependencies:
-    "@medusajs/modules-sdk": ~2.4.0
-    "@medusajs/orchestration": ~2.4.0
-    "@medusajs/types": ~2.4.0
-    "@medusajs/utils": ~2.4.0
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@mikro-orm/core": 6.4.3
-    "@mikro-orm/knex": 6.4.3
-    "@mikro-orm/migrations": 6.4.3
-    "@mikro-orm/postgresql": 6.4.3
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
 
 "@mikro-orm/cli@npm:6.4.3":
   version: 6.4.3
@@ -17337,7 +17337,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-medusa-app@workspace:packages/cli/create-medusa-app"
   dependencies:
-    "@medusajs/telemetry": ~2.4.0
+    "@biryanihouse/telemetry": ~2.4.0
     "@types/chalk": ^2.2.0
     "@types/commander": ^2.12.2
     "@types/configstore": ^6.0.0
@@ -21978,23 +21978,23 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-api@workspace:integration-tests/api"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/payment": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@biryanihouse/api-key": "workspace:^"
+    "@biryanihouse/auth": "workspace:*"
+    "@biryanihouse/cache-inmemory": "workspace:*"
+    "@biryanihouse/customer": "workspace:^"
+    "@biryanihouse/event-bus-local": "workspace:*"
+    "@biryanihouse/medusa": "workspace:*"
+    "@biryanihouse/modules-sdk": "workspace:^"
+    "@biryanihouse/payment": "workspace:^"
+    "@biryanihouse/pricing": "workspace:^"
+    "@biryanihouse/product": "workspace:^"
+    "@biryanihouse/promotion": "workspace:^"
+    "@biryanihouse/region": "workspace:^"
+    "@biryanihouse/store": "workspace:^"
+    "@biryanihouse/tax": "workspace:^"
+    "@biryanihouse/user": "workspace:^"
+    "@biryanihouse/utils": "workspace:^"
+    "@biryanihouse/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -22007,29 +22007,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-http@workspace:integration-tests/http"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/core-flows": "workspace:*"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/fulfillment": "workspace:^"
-    "@medusajs/fulfillment-manual": "workspace:^"
-    "@medusajs/inventory": "workspace:^"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/stock-location": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/test-utils": "workspace:*"
-    "@medusajs/types": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@biryanihouse/api-key": "workspace:^"
+    "@biryanihouse/auth": "workspace:*"
+    "@biryanihouse/cache-inmemory": "workspace:*"
+    "@biryanihouse/core-flows": "workspace:*"
+    "@biryanihouse/customer": "workspace:^"
+    "@biryanihouse/event-bus-local": "workspace:*"
+    "@biryanihouse/fulfillment": "workspace:^"
+    "@biryanihouse/fulfillment-manual": "workspace:^"
+    "@biryanihouse/inventory": "workspace:^"
+    "@biryanihouse/medusa": "workspace:*"
+    "@biryanihouse/modules-sdk": "workspace:^"
+    "@biryanihouse/pricing": "workspace:^"
+    "@biryanihouse/product": "workspace:^"
+    "@biryanihouse/promotion": "workspace:^"
+    "@biryanihouse/region": "workspace:^"
+    "@biryanihouse/stock-location": "workspace:^"
+    "@biryanihouse/store": "workspace:^"
+    "@biryanihouse/tax": "workspace:^"
+    "@biryanihouse/test-utils": "workspace:*"
+    "@biryanihouse/types": "workspace:^"
+    "@biryanihouse/user": "workspace:^"
+    "@biryanihouse/utils": "workspace:^"
+    "@biryanihouse/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     form-data: ^4.0.0
@@ -22044,33 +22044,33 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-modules@workspace:integration-tests/modules"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/core-flows": "workspace:^"
-    "@medusajs/currency": "workspace:^"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/framework": "workspace:^"
-    "@medusajs/fulfillment": "workspace:^"
-    "@medusajs/fulfillment-manual": "workspace:^"
-    "@medusajs/inventory": "workspace:^"
-    "@medusajs/link-modules": "workspace:^"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/payment": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/stock-location": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/test-utils": "workspace:*"
-    "@medusajs/types": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@biryanihouse/api-key": "workspace:^"
+    "@biryanihouse/auth": "workspace:*"
+    "@biryanihouse/cache-inmemory": "workspace:*"
+    "@biryanihouse/core-flows": "workspace:^"
+    "@biryanihouse/currency": "workspace:^"
+    "@biryanihouse/customer": "workspace:^"
+    "@biryanihouse/event-bus-local": "workspace:*"
+    "@biryanihouse/framework": "workspace:^"
+    "@biryanihouse/fulfillment": "workspace:^"
+    "@biryanihouse/fulfillment-manual": "workspace:^"
+    "@biryanihouse/inventory": "workspace:^"
+    "@biryanihouse/link-modules": "workspace:^"
+    "@biryanihouse/medusa": "workspace:*"
+    "@biryanihouse/modules-sdk": "workspace:^"
+    "@biryanihouse/payment": "workspace:^"
+    "@biryanihouse/pricing": "workspace:^"
+    "@biryanihouse/product": "workspace:^"
+    "@biryanihouse/promotion": "workspace:^"
+    "@biryanihouse/region": "workspace:^"
+    "@biryanihouse/stock-location": "workspace:^"
+    "@biryanihouse/store": "workspace:^"
+    "@biryanihouse/tax": "workspace:^"
+    "@biryanihouse/test-utils": "workspace:*"
+    "@biryanihouse/types": "workspace:^"
+    "@biryanihouse/user": "workspace:^"
+    "@biryanihouse/utils": "workspace:^"
+    "@biryanihouse/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     faker: ^5.5.3

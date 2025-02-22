@@ -1,4 +1,4 @@
-import { PromotionActions } from "@medusajs/framework/utils"
+import { PromotionActions } from "@biryanihouse/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -6,7 +6,7 @@ import {
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../common"
 import {
   createLineItemAdjustmentsStep,
@@ -56,7 +56,7 @@ export const updateCartPromotionsWorkflowId = "update-cart-promotions"
  *   input: {
  *     cart_id: "cart_123",
  *     promo_codes: ["10OFF"],
- *     // imported from @medusajs/framework/utils
+ *     // imported from @biryanihouse/framework/utils
  *     action: PromotionActions.ADD,
  *   }
  * })

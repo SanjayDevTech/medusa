@@ -6,7 +6,7 @@ import {
   ExclamationCircleSolid,
   InformationCircleSolid,
   XCircleSolid,
-} from "@medusajs/icons"
+} from "@biryanihouse/icons"
 import { Button } from "@/components"
 
 export type NotificationItemLayoutDefaultProps = NotificationItemProps & {

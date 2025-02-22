@@ -1,4 +1,4 @@
-import { BigNumberRawValue } from "@medusajs/types"
+import { BigNumberRawValue } from "@biryanihouse/types"
 import { isObject } from "./is-object"
 
 export function isBigNumber(obj: any): obj is BigNumberRawValue {

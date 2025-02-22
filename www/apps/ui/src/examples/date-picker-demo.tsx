@@ -1,4 +1,4 @@
-import { DatePicker } from "@medusajs/ui"
+import { DatePicker } from "@biryanihouse/ui"
 
 export default function DatePickerDemo() {
   return (

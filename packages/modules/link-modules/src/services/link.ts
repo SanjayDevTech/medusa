@@ -1,10 +1,10 @@
-import { Context, FindConfig } from "@medusajs/framework/types"
+import { Context, FindConfig } from "@biryanihouse/framework/types"
 import {
   InjectManager,
   InjectTransactionManager,
   MedusaContext,
   ModulesSdkUtils,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 type InjectedDependencies = {
   linkRepository: any

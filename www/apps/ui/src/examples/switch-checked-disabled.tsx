@@ -1,4 +1,4 @@
-import { Label, Switch } from "@medusajs/ui"
+import { Label, Switch } from "@biryanihouse/ui"
 
 export default function SwitchCheckedDisabled() {
   return (

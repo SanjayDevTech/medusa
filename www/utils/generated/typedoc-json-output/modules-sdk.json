@@ -72,7 +72,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					]
@@ -105,7 +105,7 @@
 						"qualifiedName": "ModuleDefinition"
 					},
 					"name": "ModuleDefinition",
-					"package": "@medusajs/types"
+					"package": "@biryanihouse/types"
 				}
 			},
 			"defaultValue": "..."
@@ -230,7 +230,7 @@
 				"type": "reference",
 				"target": 41680,
 				"name": "DeleteEntityInput",
-				"package": "@medusajs/modules-sdk"
+				"package": "@biryanihouse/modules-sdk"
 			}
 		},
 		{
@@ -309,7 +309,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@biryanihouse/types"
 														}
 													},
 													{
@@ -332,7 +332,7 @@
 																"qualifiedName": "ModuleDefinition"
 															},
 															"name": "ModuleDefinition",
-															"package": "@medusajs/types"
+															"package": "@biryanihouse/types"
 														}
 													}
 												],
@@ -361,7 +361,7 @@
 								"type": "reference",
 								"target": 41685,
 								"name": "Link",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						}
 					]
@@ -433,7 +433,7 @@
 															"qualifiedName": "ModuleJoinerConfig"
 														},
 														"name": "ModuleJoinerConfig",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												},
 												{
@@ -456,7 +456,7 @@
 															"qualifiedName": "ModuleDefinition"
 														},
 														"name": "ModuleDefinition",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												}
 											],
@@ -576,7 +576,7 @@
 											"qualifiedName": "LoadedLinkModule"
 										},
 										"name": "LoadedLinkModule",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									}
 								]
 							}
@@ -643,7 +643,7 @@
 														"qualifiedName": "RemoteRelationship"
 													},
 													"name": "RemoteRelationship",
-													"package": "@medusajs/modules-sdk"
+													"package": "@biryanihouse/modules-sdk"
 												}
 											}
 										],
@@ -703,7 +703,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -714,7 +714,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -788,7 +788,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -799,7 +799,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -867,7 +867,7 @@
 										"type": "reference",
 										"target": 41680,
 										"name": "DeleteEntityInput",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									}
 								}
 							],
@@ -897,7 +897,7 @@
 																"qualifiedName": "CascadeError"
 															},
 															"name": "CascadeError",
-															"package": "@medusajs/modules-sdk"
+															"package": "@biryanihouse/modules-sdk"
 														}
 													}
 												]
@@ -909,7 +909,7 @@
 													"qualifiedName": "RemovedIds"
 												},
 												"name": "RemovedIds",
-												"package": "@medusajs/modules-sdk"
+												"package": "@biryanihouse/modules-sdk"
 											}
 										]
 									}
@@ -960,7 +960,7 @@
 										"type": "reference",
 										"target": 41680,
 										"name": "DeleteEntityInput",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									}
 								}
 							],
@@ -990,7 +990,7 @@
 																"qualifiedName": "CascadeError"
 															},
 															"name": "CascadeError",
-															"package": "@medusajs/modules-sdk"
+															"package": "@biryanihouse/modules-sdk"
 														}
 													}
 												]
@@ -1002,7 +1002,7 @@
 													"qualifiedName": "RemovedIds"
 												},
 												"name": "RemovedIds",
-												"package": "@medusajs/modules-sdk"
+												"package": "@biryanihouse/modules-sdk"
 											}
 										]
 									}
@@ -1059,7 +1059,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -1070,7 +1070,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -1158,7 +1158,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											]
 										}
@@ -1267,7 +1267,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -1302,7 +1302,7 @@
 															"qualifiedName": "ModuleResolution"
 														},
 														"name": "ModuleResolution",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												],
 												"name": "Record",
@@ -1330,7 +1330,7 @@
 													"qualifiedName": "Logger"
 												},
 												"name": "Logger",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -1484,7 +1484,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -1510,7 +1510,7 @@
 														"qualifiedName": "ModuleProvider"
 													},
 													"name": "ModuleProvider",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										},
@@ -1586,7 +1586,7 @@
 																			"qualifiedName": "MedusaContainer"
 																		},
 																		"name": "MedusaContainer",
-																		"package": "@medusajs/types"
+																		"package": "@biryanihouse/types"
 																	}
 																},
 																{
@@ -1705,7 +1705,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -1721,7 +1721,7 @@
 									"qualifiedName": "ModuleProvider"
 								},
 								"name": "ModuleProvider",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -1917,7 +1917,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													},
 													{
 														"type": "reference",
@@ -1926,7 +1926,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												]
 											}
@@ -1952,7 +1952,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -1970,7 +1970,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					],
@@ -1992,7 +1992,7 @@
 									"qualifiedName": "ModuleResolution"
 								},
 								"name": "ModuleResolution",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						],
 						"name": "Record",
@@ -2044,7 +2044,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -2067,7 +2067,7 @@
 											"qualifiedName": "InternalModuleDeclaration"
 										},
 										"name": "InternalModuleDeclaration",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								],
 								"name": "Partial",
@@ -2089,7 +2089,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					],
@@ -2111,7 +2111,7 @@
 									"qualifiedName": "ModuleResolution"
 								},
 								"name": "ModuleResolution",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						],
 						"name": "Record",
@@ -2367,7 +2367,7 @@
 									"qualifiedName": "ILinkMigrationsPlanner"
 								},
 								"name": "ILinkMigrationsPlanner",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					]
@@ -2460,7 +2460,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													},
 													{
 														"type": "reference",
@@ -2469,7 +2469,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												]
 											}
@@ -2539,7 +2539,7 @@
 												"qualifiedName": "ModuleServiceInitializeOptions"
 											},
 											"name": "ModuleServiceInitializeOptions",
-											"package": "@medusajs/types"
+											"package": "@biryanihouse/types"
 										}
 									},
 									{
@@ -2700,7 +2700,7 @@
 												"type": "reference",
 												"target": 41602,
 												"name": "MedusaModuleConfig",
-												"package": "@medusajs/modules-sdk"
+												"package": "@biryanihouse/modules-sdk"
 											}
 										},
 										{
@@ -2724,7 +2724,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -2747,7 +2747,7 @@
 												"type": "reference",
 												"target": 41606,
 												"name": "SharedResources",
-												"package": "@medusajs/modules-sdk"
+												"package": "@biryanihouse/modules-sdk"
 											}
 										},
 										{
@@ -2928,7 +2928,7 @@
 													"qualifiedName": "LoadedModule"
 												},
 												"name": "LoadedModule",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "array",
@@ -2939,7 +2939,7 @@
 														"qualifiedName": "LoadedModule"
 													},
 													"name": "LoadedModule",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										]
@@ -2970,7 +2970,7 @@
 										"type": "reference",
 										"target": 41685,
 										"name": "Link",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									},
 									{
 										"type": "intrinsic",
@@ -3000,7 +3000,7 @@
 									"qualifiedName": "RemoteQueryFunction"
 								},
 								"name": "RemoteQueryFunction",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -3135,7 +3135,7 @@
 								"type": "reference",
 								"target": 41588,
 								"name": "RunMigrationFn",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3156,7 +3156,7 @@
 								"type": "reference",
 								"target": 41591,
 								"name": "RevertMigrationFn",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3177,7 +3177,7 @@
 								"type": "reference",
 								"target": 41595,
 								"name": "GenerateMigrations",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3198,7 +3198,7 @@
 								"type": "reference",
 								"target": 41599,
 								"name": "GetLinkExecutionPlanner",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3395,7 +3395,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					],
@@ -3511,7 +3511,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -3534,7 +3534,7 @@
 								"type": "reference",
 								"target": 41606,
 								"name": "SharedResources",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3562,7 +3562,7 @@
 										"qualifiedName": "LoadedModule"
 									},
 									"name": "LoadedModule",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								}
 							}
 						},
@@ -3591,7 +3591,7 @@
 										"qualifiedName": "ModuleJoinerConfig"
 									},
 									"name": "ModuleJoinerConfig",
-									"package": "@medusajs/types"
+									"package": "@biryanihouse/types"
 								}
 							}
 						},
@@ -3657,7 +3657,7 @@
 								"type": "reference",
 								"target": 41602,
 								"name": "MedusaModuleConfig",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						},
 						{
@@ -3683,7 +3683,7 @@
 										"type": "reference",
 										"target": 41675,
 										"name": "RegisterModuleJoinerConfig",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									},
 									{
 										"type": "array",
@@ -3691,7 +3691,7 @@
 											"type": "reference",
 											"target": 41675,
 											"name": "RegisterModuleJoinerConfig",
-											"package": "@medusajs/modules-sdk"
+											"package": "@biryanihouse/modules-sdk"
 										}
 									}
 								]
@@ -3720,7 +3720,7 @@
 									"qualifiedName": "RemoteFetchDataCallback"
 								},
 								"name": "RemoteFetchDataCallback",
-								"package": "@medusajs/orchestration"
+								"package": "@biryanihouse/orchestration"
 							}
 						},
 						{
@@ -3893,7 +3893,7 @@
 								"type": "reference",
 								"target": 41633,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -3909,7 +3909,7 @@
 								"type": "reference",
 								"target": 41611,
 								"name": "MedusaAppOutput",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						],
 						"name": "Promise",
@@ -3958,7 +3958,7 @@
 								"type": "reference",
 								"target": 41633,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -4035,7 +4035,7 @@
 								"type": "reference",
 								"target": 41633,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -4112,7 +4112,7 @@
 								"type": "reference",
 								"target": 41633,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -4175,7 +4175,7 @@
 								"type": "reference",
 								"target": 41633,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -4194,7 +4194,7 @@
 									"qualifiedName": "ILinkMigrationsPlanner"
 								},
 								"name": "ILinkMigrationsPlanner",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						],
 						"name": "Promise",
@@ -4287,7 +4287,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4349,7 +4349,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						}
 					],
@@ -4460,7 +4460,7 @@
 									"qualifiedName": "ModuleBootstrapDeclaration"
 								},
 								"name": "ModuleBootstrapDeclaration",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4486,7 +4486,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4512,7 +4512,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4538,7 +4538,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4742,7 +4742,7 @@
 									"qualifiedName": "LinkModuleDefinition"
 								},
 								"name": "LinkModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4768,7 +4768,7 @@
 									"qualifiedName": "InternalModuleDeclaration"
 								},
 								"name": "InternalModuleDeclaration",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4794,7 +4794,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							}
 						},
 						{
@@ -4880,7 +4880,7 @@
 							"qualifiedName": "ModuleJoinerConfig"
 						},
 						"name": "ModuleJoinerConfig",
-						"package": "@medusajs/types"
+						"package": "@biryanihouse/types"
 					},
 					{
 						"type": "reflection",
@@ -4921,7 +4921,7 @@
 														"qualifiedName": "ModuleJoinerConfig"
 													},
 													"name": "ModuleJoinerConfig",
-													"package": "@medusajs/types"
+													"package": "@biryanihouse/types"
 												}
 											}
 										}
@@ -4933,7 +4933,7 @@
 											"qualifiedName": "ModuleJoinerConfig"
 										},
 										"name": "ModuleJoinerConfig",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							]
@@ -4967,7 +4967,7 @@
 						"qualifiedName": "MedusaModule"
 					},
 					"name": "MedusaModule",
-					"package": "@medusajs/modules-sdk",
+					"package": "@biryanihouse/modules-sdk",
 					"preferValues": true
 				}
 			},
@@ -5121,7 +5121,7 @@
 													}
 												],
 												"name": "RemoteQueryInput",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										}
 									],
@@ -5275,7 +5275,7 @@
 															"qualifiedName": "RemoteJoinerQuery"
 														},
 														"name": "RemoteJoinerQuery",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													},
 													{
 														"type": "reference",
@@ -5290,7 +5290,7 @@
 															}
 														],
 														"name": "RemoteQueryObjectConfig",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													},
 													{
 														"type": "reference",
@@ -5305,7 +5305,7 @@
 															}
 														],
 														"name": "RemoteQueryObjectFromStringResult",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												]
 											}
@@ -5515,7 +5515,7 @@
 																							}
 																						],
 																						"name": "RemoteQueryInput",
-																						"package": "@medusajs/types"
+																						"package": "@biryanihouse/types"
 																					}
 																				}
 																			],
@@ -5705,7 +5705,7 @@
 																									"qualifiedName": "RemoteJoinerQuery"
 																								},
 																								"name": "RemoteJoinerQuery",
-																								"package": "@medusajs/types"
+																								"package": "@biryanihouse/types"
 																							},
 																							{
 																								"type": "reference",
@@ -5720,7 +5720,7 @@
 																									}
 																								],
 																								"name": "RemoteQueryObjectConfig",
-																								"package": "@medusajs/types"
+																								"package": "@biryanihouse/types"
 																							},
 																							{
 																								"type": "reference",
@@ -5735,7 +5735,7 @@
 																									}
 																								],
 																								"name": "RemoteQueryObjectFromStringResult",
-																								"package": "@medusajs/types"
+																								"package": "@biryanihouse/types"
 																							}
 																						]
 																					}
@@ -6101,7 +6101,7 @@
 										"type": "reference",
 										"target": 41823,
 										"name": "RemoteQuery",
-										"package": "@medusajs/modules-sdk"
+										"package": "@biryanihouse/modules-sdk"
 									}
 								}
 							],
@@ -6109,7 +6109,7 @@
 								"type": "reference",
 								"target": 41747,
 								"name": "Query",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						}
 					]
@@ -6160,7 +6160,7 @@
 													"qualifiedName": "RemoteJoinerQuery"
 												},
 												"name": "RemoteJoinerQuery",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "reference",
@@ -6175,7 +6175,7 @@
 													}
 												],
 												"name": "RemoteQueryInput",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "reference",
@@ -6190,7 +6190,7 @@
 													}
 												],
 												"name": "RemoteQueryObjectConfig",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "reference",
@@ -6205,7 +6205,7 @@
 													}
 												],
 												"name": "RemoteQueryObjectFromStringResult",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										]
 									}
@@ -6225,7 +6225,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -6411,12 +6411,12 @@
 												"type": "reference",
 												"target": 41820,
 												"name": "TEntry",
-												"package": "@medusajs/modules-sdk",
+												"package": "@biryanihouse/modules-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RemoteQueryInput",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -6434,7 +6434,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -6456,12 +6456,12 @@
 												"type": "reference",
 												"target": 41820,
 												"name": "TEntry",
-												"package": "@medusajs/modules-sdk",
+												"package": "@biryanihouse/modules-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "GraphResultSet",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								],
 								"name": "Promise",
@@ -6552,7 +6552,7 @@
 								"type": "reference",
 								"target": 41823,
 								"name": "RemoteQuery",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						}
 					],
@@ -6570,7 +6570,7 @@
 									"qualifiedName": "RemoteQueryFunction"
 								},
 								"name": "RemoteQueryFunction",
-								"package": "@medusajs/types"
+								"package": "@biryanihouse/types"
 							},
 							{
 								"type": "intrinsic",
@@ -6913,7 +6913,7 @@
 																				"qualifiedName": "ModuleJoinerConfig"
 																			},
 																			"name": "ModuleJoinerConfig",
-																			"package": "@medusajs/types"
+																			"package": "@biryanihouse/types"
 																		}
 																	},
 																	{
@@ -6936,7 +6936,7 @@
 																				"qualifiedName": "ModuleDefinition"
 																			},
 																			"name": "ModuleDefinition",
-																			"package": "@medusajs/types"
+																			"package": "@biryanihouse/types"
 																		}
 																	}
 																],
@@ -6983,7 +6983,7 @@
 															"qualifiedName": "RemoteFetchDataCallback"
 														},
 														"name": "RemoteFetchDataCallback",
-														"package": "@medusajs/orchestration"
+														"package": "@biryanihouse/orchestration"
 													}
 												},
 												{
@@ -7011,7 +7011,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@biryanihouse/types"
 														}
 													},
 													"defaultValue": "[]"
@@ -7078,7 +7078,7 @@
 								"type": "reference",
 								"target": 41823,
 								"name": "RemoteQuery",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						}
 					]
@@ -7219,7 +7219,7 @@
 																	"qualifiedName": "RemoteExpandProperty"
 																},
 																"name": "RemoteExpandProperty",
-																"package": "@medusajs/types"
+																"package": "@biryanihouse/types"
 															}
 														},
 														{
@@ -7468,7 +7468,7 @@
 													"qualifiedName": "RemoteExpandProperty"
 												},
 												"name": "RemoteExpandProperty",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											},
 											{
 												"type": "reflection",
@@ -7526,7 +7526,7 @@
 																		"qualifiedName": "JoinerArgument"
 																	},
 																	"name": "JoinerArgument",
-																	"package": "@medusajs/types"
+																	"package": "@biryanihouse/types"
 																}
 															}
 														},
@@ -7552,7 +7552,7 @@
 																	"qualifiedName": "RemoteNestedExpands"
 																},
 																"name": "RemoteNestedExpands",
-																"package": "@medusajs/types"
+																"package": "@biryanihouse/types"
 															}
 														}
 													],
@@ -7603,7 +7603,7 @@
 											"qualifiedName": "JoinerArgument"
 										},
 										"name": "JoinerArgument",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									},
 									"defaultValue": "..."
 								}
@@ -7684,7 +7684,7 @@
 													"qualifiedName": "JoinerArgument"
 												},
 												"name": "JoinerArgument",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -7787,7 +7787,7 @@
 											"qualifiedName": "RemoteExpandProperty"
 										},
 										"name": "RemoteExpandProperty",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								},
 								{
@@ -7832,7 +7832,7 @@
 											"qualifiedName": "JoinerRelationship"
 										},
 										"name": "JoinerRelationship",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -8035,7 +8035,7 @@
 													"qualifiedName": "RemoteJoinerQuery"
 												},
 												"name": "RemoteJoinerQuery",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										]
 									}
@@ -8083,7 +8083,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@biryanihouse/types"
 									}
 								}
 							],
@@ -8282,7 +8282,7 @@
 													"qualifiedName": "ModuleJoinerConfig"
 												},
 												"name": "ModuleJoinerConfig",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										},
 										{
@@ -8305,7 +8305,7 @@
 													"qualifiedName": "ModuleDefinition"
 												},
 												"name": "ModuleDefinition",
-												"package": "@medusajs/types"
+												"package": "@biryanihouse/types"
 											}
 										}
 									],
@@ -8338,7 +8338,7 @@
 								"qualifiedName": "LinkDefinition"
 							},
 							"name": "LinkDefinition",
-							"package": "@medusajs/types"
+							"package": "@biryanihouse/types"
 						}
 					}
 				}
@@ -8395,7 +8395,7 @@
 									"qualifiedName": "LinkingErrorMessageInput"
 								},
 								"name": "LinkingErrorMessageInput",
-								"package": "@medusajs/modules-sdk"
+								"package": "@biryanihouse/modules-sdk"
 							}
 						}
 					],
@@ -8469,7 +8469,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/modules-sdk",
+	"packageName": "@biryanihouse/modules-sdk",
 	"symbolIdMap": {
 		"41513": {
 			"sourceFileName": "../../../../packages/core/modules-sdk/src/index.ts",

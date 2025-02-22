@@ -1,5 +1,5 @@
-import { RuleAttributeOptionsResponse, StoreDTO } from "@medusajs/types"
-import { Input, Select } from "@medusajs/ui"
+import { RuleAttributeOptionsResponse, StoreDTO } from "@biryanihouse/types"
+import { Input, Select } from "@biryanihouse/ui"
 import { useWatch } from "react-hook-form"
 import { Form } from "../../../../../../components/common/form"
 import { Combobox } from "../../../../../../components/inputs/combobox"

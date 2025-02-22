@@ -1,16 +1,16 @@
-import { promiseAll } from "@medusajs/framework/utils"
+import { promiseAll } from "@biryanihouse/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { listPrices } from "../../../queries"
 import { adminPriceListPriceRemoteQueryFields } from "../../../query-config"
-import { BatchMethodRequest, HttpTypes } from "@medusajs/framework/types"
+import { BatchMethodRequest, HttpTypes } from "@biryanihouse/framework/types"
 import {
   AdminCreatePriceListPriceType,
   AdminUpdatePriceListPriceType,
 } from "../../../validators"
-import { batchPriceListPricesWorkflow } from "@medusajs/core-flows"
+import { batchPriceListPricesWorkflow } from "@biryanihouse/core-flows"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

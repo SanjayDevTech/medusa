@@ -128,10 +128,10 @@ const nextConfig = {
     ]
   },
   outputFileTracingExcludes: {
-    "*": ["node_modules/@medusajs/icons"],
+    "*": ["node_modules/@biryanihouse/icons"],
   },
   experimental: {
-    optimizePackageImports: ["@medusajs/icons", "@medusajs/ui"],
+    optimizePackageImports: ["@biryanihouse/icons", "@biryanihouse/ui"],
   },
 }
 

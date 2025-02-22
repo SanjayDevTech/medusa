@@ -1355,7 +1355,7 @@
 							"qualifiedName": "SessionOptions"
 						},
 						"name": "SessionOptions",
-						"package": "@medusajs/framework"
+						"package": "@biryanihouse/framework"
 					}
 				},
 				{
@@ -1822,7 +1822,7 @@
 										"type": "reference",
 										"target": 41179,
 										"name": "HttpCompressionOptions",
-										"package": "@medusajs/framework"
+										"package": "@biryanihouse/framework"
 									}
 								},
 								{
@@ -2345,7 +2345,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "`@medusajs/framework/utils`"
+						"text": "`@biryanihouse/framework/utils`"
 					},
 					{
 						"kind": "text",
@@ -2467,7 +2467,7 @@
 						"type": "reference",
 						"target": 41184,
 						"name": "ProjectConfigOptions",
-						"package": "@medusajs/framework"
+						"package": "@biryanihouse/framework"
 					}
 				},
 				{
@@ -2509,7 +2509,7 @@
 						"type": "reference",
 						"target": 41170,
 						"name": "AdminOptions",
-						"package": "@medusajs/framework"
+						"package": "@biryanihouse/framework"
 					}
 				},
 				{
@@ -2822,7 +2822,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													},
 													{
 														"type": "reference",
@@ -2831,7 +2831,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@biryanihouse/types"
 													}
 												]
 											}
@@ -3144,7 +3144,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/framework",
+	"packageName": "@biryanihouse/framework",
 	"symbolIdMap": {
 		"41169": {
 			"sourceFileName": "../../../../packages/core/framework/src/config/types.ts",

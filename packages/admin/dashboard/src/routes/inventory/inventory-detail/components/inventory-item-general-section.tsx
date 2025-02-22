@@ -1,6 +1,6 @@
-import { Container, Heading } from "@medusajs/ui"
-import { HttpTypes } from "@medusajs/types"
-import { PencilSquare } from "@medusajs/icons"
+import { Container, Heading } from "@biryanihouse/ui"
+import { HttpTypes } from "@biryanihouse/types"
+import { PencilSquare } from "@biryanihouse/icons"
 import { useTranslation } from "react-i18next"
 
 import { ActionMenu } from "../../../../components/common/action-menu"

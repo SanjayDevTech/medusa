@@ -1,7 +1,7 @@
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
-import { IInventoryService, InventoryTypes } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { IInventoryService, InventoryTypes } from "@biryanihouse/framework/types"
+import { Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The data to create the inventory items.

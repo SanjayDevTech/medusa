@@ -1,4 +1,4 @@
-import { HttpTypes, PriceListStatus } from "@medusajs/types"
+import { HttpTypes, PriceListStatus } from "@biryanihouse/types"
 import { useQueryParams } from "../../../../../hooks/use-query-params"
 
 export const usePricingTableQuery = ({

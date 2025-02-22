@@ -1,4 +1,4 @@
-import { InventoryTypes, StockLocationDTO } from "@medusajs/types"
+import { InventoryTypes, StockLocationDTO } from "@biryanihouse/types"
 
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"

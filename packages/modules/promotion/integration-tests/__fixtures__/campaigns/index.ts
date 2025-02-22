@@ -1,5 +1,5 @@
-import { CreateCampaignDTO } from "@medusajs/framework/types"
-import { toMikroORMEntity } from "@medusajs/framework/utils"
+import { CreateCampaignDTO } from "@biryanihouse/framework/types"
+import { toMikroORMEntity } from "@biryanihouse/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { Campaign } from "@models"
 import { defaultCampaignsData } from "./data"

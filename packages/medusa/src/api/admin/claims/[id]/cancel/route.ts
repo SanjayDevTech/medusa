@@ -1,9 +1,9 @@
-import { cancelOrderClaimWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { cancelOrderClaimWorkflow } from "@biryanihouse/core-flows"
+import { HttpTypes } from "@biryanihouse/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminPostCancelClaimReqSchemaType } from "../../validators"
 
 export const POST = async (

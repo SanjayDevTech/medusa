@@ -2,8 +2,8 @@ import {
   Constructor,
   ILinkModule,
   ModuleJoinerConfig,
-} from "@medusajs/framework/types"
-import { isDefined } from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/types"
+import { isDefined } from "@biryanihouse/framework/utils"
 import { LinkModuleService } from "@services"
 
 export function getModuleService(

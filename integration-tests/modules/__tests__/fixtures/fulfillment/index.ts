@@ -2,7 +2,7 @@ import {
   CreateFulfillmentDTO,
   CreateShippingOptionDTO,
   IFulfillmentModuleService,
-} from "@medusajs/types"
+} from "@biryanihouse/types"
 
 export function generateCreateFulfillmentData(
   data: Partial<CreateFulfillmentDTO> & {

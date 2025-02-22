@@ -19,7 +19,7 @@ import {
 import { InteractiveSidebarItem, SidebarItem, SidebarItemLink } from "types"
 import slugify from "slugify"
 import { MDXComponents } from "../.."
-import { ChevronDoubleRight, ExclamationCircle } from "@medusajs/icons"
+import { ChevronDoubleRight, ExclamationCircle } from "@biryanihouse/icons"
 
 type HeadingComponent = (
   props: React.HTMLAttributes<HTMLHeadingElement>

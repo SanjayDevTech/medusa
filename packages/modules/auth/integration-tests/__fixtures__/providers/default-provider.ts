@@ -3,11 +3,11 @@ import {
   AuthenticationResponse,
   AuthIdentityDTO,
   AuthIdentityProviderService,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   AbstractAuthModuleProvider,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export class AuthServiceFixtures extends AbstractAuthModuleProvider {
   static identifier = "plaintextpass"

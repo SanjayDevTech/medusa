@@ -1,9 +1,9 @@
-import { Modules, promiseAll } from "@medusajs/framework/utils"
+import { Modules, promiseAll } from "@biryanihouse/framework/utils"
 import {
   IFulfillmentModuleService,
   ValidateFulfillmentDataContext,
-} from "@medusajs/types"
-import { createStep, StepResponse } from "@medusajs/workflows-sdk"
+} from "@biryanihouse/types"
+import { createStep, StepResponse } from "@biryanihouse/workflows-sdk"
 
 /**
  * The details of the shipping methods to validate.

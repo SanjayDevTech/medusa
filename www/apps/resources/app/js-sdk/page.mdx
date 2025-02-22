@@ -21,13 +21,13 @@ The Medusa JS SDK is available in your Medusa application by default. So, you do
 To install the Medusa JS SDK in other projects, such as a custom storefront, run the following command:
 
 ```bash npm2yarn
-npm install @medusajs/js-sdk@latest @medusajs/types@latest
+npm install @biryanihouse/js-sdk@latest @biryanihouse/types@latest
 ```
 
 You install two libraries:
 
-- `@medusajs/js-sdk`: the Medusa JS SDK.
-- `@medusajs/types`: Medusa's types library, which is useful if you're using TypeScript in your development.
+- `@biryanihouse/js-sdk`: the Medusa JS SDK.
+- `@biryanihouse/types`: Medusa's types library, which is useful if you're using TypeScript in your development.
 
 ---
 
@@ -45,7 +45,7 @@ For admin customizations, create this file at `src/admin/lib/config.ts`.
   <CodeTab label="Admin" value="admin">
 
 ```ts title="src/admin/lib/config.ts"
-import Medusa from "@medusajs/js-sdk"
+import Medusa from "@biryanihouse/js-sdk"
 
 export const sdk = new Medusa({
   baseUrl: "http://localhost:9000",
@@ -60,7 +60,7 @@ export const sdk = new Medusa({
   <CodeTab label="Storefront" value="storefront">
 
 ```ts title="config.ts"
-import Medusa from "@medusajs/js-sdk"
+import Medusa from "@biryanihouse/js-sdk"
 
 let MEDUSA_BACKEND_URL = "http://localhost:9000"
 
@@ -372,11 +372,11 @@ export const queryHighlights = [
 ]
 
 ```tsx title="src/admin/widgets/product-widget.ts"
-import { defineWidgetConfig } from "@medusajs/admin-sdk"
-import { Button, Container } from "@medusajs/ui"
+import { defineWidgetConfig } from "@biryanihouse/admin-sdk"
+import { Button, Container } from "@biryanihouse/ui"
 import { useQuery } from "@tanstack/react-query"
 import { sdk } from "../lib/config"
-import { DetailWidgetProps, HttpTypes } from "@medusajs/framework/types"
+import { DetailWidgetProps, HttpTypes } from "@biryanihouse/framework/types"
 
 const ProductWidget = () => {
   const { data, isLoading } = useQuery({
@@ -409,11 +409,11 @@ export default ProductWidget
   <CodeTab label="Mutation" value="mutation">
 
 ```tsx title="src/admin/widgets/product-widget.ts"
-import { defineWidgetConfig } from "@medusajs/admin-sdk"
-import { Button, Container } from "@medusajs/ui"
+import { defineWidgetConfig } from "@biryanihouse/admin-sdk"
+import { Button, Container } from "@biryanihouse/ui"
 import { useMutation } from "@tanstack/react-query"
 import { sdk } from "../lib/config"
-import { DetailWidgetProps, HttpTypes } from "@medusajs/framework/types"
+import { DetailWidgetProps, HttpTypes } from "@biryanihouse/framework/types"
 
 const ProductWidget = ({ 
   data: productData,

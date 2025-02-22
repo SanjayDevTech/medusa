@@ -1,5 +1,5 @@
-import { FetchError } from "@medusajs/js-sdk"
-import { FindParams, HttpTypes, PaginatedResponse } from "@medusajs/types"
+import { FetchError } from "@biryanihouse/js-sdk"
+import { FindParams, HttpTypes, PaginatedResponse } from "@biryanihouse/types"
 import {
   QueryKey,
   UseMutationOptions,

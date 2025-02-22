@@ -1,11 +1,11 @@
-import { IInventoryService, InventoryTypes } from "@medusajs/framework/types"
+import { IInventoryService, InventoryTypes } from "@biryanihouse/framework/types"
 import {
   convertItemResponseToUpdateRequest,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/utils"
+import { StepResponse, createStep } from "@biryanihouse/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@biryanihouse/framework/utils"
 
 /**
  * The data to update the inventory items.

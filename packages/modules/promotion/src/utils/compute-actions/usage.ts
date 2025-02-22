@@ -2,12 +2,12 @@ import {
   BigNumberInput,
   CampaignBudgetExceededAction,
   PromotionDTO,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 import {
   CampaignBudgetType,
   ComputedActions,
   MathBN,
-} from "@medusajs/framework/utils"
+} from "@biryanihouse/framework/utils"
 
 export function computeActionForBudgetExceeded(
   promotion: PromotionDTO,

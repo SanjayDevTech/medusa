@@ -1,4 +1,4 @@
-import { ModuleProvider, Modules } from "@medusajs/framework/utils"
+import { ModuleProvider, Modules } from "@biryanihouse/framework/utils"
 import { LocalFileService } from "./services/local-file"
 
 const services = [LocalFileService]

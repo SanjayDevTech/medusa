@@ -2,9 +2,9 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 
-import { CreateStockLocationInput } from "@medusajs/framework/types"
+import { CreateStockLocationInput } from "@biryanihouse/framework/types"
 import { createStockLocations } from "../steps"
 
 /**

@@ -1,11 +1,11 @@
-import { revokeApiKeysWorkflow } from "@medusajs/core-flows"
+import { revokeApiKeysWorkflow } from "@biryanihouse/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@biryanihouse/framework/http"
 import { AdminRevokeApiKeyType } from "../../validators"
 import { refetchApiKey } from "../../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@biryanihouse/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminRevokeApiKeyType>,

@@ -1,7 +1,7 @@
 import {
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@biryanihouse/framework/types"
 
 export const FileProviderIdentifierRegistrationName =
   "file_providers_identifier"

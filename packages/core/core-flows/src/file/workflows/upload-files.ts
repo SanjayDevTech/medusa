@@ -1,9 +1,9 @@
-import { FileDTO } from "@medusajs/framework/types"
+import { FileDTO } from "@biryanihouse/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@biryanihouse/framework/workflows-sdk"
 import { uploadFilesStep } from "../steps"
 
 /**
