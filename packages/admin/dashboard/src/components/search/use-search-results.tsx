@@ -186,53 +186,53 @@ const useDynamicSearchResults = (
     }
   )
 
-  const inventoryResponse = useInventoryItems(
-    {
-      q: debouncedSearch,
-      limit,
-      fields: "id,title,sku",
-    },
-    {
-      enabled: isAreaEnabled(currentArea, "inventory"),
-      placeholderData: keepPreviousData,
-    }
-  )
+  // const inventoryResponse = useInventoryItems(
+  //   {
+  //     q: debouncedSearch,
+  //     limit,
+  //     fields: "id,title,sku",
+  //   },
+  //   {
+  //     enabled: isAreaEnabled(currentArea, "inventory"),
+  //     placeholderData: keepPreviousData,
+  //   }
+  // )
 
-  const promotionResponse = usePromotions(
-    {
-      q: debouncedSearch,
-      limit,
-      fields: "id,code,status",
-    },
-    {
-      enabled: isAreaEnabled(currentArea, "promotion"),
-      placeholderData: keepPreviousData,
-    }
-  )
+  // const promotionResponse = usePromotions(
+  //   {
+  //     q: debouncedSearch,
+  //     limit,
+  //     fields: "id,code,status",
+  //   },
+  //   {
+  //     enabled: isAreaEnabled(currentArea, "promotion"),
+  //     placeholderData: keepPreviousData,
+  //   }
+  // )
 
-  const campaignResponse = useCampaigns(
-    {
-      q: debouncedSearch,
-      limit,
-      fields: "id,name",
-    },
-    {
-      enabled: isAreaEnabled(currentArea, "campaign"),
-      placeholderData: keepPreviousData,
-    }
-  )
+  // const campaignResponse = useCampaigns(
+  //   {
+  //     q: debouncedSearch,
+  //     limit,
+  //     fields: "id,name",
+  //   },
+  //   {
+  //     enabled: isAreaEnabled(currentArea, "campaign"),
+  //     placeholderData: keepPreviousData,
+  //   }
+  // )
 
-  const priceListResponse = usePriceLists(
-    {
-      q: debouncedSearch,
-      limit,
-      fields: "id,title",
-    },
-    {
-      enabled: isAreaEnabled(currentArea, "priceList"),
-      placeholderData: keepPreviousData,
-    }
-  )
+  // const priceListResponse = usePriceLists(
+  //   {
+  //     q: debouncedSearch,
+  //     limit,
+  //     fields: "id,title",
+  //   },
+  //   {
+  //     enabled: isAreaEnabled(currentArea, "priceList"),
+  //     placeholderData: keepPreviousData,
+  //   }
+  // )
 
   const userResponse = useUsers(
     {
@@ -375,12 +375,12 @@ const useDynamicSearchResults = (
       productVariant: productVariantResponse,
       collection: collectionResponse,
       category: categoryResponse,
-      inventory: inventoryResponse,
+      // inventory: inventoryResponse,
       customer: customerResponse,
       customerGroup: customerGroupResponse,
-      promotion: promotionResponse,
-      campaign: campaignResponse,
-      priceList: priceListResponse,
+      // promotion: promotionResponse,
+      // campaign: campaignResponse,
+      // priceList: priceListResponse,
       user: userResponse,
       region: regionResponse,
       taxRegion: taxRegionResponse,
@@ -397,14 +397,14 @@ const useDynamicSearchResults = (
       orderResponse,
       productResponse,
       productVariantResponse,
-      inventoryResponse,
+      // inventoryResponse,
       categoryResponse,
       collectionResponse,
       customerResponse,
       customerGroupResponse,
-      promotionResponse,
-      campaignResponse,
-      priceListResponse,
+      // promotionResponse,
+      // campaignResponse,
+      // priceListResponse,
       userResponse,
       regionResponse,
       taxRegionResponse,
@@ -545,16 +545,16 @@ const transformMap: TransformMap = {
       value: `category:${category.id}`,
     }),
   },
-  inventory: {
-    dataKey: "inventory_items",
-    transform: (inventory: HttpTypes.AdminInventoryItem) => ({
-      id: inventory.id,
-      title: inventory.title ?? "",
-      subtitle: inventory.sku ?? undefined,
-      to: `/inventory/${inventory.id}`,
-      value: `inventory:${inventory.id}`,
-    }),
-  },
+  // inventory: {
+  //   dataKey: "inventory_items",
+  //   transform: (inventory: HttpTypes.AdminInventoryItem) => ({
+  //     id: inventory.id,
+  //     title: inventory.title ?? "",
+  //     subtitle: inventory.sku ?? undefined,
+  //     to: `/inventory/${inventory.id}`,
+  //     value: `inventory:${inventory.id}`,
+  //   }),
+  // },
   customer: {
     dataKey: "customers",
     transform: (customer: HttpTypes.AdminCustomer) => {
@@ -588,33 +588,33 @@ const transformMap: TransformMap = {
       value: `collection:${collection.id}`,
     }),
   },
-  promotion: {
-    dataKey: "promotions",
-    transform: (promotion: HttpTypes.AdminPromotion) => ({
-      id: promotion.id,
-      title: promotion.code!,
-      to: `/promotions/${promotion.id}`,
-      value: `promotion:${promotion.id}`,
-    }),
-  },
-  campaign: {
-    dataKey: "campaigns",
-    transform: (campaign: HttpTypes.AdminCampaign) => ({
-      id: campaign.id,
-      title: campaign.name,
-      to: `/campaigns/${campaign.id}`,
-      value: `campaign:${campaign.id}`,
-    }),
-  },
-  priceList: {
-    dataKey: "price_lists",
-    transform: (priceList: HttpTypes.AdminPriceList) => ({
-      id: priceList.id,
-      title: priceList.title,
-      to: `/price-lists/${priceList.id}`,
-      value: `priceList:${priceList.id}`,
-    }),
-  },
+  // promotion: {
+  //   dataKey: "promotions",
+  //   transform: (promotion: HttpTypes.AdminPromotion) => ({
+  //     id: promotion.id,
+  //     title: promotion.code!,
+  //     to: `/promotions/${promotion.id}`,
+  //     value: `promotion:${promotion.id}`,
+  //   }),
+  // },
+  // campaign: {
+  //   dataKey: "campaigns",
+  //   transform: (campaign: HttpTypes.AdminCampaign) => ({
+  //     id: campaign.id,
+  //     title: campaign.name,
+  //     to: `/campaigns/${campaign.id}`,
+  //     value: `campaign:${campaign.id}`,
+  //   }),
+  // },
+  // priceList: {
+  //   dataKey: "price_lists",
+  //   transform: (priceList: HttpTypes.AdminPriceList) => ({
+  //     id: priceList.id,
+  //     title: priceList.title,
+  //     to: `/price-lists/${priceList.id}`,
+  //     value: `priceList:${priceList.id}`,
+  //   }),
+  // },
   user: {
     dataKey: "users",
     transform: (user: HttpTypes.AdminUser) => ({

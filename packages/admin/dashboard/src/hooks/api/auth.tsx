@@ -53,13 +53,6 @@ export const useResetPasswordForEmailPass = (
   })
 }
 
-export const useLogout = (options?: UseMutationOptions<void, FetchError>) => {
-  return useMutation({
-    mutationFn: () => sdk.auth.logout(),
-    ...options,
-  })
-}
-
 export const useUpdateProviderForEmailPass = (
   token: string,
   options?: UseMutationOptions<void, FetchError, { password: string }>

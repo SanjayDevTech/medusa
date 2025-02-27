@@ -1,6 +1,6 @@
 {
   "name": "@biryanihouse/inventory",
-  "version": "2.4.13",
+  "version": "2.4.21",
   "description": "Inventory Module for Medusa",
   "main": "dist/index.js",
   "repository": {
@@ -23,8 +23,8 @@
   "author": "Medusa",
   "license": "MIT",
   "devDependencies": {
-    "@biryanihouse/framework": "~2.4.13",
-    "@biryanihouse/test-utils": "~2.4.13",
+    "@biryanihouse/framework": "~2.4.21",
+    "@biryanihouse/test-utils": "~2.4.21",
     "@mikro-orm/cli": "6.4.3",
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",

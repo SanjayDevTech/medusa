@@ -1,6 +1,6 @@
 {
   "name": "@biryanihouse/api-key",
-  "version": "2.4.13",
+  "version": "2.4.21",
   "description": "Medusa API Key module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,8 +36,8 @@
     "orm:cache:clear": " MIKRO_ORM_CLI_CONFIG=./mikro-orm.config.dev.ts medusa-mikro-orm cache:clear"
   },
   "devDependencies": {
-    "@biryanihouse/framework": "~2.4.13",
-    "@biryanihouse/test-utils": "~2.4.13",
+    "@biryanihouse/framework": "~2.4.21",
+    "@biryanihouse/test-utils": "~2.4.21",
     "@mikro-orm/cli": "6.4.3",
     "@swc/core": "^1.7.28",
     "@swc/jest": "^0.2.36",

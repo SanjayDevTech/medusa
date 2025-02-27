@@ -1,5 +1,397 @@
 # Change Log
 
+## 2.4.21
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.21
+  - @biryanihouse/core-flows@2.4.21
+  - @biryanihouse/telemetry@2.4.21
+  - @biryanihouse/api-key@2.4.21
+  - @biryanihouse/auth@2.4.21
+  - @biryanihouse/cache-inmemory@2.4.21
+  - @biryanihouse/cache-redis@2.4.21
+  - @biryanihouse/cart@2.4.21
+  - @biryanihouse/currency@2.4.21
+  - @biryanihouse/customer@2.4.21
+  - @biryanihouse/event-bus-local@2.4.21
+  - @biryanihouse/event-bus-redis@2.4.21
+  - @biryanihouse/file@2.4.21
+  - @biryanihouse/fulfillment@2.4.21
+  - @biryanihouse/index@2.4.21
+  - @biryanihouse/inventory@2.4.21
+  - @biryanihouse/link-modules@2.4.21
+  - @biryanihouse/locking@2.4.21
+  - @biryanihouse/notification@2.4.21
+  - @biryanihouse/order@2.4.21
+  - @biryanihouse/payment@2.4.21
+  - @biryanihouse/pricing@2.4.21
+  - @biryanihouse/product@2.4.21
+  - @biryanihouse/promotion@2.4.21
+  - @biryanihouse/auth-emailpass@2.4.21
+  - @biryanihouse/auth-github@2.4.21
+  - @biryanihouse/auth-google@2.4.21
+  - @biryanihouse/file-local@2.4.21
+  - @biryanihouse/file-s3@2.4.21
+  - @biryanihouse/fulfillment-manual@2.4.21
+  - @biryanihouse/locking-postgres@2.4.21
+  - @biryanihouse/locking-redis@2.4.21
+  - @biryanihouse/notification-local@2.4.21
+  - @biryanihouse/notification-sendgrid@2.4.21
+  - @biryanihouse/payment-stripe@2.4.21
+  - @biryanihouse/region@2.4.21
+  - @biryanihouse/sales-channel@2.4.21
+  - @biryanihouse/stock-location@2.4.21
+  - @biryanihouse/store@2.4.21
+  - @biryanihouse/tax@2.4.21
+  - @biryanihouse/user@2.4.21
+  - @biryanihouse/workflow-engine-inmemory@2.4.21
+  - @biryanihouse/workflow-engine-redis@2.4.21
+
+## 2.4.20
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.20
+  - @biryanihouse/core-flows@2.4.20
+  - @biryanihouse/telemetry@2.4.20
+  - @biryanihouse/api-key@2.4.20
+  - @biryanihouse/auth@2.4.20
+  - @biryanihouse/cache-inmemory@2.4.20
+  - @biryanihouse/cache-redis@2.4.20
+  - @biryanihouse/cart@2.4.20
+  - @biryanihouse/currency@2.4.20
+  - @biryanihouse/customer@2.4.20
+  - @biryanihouse/event-bus-local@2.4.20
+  - @biryanihouse/event-bus-redis@2.4.20
+  - @biryanihouse/file@2.4.20
+  - @biryanihouse/fulfillment@2.4.20
+  - @biryanihouse/index@2.4.20
+  - @biryanihouse/inventory@2.4.20
+  - @biryanihouse/link-modules@2.4.20
+  - @biryanihouse/locking@2.4.20
+  - @biryanihouse/notification@2.4.20
+  - @biryanihouse/order@2.4.20
+  - @biryanihouse/payment@2.4.20
+  - @biryanihouse/pricing@2.4.20
+  - @biryanihouse/product@2.4.20
+  - @biryanihouse/promotion@2.4.20
+  - @biryanihouse/auth-emailpass@2.4.20
+  - @biryanihouse/auth-github@2.4.20
+  - @biryanihouse/auth-google@2.4.20
+  - @biryanihouse/file-local@2.4.20
+  - @biryanihouse/file-s3@2.4.20
+  - @biryanihouse/fulfillment-manual@2.4.20
+  - @biryanihouse/locking-postgres@2.4.20
+  - @biryanihouse/locking-redis@2.4.20
+  - @biryanihouse/notification-local@2.4.20
+  - @biryanihouse/notification-sendgrid@2.4.20
+  - @biryanihouse/payment-stripe@2.4.20
+  - @biryanihouse/region@2.4.20
+  - @biryanihouse/sales-channel@2.4.20
+  - @biryanihouse/stock-location@2.4.20
+  - @biryanihouse/store@2.4.20
+  - @biryanihouse/tax@2.4.20
+  - @biryanihouse/user@2.4.20
+  - @biryanihouse/workflow-engine-inmemory@2.4.20
+  - @biryanihouse/workflow-engine-redis@2.4.20
+
+## 2.4.19
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.19
+  - @biryanihouse/core-flows@2.4.19
+  - @biryanihouse/telemetry@2.4.19
+  - @biryanihouse/api-key@2.4.19
+  - @biryanihouse/auth@2.4.19
+  - @biryanihouse/cache-inmemory@2.4.19
+  - @biryanihouse/cache-redis@2.4.19
+  - @biryanihouse/cart@2.4.19
+  - @biryanihouse/currency@2.4.19
+  - @biryanihouse/customer@2.4.19
+  - @biryanihouse/event-bus-local@2.4.19
+  - @biryanihouse/event-bus-redis@2.4.19
+  - @biryanihouse/file@2.4.19
+  - @biryanihouse/fulfillment@2.4.19
+  - @biryanihouse/index@2.4.19
+  - @biryanihouse/inventory@2.4.19
+  - @biryanihouse/link-modules@2.4.19
+  - @biryanihouse/locking@2.4.19
+  - @biryanihouse/notification@2.4.19
+  - @biryanihouse/order@2.4.19
+  - @biryanihouse/payment@2.4.19
+  - @biryanihouse/pricing@2.4.19
+  - @biryanihouse/product@2.4.19
+  - @biryanihouse/promotion@2.4.19
+  - @biryanihouse/auth-emailpass@2.4.19
+  - @biryanihouse/auth-github@2.4.19
+  - @biryanihouse/auth-google@2.4.19
+  - @biryanihouse/file-local@2.4.19
+  - @biryanihouse/file-s3@2.4.19
+  - @biryanihouse/fulfillment-manual@2.4.19
+  - @biryanihouse/locking-postgres@2.4.19
+  - @biryanihouse/locking-redis@2.4.19
+  - @biryanihouse/notification-local@2.4.19
+  - @biryanihouse/notification-sendgrid@2.4.19
+  - @biryanihouse/payment-stripe@2.4.19
+  - @biryanihouse/region@2.4.19
+  - @biryanihouse/sales-channel@2.4.19
+  - @biryanihouse/stock-location@2.4.19
+  - @biryanihouse/store@2.4.19
+  - @biryanihouse/tax@2.4.19
+  - @biryanihouse/user@2.4.19
+  - @biryanihouse/workflow-engine-inmemory@2.4.19
+  - @biryanihouse/workflow-engine-redis@2.4.19
+
+## 2.4.18
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.18
+  - @biryanihouse/core-flows@2.4.18
+  - @biryanihouse/telemetry@2.4.18
+  - @biryanihouse/api-key@2.4.18
+  - @biryanihouse/auth@2.4.18
+  - @biryanihouse/cache-inmemory@2.4.18
+  - @biryanihouse/cache-redis@2.4.18
+  - @biryanihouse/cart@2.4.18
+  - @biryanihouse/currency@2.4.18
+  - @biryanihouse/customer@2.4.18
+  - @biryanihouse/event-bus-local@2.4.18
+  - @biryanihouse/event-bus-redis@2.4.18
+  - @biryanihouse/file@2.4.18
+  - @biryanihouse/fulfillment@2.4.18
+  - @biryanihouse/index@2.4.18
+  - @biryanihouse/inventory@2.4.18
+  - @biryanihouse/link-modules@2.4.18
+  - @biryanihouse/locking@2.4.18
+  - @biryanihouse/notification@2.4.18
+  - @biryanihouse/order@2.4.18
+  - @biryanihouse/payment@2.4.18
+  - @biryanihouse/pricing@2.4.18
+  - @biryanihouse/product@2.4.18
+  - @biryanihouse/promotion@2.4.18
+  - @biryanihouse/auth-emailpass@2.4.18
+  - @biryanihouse/auth-github@2.4.18
+  - @biryanihouse/auth-google@2.4.18
+  - @biryanihouse/file-local@2.4.18
+  - @biryanihouse/file-s3@2.4.18
+  - @biryanihouse/fulfillment-manual@2.4.18
+  - @biryanihouse/locking-postgres@2.4.18
+  - @biryanihouse/locking-redis@2.4.18
+  - @biryanihouse/notification-local@2.4.18
+  - @biryanihouse/notification-sendgrid@2.4.18
+  - @biryanihouse/payment-stripe@2.4.18
+  - @biryanihouse/region@2.4.18
+  - @biryanihouse/sales-channel@2.4.18
+  - @biryanihouse/stock-location@2.4.18
+  - @biryanihouse/store@2.4.18
+  - @biryanihouse/tax@2.4.18
+  - @biryanihouse/user@2.4.18
+  - @biryanihouse/workflow-engine-inmemory@2.4.18
+  - @biryanihouse/workflow-engine-redis@2.4.18
+
+## 2.4.17
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.17
+  - @biryanihouse/core-flows@2.4.17
+  - @biryanihouse/telemetry@2.4.17
+  - @biryanihouse/api-key@2.4.17
+  - @biryanihouse/auth@2.4.17
+  - @biryanihouse/cache-inmemory@2.4.17
+  - @biryanihouse/cache-redis@2.4.17
+  - @biryanihouse/cart@2.4.17
+  - @biryanihouse/currency@2.4.17
+  - @biryanihouse/customer@2.4.17
+  - @biryanihouse/event-bus-local@2.4.17
+  - @biryanihouse/event-bus-redis@2.4.17
+  - @biryanihouse/file@2.4.17
+  - @biryanihouse/fulfillment@2.4.17
+  - @biryanihouse/index@2.4.17
+  - @biryanihouse/inventory@2.4.17
+  - @biryanihouse/link-modules@2.4.17
+  - @biryanihouse/locking@2.4.17
+  - @biryanihouse/notification@2.4.17
+  - @biryanihouse/order@2.4.17
+  - @biryanihouse/payment@2.4.17
+  - @biryanihouse/pricing@2.4.17
+  - @biryanihouse/product@2.4.17
+  - @biryanihouse/promotion@2.4.17
+  - @biryanihouse/auth-emailpass@2.4.17
+  - @biryanihouse/auth-github@2.4.17
+  - @biryanihouse/auth-google@2.4.17
+  - @biryanihouse/file-local@2.4.17
+  - @biryanihouse/file-s3@2.4.17
+  - @biryanihouse/fulfillment-manual@2.4.17
+  - @biryanihouse/locking-postgres@2.4.17
+  - @biryanihouse/locking-redis@2.4.17
+  - @biryanihouse/notification-local@2.4.17
+  - @biryanihouse/notification-sendgrid@2.4.17
+  - @biryanihouse/payment-stripe@2.4.17
+  - @biryanihouse/region@2.4.17
+  - @biryanihouse/sales-channel@2.4.17
+  - @biryanihouse/stock-location@2.4.17
+  - @biryanihouse/store@2.4.17
+  - @biryanihouse/tax@2.4.17
+  - @biryanihouse/user@2.4.17
+  - @biryanihouse/workflow-engine-inmemory@2.4.17
+  - @biryanihouse/workflow-engine-redis@2.4.17
+
+## 2.4.16
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.16
+  - @biryanihouse/core-flows@2.4.16
+  - @biryanihouse/telemetry@2.4.16
+  - @biryanihouse/api-key@2.4.16
+  - @biryanihouse/auth@2.4.16
+  - @biryanihouse/cache-inmemory@2.4.16
+  - @biryanihouse/cache-redis@2.4.16
+  - @biryanihouse/cart@2.4.16
+  - @biryanihouse/currency@2.4.16
+  - @biryanihouse/customer@2.4.16
+  - @biryanihouse/event-bus-local@2.4.16
+  - @biryanihouse/event-bus-redis@2.4.16
+  - @biryanihouse/file@2.4.16
+  - @biryanihouse/fulfillment@2.4.16
+  - @biryanihouse/index@2.4.16
+  - @biryanihouse/inventory@2.4.16
+  - @biryanihouse/link-modules@2.4.16
+  - @biryanihouse/locking@2.4.16
+  - @biryanihouse/notification@2.4.16
+  - @biryanihouse/order@2.4.16
+  - @biryanihouse/payment@2.4.16
+  - @biryanihouse/pricing@2.4.16
+  - @biryanihouse/product@2.4.16
+  - @biryanihouse/promotion@2.4.16
+  - @biryanihouse/auth-emailpass@2.4.16
+  - @biryanihouse/auth-github@2.4.16
+  - @biryanihouse/auth-google@2.4.16
+  - @biryanihouse/file-local@2.4.16
+  - @biryanihouse/file-s3@2.4.16
+  - @biryanihouse/fulfillment-manual@2.4.16
+  - @biryanihouse/locking-postgres@2.4.16
+  - @biryanihouse/locking-redis@2.4.16
+  - @biryanihouse/notification-local@2.4.16
+  - @biryanihouse/notification-sendgrid@2.4.16
+  - @biryanihouse/payment-stripe@2.4.16
+  - @biryanihouse/region@2.4.16
+  - @biryanihouse/sales-channel@2.4.16
+  - @biryanihouse/stock-location@2.4.16
+  - @biryanihouse/store@2.4.16
+  - @biryanihouse/tax@2.4.16
+  - @biryanihouse/user@2.4.16
+  - @biryanihouse/workflow-engine-inmemory@2.4.16
+  - @biryanihouse/workflow-engine-redis@2.4.16
+
+## 2.4.15
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.15
+  - @biryanihouse/core-flows@2.4.15
+  - @biryanihouse/telemetry@2.4.15
+  - @biryanihouse/api-key@2.4.15
+  - @biryanihouse/auth@2.4.15
+  - @biryanihouse/cache-inmemory@2.4.15
+  - @biryanihouse/cache-redis@2.4.15
+  - @biryanihouse/cart@2.4.15
+  - @biryanihouse/currency@2.4.15
+  - @biryanihouse/customer@2.4.15
+  - @biryanihouse/event-bus-local@2.4.15
+  - @biryanihouse/event-bus-redis@2.4.15
+  - @biryanihouse/file@2.4.15
+  - @biryanihouse/fulfillment@2.4.15
+  - @biryanihouse/index@2.4.15
+  - @biryanihouse/inventory@2.4.15
+  - @biryanihouse/link-modules@2.4.15
+  - @biryanihouse/locking@2.4.15
+  - @biryanihouse/notification@2.4.15
+  - @biryanihouse/order@2.4.15
+  - @biryanihouse/payment@2.4.15
+  - @biryanihouse/pricing@2.4.15
+  - @biryanihouse/product@2.4.15
+  - @biryanihouse/promotion@2.4.15
+  - @biryanihouse/auth-emailpass@2.4.15
+  - @biryanihouse/auth-github@2.4.15
+  - @biryanihouse/auth-google@2.4.15
+  - @biryanihouse/file-local@2.4.15
+  - @biryanihouse/file-s3@2.4.15
+  - @biryanihouse/fulfillment-manual@2.4.15
+  - @biryanihouse/locking-postgres@2.4.15
+  - @biryanihouse/locking-redis@2.4.15
+  - @biryanihouse/notification-local@2.4.15
+  - @biryanihouse/notification-sendgrid@2.4.15
+  - @biryanihouse/payment-stripe@2.4.15
+  - @biryanihouse/region@2.4.15
+  - @biryanihouse/sales-channel@2.4.15
+  - @biryanihouse/stock-location@2.4.15
+  - @biryanihouse/store@2.4.15
+  - @biryanihouse/tax@2.4.15
+  - @biryanihouse/user@2.4.15
+  - @biryanihouse/workflow-engine-inmemory@2.4.15
+  - @biryanihouse/workflow-engine-redis@2.4.15
+
+## 2.4.14
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/admin-bundler@2.4.14
+  - @biryanihouse/core-flows@2.4.14
+  - @biryanihouse/telemetry@2.4.14
+  - @biryanihouse/api-key@2.4.14
+  - @biryanihouse/auth@2.4.14
+  - @biryanihouse/cache-inmemory@2.4.14
+  - @biryanihouse/cache-redis@2.4.14
+  - @biryanihouse/cart@2.4.14
+  - @biryanihouse/currency@2.4.14
+  - @biryanihouse/customer@2.4.14
+  - @biryanihouse/event-bus-local@2.4.14
+  - @biryanihouse/event-bus-redis@2.4.14
+  - @biryanihouse/file@2.4.14
+  - @biryanihouse/fulfillment@2.4.14
+  - @biryanihouse/index@2.4.14
+  - @biryanihouse/inventory@2.4.14
+  - @biryanihouse/link-modules@2.4.14
+  - @biryanihouse/locking@2.4.14
+  - @biryanihouse/notification@2.4.14
+  - @biryanihouse/order@2.4.14
+  - @biryanihouse/payment@2.4.14
+  - @biryanihouse/pricing@2.4.14
+  - @biryanihouse/product@2.4.14
+  - @biryanihouse/promotion@2.4.14
+  - @biryanihouse/auth-emailpass@2.4.14
+  - @biryanihouse/auth-github@2.4.14
+  - @biryanihouse/auth-google@2.4.14
+  - @biryanihouse/file-local@2.4.14
+  - @biryanihouse/file-s3@2.4.14
+  - @biryanihouse/fulfillment-manual@2.4.14
+  - @biryanihouse/locking-postgres@2.4.14
+  - @biryanihouse/locking-redis@2.4.14
+  - @biryanihouse/notification-local@2.4.14
+  - @biryanihouse/notification-sendgrid@2.4.14
+  - @biryanihouse/payment-stripe@2.4.14
+  - @biryanihouse/region@2.4.14
+  - @biryanihouse/sales-channel@2.4.14
+  - @biryanihouse/stock-location@2.4.14
+  - @biryanihouse/store@2.4.14
+  - @biryanihouse/tax@2.4.14
+  - @biryanihouse/user@2.4.14
+  - @biryanihouse/workflow-engine-inmemory@2.4.14
+  - @biryanihouse/workflow-engine-redis@2.4.14
+
 ## 2.4.13
 
 ### Patch Changes

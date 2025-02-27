@@ -1,6 +1,6 @@
 {
   "name": "@biryanihouse/cache-inmemory",
-  "version": "2.4.13",
+  "version": "2.4.21",
   "description": "In-memory Cache Module for Medusa",
   "main": "dist/index.js",
   "repository": {
@@ -23,7 +23,7 @@
   "author": "Medusa",
   "license": "MIT",
   "devDependencies": {
-    "@biryanihouse/framework": "~2.4.13",
+    "@biryanihouse/framework": "~2.4.21",
     "@swc/core": "^1.7.28",
     "@swc/jest": "^0.2.36",
     "jest": "^29.7.0",

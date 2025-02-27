@@ -25,11 +25,12 @@ import { Skeleton } from "../../common/skeleton"
 
 import { useState } from "react"
 import { Link, useLocation, useNavigate } from "react-router-dom"
-import { useLogout, useMe } from "../../../hooks/api"
+import { useMe } from "../../../hooks/api"
 import { queryClient } from "../../../lib/query-client"
 import { useGlobalShortcuts } from "../../../providers/keybind-provider/hooks"
 import { useTheme } from "../../../providers/theme-provider"
 import { useAdminUser } from "../../../providers/user-provider"
+import { sdk } from "../../../lib/client"
 
 export const UserMenu = () => {
   const { t } = useTranslation()
@@ -188,18 +189,12 @@ const Logout = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
 
-  const { mutateAsync: logoutMutation } = useLogout()
-
   const handleLogout = async () => {
-    await logoutMutation(undefined, {
-      onSuccess: () => {
-        /**
-         * When the user logs out, we want to clear the query cache
-         */
-        queryClient.clear()
-        navigate("/login")
-      },
-    })
+    await sdk.auth.logout()
+    console.log("Clearing query", "user-menu.tsx")
+    queryClient.clear()
+    console.log("Navigating to login", "user-menu.tsx")
+    navigate("/login")
   }
 
   return (

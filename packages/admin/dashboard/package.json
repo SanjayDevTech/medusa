@@ -1,6 +1,6 @@
 {
   "name": "@biryanihouse/dashboard",
-  "version": "2.4.13",
+  "version": "2.4.21",
   "scripts": {
     "generate:static": "node ./scripts/generate-currencies.js && prettier --write ./src/lib/currencies.ts",
     "dev": "vite",
@@ -41,9 +41,9 @@
   ],
   "dependencies": {
     "@ariakit/react": "^0.4.15",
-    "@biryanihouse/admin-shared": "2.4.13",
-    "@biryanihouse/icons": "2.4.13",
-    "@biryanihouse/js-sdk": "2.4.13",
+    "@biryanihouse/admin-shared": "2.4.21",
+    "@biryanihouse/icons": "2.4.21",
+    "@biryanihouse/js-sdk": "2.4.21",
     "@biryanihouse/ui": "4.0.4",
     "@dnd-kit/core": "^6.1.0",
     "@dnd-kit/sortable": "^8.0.0",
@@ -75,10 +75,10 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@biryanihouse/admin-shared": "~2.4.13",
-    "@biryanihouse/admin-vite-plugin": "2.4.13",
-    "@biryanihouse/types": "2.4.13",
-    "@biryanihouse/ui-preset": "2.4.13",
+    "@biryanihouse/admin-shared": "~2.4.21",
+    "@biryanihouse/admin-vite-plugin": "2.4.21",
+    "@biryanihouse/types": "2.4.21",
+    "@biryanihouse/ui-preset": "2.4.21",
     "@types/node": "^20.11.15",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",

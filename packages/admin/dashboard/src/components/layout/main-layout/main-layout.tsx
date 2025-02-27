@@ -26,11 +26,11 @@ import { Shell } from "../../layout/shell"
 
 import { Link, useLocation, useNavigate } from "react-router-dom"
 import { useDashboardExtension } from "../../../extensions"
-import { useLogout, useMe, useUser } from "../../../hooks/api"
 import { queryClient } from "../../../lib/query-client"
 import { useSearch } from "../../../providers/search-provider"
 import { UserMenu } from "../user-menu"
 import { useAdminUser } from "../../../providers/user-provider"
+import { sdk } from "../../../lib/client"
 
 export const MainLayout = () => {
   return (
@@ -70,18 +70,12 @@ const Logout = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
 
-  const { mutateAsync: logoutMutation } = useLogout()
-
   const handleLogout = async () => {
-    await logoutMutation(undefined, {
-      onSuccess: () => {
-        /**
-         * When the user logs out, we want to clear the query cache
-         */
-        queryClient.clear()
-        navigate("/login")
-      },
-    })
+    await sdk.auth.logout()
+    console.log("Clearing query", "main-layout.tsx")
+    queryClient.clear()
+    console.log("Navigating to login", "main-layout.tsx")
+    navigate("/login")
   }
 
   return (
@@ -222,17 +216,17 @@ const useCoreRoutes = (): Omit<INavItem, "pathname">[] => {
           // },
         ],
       },
-      {
-        icon: <Buildings />,
-        label: t("inventory.domain"),
-        to: "/inventory",
-        items: [
-          {
-            label: t("reservations.domain"),
-            to: "/reservations",
-          },
-        ],
-      },
+      // {
+      //   icon: <Buildings />,
+      //   label: t("inventory.domain"),
+      //   to: "/inventory",
+      //   items: [
+      //     {
+      //       label: t("reservations.domain"),
+      //       to: "/reservations",
+      //     },
+      //   ],
+      // },
       {
         icon: <Users />,
         label: t("customers.domain"),
@@ -244,22 +238,22 @@ const useCoreRoutes = (): Omit<INavItem, "pathname">[] => {
           },
         ],
       },
-      {
-        icon: <ReceiptPercent />,
-        label: t("promotions.domain"),
-        to: "/promotions",
-        items: [
-          {
-            label: t("campaigns.domain"),
-            to: "/campaigns",
-          },
-        ],
-      },
-      {
-        icon: <CurrencyDollar />,
-        label: t("priceLists.domain"),
-        to: "/price-lists",
-      },
+      // {
+      //   icon: <ReceiptPercent />,
+      //   label: t("promotions.domain"),
+      //   to: "/promotions",
+      //   items: [
+      //     {
+      //       label: t("campaigns.domain"),
+      //       to: "/campaigns",
+      //     },
+      //   ],
+      // },
+      // {
+      //   icon: <CurrencyDollar />,
+      //   label: t("priceLists.domain"),
+      //   to: "/price-lists",
+      // },
     ]
   }
   return [

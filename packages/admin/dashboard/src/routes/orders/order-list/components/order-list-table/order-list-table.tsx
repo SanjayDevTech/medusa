@@ -44,7 +44,7 @@ export const OrderListTable = () => {
   })
 
   const ordersWithLocations = useMemo(() => orders?.map((order) => {
-    const location = locationsResponse.locations.find((location) => location.id === order.location_id)
+    const location = locationsResponse?.locations?.find((location) => location.id === order.location_id) ?? []
     return {
       ...order,
       location: location,

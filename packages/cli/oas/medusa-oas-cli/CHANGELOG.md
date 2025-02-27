@@ -1,5 +1,69 @@
 # @biryanihouse/oas-cli
 
+## 2.4.21
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.21
+  - @biryanihouse/medusa@2.4.21
+
+## 2.4.20
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.20
+  - @biryanihouse/medusa@2.4.20
+
+## 2.4.19
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.19
+  - @biryanihouse/medusa@2.4.19
+
+## 2.4.18
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.18
+  - @biryanihouse/medusa@2.4.18
+
+## 2.4.17
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.17
+  - @biryanihouse/medusa@2.4.17
+
+## 2.4.16
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.16
+  - @biryanihouse/medusa@2.4.16
+
+## 2.4.15
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.15
+  - @biryanihouse/medusa@2.4.15
+
+## 2.4.14
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/utils@2.4.14
+  - @biryanihouse/medusa@2.4.14
+
 ## 2.4.13
 
 ### Patch Changes

@@ -2925,14 +2925,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@biryanihouse/admin-bundler@workspace:packages/admin/admin-bundler, @biryanihouse/admin-bundler@~2.4.13":
+"@biryanihouse/admin-bundler@workspace:packages/admin/admin-bundler, @biryanihouse/admin-bundler@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/admin-bundler@workspace:packages/admin/admin-bundler"
   dependencies:
-    "@biryanihouse/admin-shared": 2.4.13
-    "@biryanihouse/admin-vite-plugin": 2.4.13
-    "@biryanihouse/dashboard": 2.4.13
-    "@biryanihouse/types": ~2.4.13
+    "@biryanihouse/admin-shared": 2.4.21
+    "@biryanihouse/admin-vite-plugin": 2.4.21
+    "@biryanihouse/dashboard": 2.4.21
+    "@biryanihouse/types": ~2.4.21
     "@rollup/plugin-node-resolve": ^16.0.0
     "@types/compression": ^1.7.5
     "@vitejs/plugin-react": ^4.2.1
@@ -2956,7 +2956,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@biryanihouse/admin-sdk@workspace:packages/admin/admin-sdk"
   dependencies:
-    "@biryanihouse/admin-shared": ~2.4.13
+    "@biryanihouse/admin-shared": ~2.4.21
     "@types/react": ^18.3.2
     tsup: ^8.0.1
     typescript: ^5.3.3
@@ -2966,7 +2966,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/admin-shared@2.4.13, @biryanihouse/admin-shared@workspace:packages/admin/admin-shared, @biryanihouse/admin-shared@~2.4.13":
+"@biryanihouse/admin-shared@2.4.21, @biryanihouse/admin-shared@workspace:packages/admin/admin-shared, @biryanihouse/admin-shared@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/admin-shared@workspace:packages/admin/admin-shared"
   dependencies:
@@ -2976,14 +2976,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/admin-vite-plugin@2.4.13, @biryanihouse/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
+"@biryanihouse/admin-vite-plugin@2.4.21, @biryanihouse/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin"
   dependencies:
     "@babel/parser": 7.25.6
     "@babel/traverse": 7.25.6
     "@babel/types": 7.25.6
-    "@biryanihouse/admin-shared": 2.4.13
+    "@biryanihouse/admin-shared": 2.4.21
     "@types/node": ^20.10.4
     chokidar: 3.5.3
     fdir: 6.1.1
@@ -2999,12 +2999,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/api-key@workspace:^, @biryanihouse/api-key@workspace:packages/modules/api-key, @biryanihouse/api-key@~2.4.13":
+"@biryanihouse/api-key@workspace:^, @biryanihouse/api-key@workspace:packages/modules/api-key, @biryanihouse/api-key@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/api-key@workspace:packages/modules/api-key"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
@@ -3021,11 +3021,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/auth-emailpass@workspace:packages/modules/providers/auth-emailpass, @biryanihouse/auth-emailpass@~2.4.13":
+"@biryanihouse/auth-emailpass@workspace:packages/modules/providers/auth-emailpass, @biryanihouse/auth-emailpass@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/auth-emailpass@workspace:packages/modules/providers/auth-emailpass"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3037,11 +3037,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/auth-github@workspace:packages/modules/providers/auth-github, @biryanihouse/auth-github@~2.4.13":
+"@biryanihouse/auth-github@workspace:packages/modules/providers/auth-github, @biryanihouse/auth-github@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/auth-github@workspace:packages/modules/providers/auth-github"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3053,11 +3053,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/auth-google@workspace:packages/modules/providers/auth-google, @biryanihouse/auth-google@~2.4.13":
+"@biryanihouse/auth-google@workspace:packages/modules/providers/auth-google, @biryanihouse/auth-google@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/auth-google@workspace:packages/modules/providers/auth-google"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3070,12 +3070,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/auth@workspace:*, @biryanihouse/auth@workspace:packages/modules/auth, @biryanihouse/auth@~2.4.13":
+"@biryanihouse/auth@workspace:*, @biryanihouse/auth@workspace:packages/modules/auth, @biryanihouse/auth@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/auth@workspace:packages/modules/auth"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3095,11 +3095,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/cache-inmemory@workspace:*, @biryanihouse/cache-inmemory@workspace:packages/modules/cache-inmemory, @biryanihouse/cache-inmemory@~2.4.13":
+"@biryanihouse/cache-inmemory@workspace:*, @biryanihouse/cache-inmemory@workspace:packages/modules/cache-inmemory, @biryanihouse/cache-inmemory@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/cache-inmemory@workspace:packages/modules/cache-inmemory"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3110,11 +3110,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/cache-redis@workspace:packages/modules/cache-redis, @biryanihouse/cache-redis@~2.4.13":
+"@biryanihouse/cache-redis@workspace:packages/modules/cache-redis, @biryanihouse/cache-redis@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/cache-redis@workspace:packages/modules/cache-redis"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     ioredis: ^5.4.1
@@ -3127,12 +3127,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/cart@workspace:packages/modules/cart, @biryanihouse/cart@~2.4.13":
+"@biryanihouse/cart@workspace:packages/modules/cart, @biryanihouse/cart@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/cart@workspace:packages/modules/cart"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3152,12 +3152,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/cli@workspace:packages/cli/medusa-cli, @biryanihouse/cli@~2.4.13":
+"@biryanihouse/cli@workspace:packages/cli/medusa-cli, @biryanihouse/cli@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/cli@workspace:packages/cli/medusa-cli"
   dependencies:
-    "@biryanihouse/telemetry": ~2.4.13
-    "@biryanihouse/utils": 2.4.13
+    "@biryanihouse/telemetry": ~2.4.21
+    "@biryanihouse/utils": 2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3203,11 +3203,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/core-flows@workspace:*, @biryanihouse/core-flows@workspace:^, @biryanihouse/core-flows@workspace:packages/core/core-flows, @biryanihouse/core-flows@~2.4.13":
+"@biryanihouse/core-flows@workspace:*, @biryanihouse/core-flows@workspace:^, @biryanihouse/core-flows@workspace:packages/core/core-flows, @biryanihouse/core-flows@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/core-flows@workspace:packages/core/core-flows"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3227,12 +3227,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/currency@workspace:^, @biryanihouse/currency@workspace:packages/modules/currency, @biryanihouse/currency@~2.4.13":
+"@biryanihouse/currency@workspace:^, @biryanihouse/currency@workspace:packages/modules/currency, @biryanihouse/currency@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/currency@workspace:packages/modules/currency"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3252,12 +3252,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/customer@workspace:^, @biryanihouse/customer@workspace:packages/modules/customer, @biryanihouse/customer@~2.4.13":
+"@biryanihouse/customer@workspace:^, @biryanihouse/customer@workspace:packages/modules/customer, @biryanihouse/customer@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/customer@workspace:packages/modules/customer"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3277,18 +3277,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/dashboard@2.4.13, @biryanihouse/dashboard@workspace:packages/admin/dashboard":
+"@biryanihouse/dashboard@2.4.21, @biryanihouse/dashboard@workspace:packages/admin/dashboard":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/dashboard@workspace:packages/admin/dashboard"
   dependencies:
     "@ariakit/react": ^0.4.15
-    "@biryanihouse/admin-shared": ~2.4.13
-    "@biryanihouse/admin-vite-plugin": 2.4.13
-    "@biryanihouse/icons": 2.4.13
-    "@biryanihouse/js-sdk": 2.4.13
-    "@biryanihouse/types": 2.4.13
+    "@biryanihouse/admin-shared": ~2.4.21
+    "@biryanihouse/admin-vite-plugin": 2.4.21
+    "@biryanihouse/icons": 2.4.21
+    "@biryanihouse/js-sdk": 2.4.21
+    "@biryanihouse/types": 2.4.21
     "@biryanihouse/ui": 4.0.4
-    "@biryanihouse/ui-preset": 2.4.13
+    "@biryanihouse/ui-preset": 2.4.21
     "@dnd-kit/core": ^6.1.0
     "@dnd-kit/sortable": ^8.0.0
     "@hookform/error-message": ^2.0.1
@@ -3334,11 +3334,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/event-bus-local@workspace:*, @biryanihouse/event-bus-local@workspace:packages/modules/event-bus-local, @biryanihouse/event-bus-local@~2.4.13":
+"@biryanihouse/event-bus-local@workspace:*, @biryanihouse/event-bus-local@workspace:packages/modules/event-bus-local, @biryanihouse/event-bus-local@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/event-bus-local@workspace:packages/modules/event-bus-local"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3350,11 +3350,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/event-bus-redis@workspace:packages/modules/event-bus-redis, @biryanihouse/event-bus-redis@~2.4.13":
+"@biryanihouse/event-bus-redis@workspace:packages/modules/event-bus-redis, @biryanihouse/event-bus-redis@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/event-bus-redis@workspace:packages/modules/event-bus-redis"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     bullmq: 5.13.0
@@ -3368,11 +3368,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/file-local@workspace:packages/modules/providers/file-local, @biryanihouse/file-local@~2.4.13":
+"@biryanihouse/file-local@workspace:packages/modules/providers/file-local, @biryanihouse/file-local@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/file-local@workspace:packages/modules/providers/file-local"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3383,13 +3383,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/file-s3@workspace:packages/modules/providers/file-s3, @biryanihouse/file-s3@~2.4.13":
+"@biryanihouse/file-s3@workspace:packages/modules/providers/file-s3, @biryanihouse/file-s3@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/file-s3@workspace:packages/modules/providers/file-s3"
   dependencies:
     "@aws-sdk/client-s3": ^3.556.0
     "@aws-sdk/s3-request-presigner": ^3.556.0
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     axios: ^1.6.8
@@ -3402,12 +3402,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/file@workspace:packages/modules/file, @biryanihouse/file@~2.4.13":
+"@biryanihouse/file@workspace:packages/modules/file, @biryanihouse/file@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/file@workspace:packages/modules/file"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3424,17 +3424,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/framework@workspace:^, @biryanihouse/framework@workspace:packages/core/framework, @biryanihouse/framework@~2.4.13":
+"@biryanihouse/framework@workspace:^, @biryanihouse/framework@workspace:packages/core/framework, @biryanihouse/framework@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/framework@workspace:packages/core/framework"
   dependencies:
-    "@biryanihouse/cli": ~2.4.13
-    "@biryanihouse/modules-sdk": ~2.4.13
-    "@biryanihouse/orchestration": ~2.4.13
-    "@biryanihouse/telemetry": ~2.4.13
-    "@biryanihouse/types": ~2.4.13
-    "@biryanihouse/utils": ~2.4.13
-    "@biryanihouse/workflows-sdk": ~2.4.13
+    "@biryanihouse/cli": ~2.4.21
+    "@biryanihouse/modules-sdk": ~2.4.21
+    "@biryanihouse/orchestration": ~2.4.21
+    "@biryanihouse/telemetry": ~2.4.21
+    "@biryanihouse/types": ~2.4.21
+    "@biryanihouse/utils": ~2.4.21
+    "@biryanihouse/workflows-sdk": ~2.4.21
     "@jercle/yargonaut": ^1.1.5
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
@@ -3490,11 +3490,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/fulfillment-manual@workspace:^, @biryanihouse/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual, @biryanihouse/fulfillment-manual@~2.4.13":
+"@biryanihouse/fulfillment-manual@workspace:^, @biryanihouse/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual, @biryanihouse/fulfillment-manual@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3505,12 +3505,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/fulfillment@workspace:^, @biryanihouse/fulfillment@workspace:packages/modules/fulfillment, @biryanihouse/fulfillment@~2.4.13":
+"@biryanihouse/fulfillment@workspace:^, @biryanihouse/fulfillment@workspace:packages/modules/fulfillment, @biryanihouse/fulfillment@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/fulfillment@workspace:packages/modules/fulfillment"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3530,12 +3530,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/icons@2.4.13, @biryanihouse/icons@workspace:packages/design-system/icons, @biryanihouse/icons@~2.4.0":
+"@biryanihouse/icons@2.4.21, @biryanihouse/icons@workspace:packages/design-system/icons, @biryanihouse/icons@~2.4.0":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/icons@workspace:packages/design-system/icons"
   dependencies:
     "@atomico/rollup-plugin-sizes": ^1.1.4
-    "@biryanihouse/toolbox": ~2.4.13
+    "@biryanihouse/toolbox": ~2.4.21
     "@rollup/plugin-node-resolve": ^15.1.0
     "@rollup/plugin-replace": ^5.0.2
     "@testing-library/dom": ^9.3.1
@@ -3564,12 +3564,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/index@workspace:packages/modules/index, @biryanihouse/index@~2.4.13":
+"@biryanihouse/index@workspace:packages/modules/index, @biryanihouse/index@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/index@workspace:packages/modules/index"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
@@ -3591,12 +3591,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/inventory@workspace:^, @biryanihouse/inventory@workspace:packages/modules/inventory, @biryanihouse/inventory@~2.4.13":
+"@biryanihouse/inventory@workspace:^, @biryanihouse/inventory@workspace:packages/modules/inventory, @biryanihouse/inventory@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/inventory@workspace:packages/modules/inventory"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3616,11 +3616,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/js-sdk@2.4.13, @biryanihouse/js-sdk@workspace:packages/core/js-sdk":
+"@biryanihouse/js-sdk@2.4.21, @biryanihouse/js-sdk@workspace:packages/core/js-sdk":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/js-sdk@workspace:packages/core/js-sdk"
   dependencies:
-    "@biryanihouse/types": ~2.4.13
+    "@biryanihouse/types": ~2.4.21
     fetch-event-stream: ^0.1.5
     jest: ^29.7.0
     msw: ^2.3.0
@@ -3630,12 +3630,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/link-modules@workspace:^, @biryanihouse/link-modules@workspace:packages/modules/link-modules, @biryanihouse/link-modules@~2.4.13":
+"@biryanihouse/link-modules@workspace:^, @biryanihouse/link-modules@workspace:packages/modules/link-modules, @biryanihouse/link-modules@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/link-modules@workspace:packages/modules/link-modules"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
     "@mikro-orm/postgresql": 6.4.3
@@ -3655,11 +3655,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/locking-postgres@workspace:packages/modules/providers/locking-postgres, @biryanihouse/locking-postgres@~2.4.13":
+"@biryanihouse/locking-postgres@workspace:packages/modules/providers/locking-postgres, @biryanihouse/locking-postgres@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/locking-postgres@workspace:packages/modules/providers/locking-postgres"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3674,11 +3674,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/locking-redis@workspace:packages/modules/providers/locking-redis, @biryanihouse/locking-redis@~2.4.13":
+"@biryanihouse/locking-redis@workspace:packages/modules/providers/locking-redis, @biryanihouse/locking-redis@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/locking-redis@workspace:packages/modules/providers/locking-redis"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     ioredis: ^5.4.1
@@ -3690,12 +3690,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/locking@workspace:packages/modules/locking, @biryanihouse/locking@~2.4.13":
+"@biryanihouse/locking@workspace:packages/modules/locking, @biryanihouse/locking@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/locking@workspace:packages/modules/locking"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3715,13 +3715,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/medusa-oas-cli@2.4.13, @biryanihouse/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
+"@biryanihouse/medusa-oas-cli@2.4.21, @biryanihouse/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli"
   dependencies:
-    "@biryanihouse/medusa": ~2.4.13
-    "@biryanihouse/types": ~2.4.13
-    "@biryanihouse/utils": ~2.4.13
+    "@biryanihouse/medusa": ~2.4.21
+    "@biryanihouse/types": ~2.4.21
+    "@biryanihouse/utils": ~2.4.21
     "@readme/json-schema-ref-parser": ^1.2.0
     "@readme/openapi-parser": ^2.4.0
     "@redocly/cli": ^1.7.0
@@ -3744,54 +3744,54 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/medusa@workspace:*, @biryanihouse/medusa@workspace:packages/medusa, @biryanihouse/medusa@~2.4.13":
+"@biryanihouse/medusa@workspace:*, @biryanihouse/medusa@workspace:packages/medusa, @biryanihouse/medusa@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/medusa@workspace:packages/medusa"
   dependencies:
-    "@biryanihouse/admin-bundler": ~2.4.13
-    "@biryanihouse/api-key": ~2.4.13
-    "@biryanihouse/auth": ~2.4.13
-    "@biryanihouse/auth-emailpass": ~2.4.13
-    "@biryanihouse/auth-github": ~2.4.13
-    "@biryanihouse/auth-google": ~2.4.13
-    "@biryanihouse/cache-inmemory": ~2.4.13
-    "@biryanihouse/cache-redis": ~2.4.13
-    "@biryanihouse/cart": ~2.4.13
-    "@biryanihouse/core-flows": ~2.4.13
-    "@biryanihouse/currency": ~2.4.13
-    "@biryanihouse/customer": ~2.4.13
-    "@biryanihouse/event-bus-local": ~2.4.13
-    "@biryanihouse/event-bus-redis": ~2.4.13
-    "@biryanihouse/file": ~2.4.13
-    "@biryanihouse/file-local": ~2.4.13
-    "@biryanihouse/file-s3": ~2.4.13
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/fulfillment": ~2.4.13
-    "@biryanihouse/fulfillment-manual": ~2.4.13
-    "@biryanihouse/index": ~2.4.13
-    "@biryanihouse/inventory": ~2.4.13
-    "@biryanihouse/link-modules": ~2.4.13
-    "@biryanihouse/locking": ~2.4.13
-    "@biryanihouse/locking-postgres": ~2.4.13
-    "@biryanihouse/locking-redis": ~2.4.13
-    "@biryanihouse/notification": ~2.4.13
-    "@biryanihouse/notification-local": ~2.4.13
-    "@biryanihouse/notification-sendgrid": ~2.4.13
-    "@biryanihouse/order": ~2.4.13
-    "@biryanihouse/payment": ~2.4.13
-    "@biryanihouse/payment-stripe": ~2.4.13
-    "@biryanihouse/pricing": ~2.4.13
-    "@biryanihouse/product": ~2.4.13
-    "@biryanihouse/promotion": ~2.4.13
-    "@biryanihouse/region": ~2.4.13
-    "@biryanihouse/sales-channel": ~2.4.13
-    "@biryanihouse/stock-location": ~2.4.13
-    "@biryanihouse/store": ~2.4.13
-    "@biryanihouse/tax": ~2.4.13
-    "@biryanihouse/telemetry": ~2.4.13
-    "@biryanihouse/user": ~2.4.13
-    "@biryanihouse/workflow-engine-inmemory": ~2.4.13
-    "@biryanihouse/workflow-engine-redis": ~2.4.13
+    "@biryanihouse/admin-bundler": ~2.4.21
+    "@biryanihouse/api-key": ~2.4.21
+    "@biryanihouse/auth": ~2.4.21
+    "@biryanihouse/auth-emailpass": ~2.4.21
+    "@biryanihouse/auth-github": ~2.4.21
+    "@biryanihouse/auth-google": ~2.4.21
+    "@biryanihouse/cache-inmemory": ~2.4.21
+    "@biryanihouse/cache-redis": ~2.4.21
+    "@biryanihouse/cart": ~2.4.21
+    "@biryanihouse/core-flows": ~2.4.21
+    "@biryanihouse/currency": ~2.4.21
+    "@biryanihouse/customer": ~2.4.21
+    "@biryanihouse/event-bus-local": ~2.4.21
+    "@biryanihouse/event-bus-redis": ~2.4.21
+    "@biryanihouse/file": ~2.4.21
+    "@biryanihouse/file-local": ~2.4.21
+    "@biryanihouse/file-s3": ~2.4.21
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/fulfillment": ~2.4.21
+    "@biryanihouse/fulfillment-manual": ~2.4.21
+    "@biryanihouse/index": ~2.4.21
+    "@biryanihouse/inventory": ~2.4.21
+    "@biryanihouse/link-modules": ~2.4.21
+    "@biryanihouse/locking": ~2.4.21
+    "@biryanihouse/locking-postgres": ~2.4.21
+    "@biryanihouse/locking-redis": ~2.4.21
+    "@biryanihouse/notification": ~2.4.21
+    "@biryanihouse/notification-local": ~2.4.21
+    "@biryanihouse/notification-sendgrid": ~2.4.21
+    "@biryanihouse/order": ~2.4.21
+    "@biryanihouse/payment": ~2.4.21
+    "@biryanihouse/payment-stripe": ~2.4.21
+    "@biryanihouse/pricing": ~2.4.21
+    "@biryanihouse/product": ~2.4.21
+    "@biryanihouse/promotion": ~2.4.21
+    "@biryanihouse/region": ~2.4.21
+    "@biryanihouse/sales-channel": ~2.4.21
+    "@biryanihouse/stock-location": ~2.4.21
+    "@biryanihouse/store": ~2.4.21
+    "@biryanihouse/tax": ~2.4.21
+    "@biryanihouse/telemetry": ~2.4.21
+    "@biryanihouse/user": ~2.4.21
+    "@biryanihouse/workflow-engine-inmemory": ~2.4.21
+    "@biryanihouse/workflow-engine-redis": ~2.4.21
     "@inquirer/checkbox": ^2.3.11
     "@inquirer/input": ^2.2.9
     "@opentelemetry/api": ^1.9.0
@@ -3840,13 +3840,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/modules-sdk@workspace:^, @biryanihouse/modules-sdk@workspace:packages/core/modules-sdk, @biryanihouse/modules-sdk@~2.4.13":
+"@biryanihouse/modules-sdk@workspace:^, @biryanihouse/modules-sdk@workspace:packages/core/modules-sdk, @biryanihouse/modules-sdk@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/modules-sdk@workspace:packages/core/modules-sdk"
   dependencies:
-    "@biryanihouse/orchestration": ~2.4.13
-    "@biryanihouse/types": ~2.4.13
-    "@biryanihouse/utils": ~2.4.13
+    "@biryanihouse/orchestration": ~2.4.21
+    "@biryanihouse/types": ~2.4.21
+    "@biryanihouse/utils": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3870,11 +3870,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/notification-local@workspace:packages/modules/providers/notification-local, @biryanihouse/notification-local@~2.4.13":
+"@biryanihouse/notification-local@workspace:packages/modules/providers/notification-local, @biryanihouse/notification-local@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/notification-local@workspace:packages/modules/providers/notification-local"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -3885,11 +3885,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid, @biryanihouse/notification-sendgrid@~2.4.13":
+"@biryanihouse/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid, @biryanihouse/notification-sendgrid@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@sendgrid/mail": ^8.1.3
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
@@ -3901,12 +3901,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/notification@workspace:packages/modules/notification, @biryanihouse/notification@~2.4.13":
+"@biryanihouse/notification@workspace:packages/modules/notification, @biryanihouse/notification@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/notification@workspace:packages/modules/notification"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3930,17 +3930,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@biryanihouse/oas-github-ci@workspace:packages/cli/oas/oas-github-ci"
   dependencies:
-    "@biryanihouse/medusa-oas-cli": 2.4.13
+    "@biryanihouse/medusa-oas-cli": 2.4.21
     execa: ^5.1.1
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/orchestration@workspace:packages/core/orchestration, @biryanihouse/orchestration@~2.4.13":
+"@biryanihouse/orchestration@workspace:packages/core/orchestration, @biryanihouse/orchestration@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/orchestration@workspace:packages/core/orchestration"
   dependencies:
-    "@biryanihouse/types": ~2.4.13
-    "@biryanihouse/utils": ~2.4.13
+    "@biryanihouse/types": ~2.4.21
+    "@biryanihouse/utils": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3963,12 +3963,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/order@workspace:packages/modules/order, @biryanihouse/order@~2.4.13":
+"@biryanihouse/order@workspace:packages/modules/order, @biryanihouse/order@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/order@workspace:packages/modules/order"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -3988,11 +3988,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/payment-stripe@workspace:packages/modules/providers/payment-stripe, @biryanihouse/payment-stripe@~2.4.13":
+"@biryanihouse/payment-stripe@workspace:packages/modules/providers/payment-stripe, @biryanihouse/payment-stripe@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/payment-stripe@workspace:packages/modules/providers/payment-stripe"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@swc/core": ^1.7.28
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -4005,12 +4005,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/payment@workspace:^, @biryanihouse/payment@workspace:packages/modules/payment, @biryanihouse/payment@~2.4.13":
+"@biryanihouse/payment@workspace:^, @biryanihouse/payment@workspace:packages/modules/payment, @biryanihouse/payment@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/payment@workspace:packages/modules/payment"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4030,12 +4030,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/pricing@workspace:^, @biryanihouse/pricing@workspace:packages/modules/pricing, @biryanihouse/pricing@~2.4.13":
+"@biryanihouse/pricing@workspace:^, @biryanihouse/pricing@workspace:packages/modules/pricing, @biryanihouse/pricing@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/pricing@workspace:packages/modules/pricing"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4055,12 +4055,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/product@workspace:^, @biryanihouse/product@workspace:packages/modules/product, @biryanihouse/product@~2.4.13":
+"@biryanihouse/product@workspace:^, @biryanihouse/product@workspace:packages/modules/product, @biryanihouse/product@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/product@workspace:packages/modules/product"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4081,12 +4081,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/promotion@workspace:^, @biryanihouse/promotion@workspace:packages/modules/promotion, @biryanihouse/promotion@~2.4.13":
+"@biryanihouse/promotion@workspace:^, @biryanihouse/promotion@workspace:packages/modules/promotion, @biryanihouse/promotion@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/promotion@workspace:packages/modules/promotion"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4106,12 +4106,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/region@workspace:^, @biryanihouse/region@workspace:packages/modules/region, @biryanihouse/region@~2.4.13":
+"@biryanihouse/region@workspace:^, @biryanihouse/region@workspace:packages/modules/region, @biryanihouse/region@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/region@workspace:packages/modules/region"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4131,12 +4131,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/sales-channel@workspace:packages/modules/sales-channel, @biryanihouse/sales-channel@~2.4.13":
+"@biryanihouse/sales-channel@workspace:packages/modules/sales-channel, @biryanihouse/sales-channel@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/sales-channel@workspace:packages/modules/sales-channel"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4156,12 +4156,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/stock-location@workspace:^, @biryanihouse/stock-location@workspace:packages/modules/stock-location, @biryanihouse/stock-location@~2.4.13":
+"@biryanihouse/stock-location@workspace:^, @biryanihouse/stock-location@workspace:packages/modules/stock-location, @biryanihouse/stock-location@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/stock-location@workspace:packages/modules/stock-location"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4181,12 +4181,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/store@workspace:^, @biryanihouse/store@workspace:packages/modules/store, @biryanihouse/store@~2.4.13":
+"@biryanihouse/store@workspace:^, @biryanihouse/store@workspace:packages/modules/store, @biryanihouse/store@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/store@workspace:packages/modules/store"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4206,12 +4206,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/tax@workspace:^, @biryanihouse/tax@workspace:packages/modules/tax, @biryanihouse/tax@~2.4.13":
+"@biryanihouse/tax@workspace:^, @biryanihouse/tax@workspace:packages/modules/tax, @biryanihouse/tax@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/tax@workspace:packages/modules/tax"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4231,7 +4231,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/telemetry@workspace:packages/medusa-telemetry, @biryanihouse/telemetry@~2.4.13":
+"@biryanihouse/telemetry@workspace:packages/medusa-telemetry, @biryanihouse/telemetry@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/telemetry@workspace:packages/medusa-telemetry"
   dependencies:
@@ -4253,11 +4253,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/test-utils@workspace:*, @biryanihouse/test-utils@workspace:packages/medusa-test-utils, @biryanihouse/test-utils@~2.4.13":
+"@biryanihouse/test-utils@workspace:*, @biryanihouse/test-utils@workspace:packages/medusa-test-utils, @biryanihouse/test-utils@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/test-utils@workspace:packages/medusa-test-utils"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4284,7 +4284,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/toolbox@workspace:packages/design-system/toolbox, @biryanihouse/toolbox@~2.4.13":
+"@biryanihouse/toolbox@workspace:packages/design-system/toolbox, @biryanihouse/toolbox@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/toolbox@workspace:packages/design-system/toolbox"
   dependencies:
@@ -4310,7 +4310,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/types@2.4.13, @biryanihouse/types@workspace:^, @biryanihouse/types@workspace:packages/core/types, @biryanihouse/types@~2.4.13":
+"@biryanihouse/types@2.4.21, @biryanihouse/types@workspace:^, @biryanihouse/types@workspace:packages/core/types, @biryanihouse/types@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/types@workspace:packages/core/types"
   dependencies:
@@ -4333,11 +4333,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/ui-preset@2.4.13, @biryanihouse/ui-preset@workspace:packages/design-system/ui-preset, @biryanihouse/ui-preset@~2.4.0":
+"@biryanihouse/ui-preset@2.4.21, @biryanihouse/ui-preset@workspace:packages/design-system/ui-preset, @biryanihouse/ui-preset@~2.4.0":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/ui-preset@workspace:packages/design-system/ui-preset"
   dependencies:
-    "@biryanihouse/toolbox": ~2.4.13
+    "@biryanihouse/toolbox": ~2.4.21
     "@tailwindcss/forms": ^0.5.3
     tailwindcss: ^3.4.1
     tailwindcss-animate: ^1.0.6
@@ -4422,12 +4422,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/user@workspace:^, @biryanihouse/user@workspace:packages/modules/user, @biryanihouse/user@~2.4.13":
+"@biryanihouse/user@workspace:^, @biryanihouse/user@workspace:packages/modules/user, @biryanihouse/user@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/user@workspace:packages/modules/user"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4448,11 +4448,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/utils@2.4.13, @biryanihouse/utils@workspace:^, @biryanihouse/utils@workspace:packages/core/utils, @biryanihouse/utils@~2.4.13":
+"@biryanihouse/utils@2.4.21, @biryanihouse/utils@workspace:^, @biryanihouse/utils@workspace:packages/core/utils, @biryanihouse/utils@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/utils@workspace:packages/core/utils"
   dependencies:
-    "@biryanihouse/types": ~2.4.13
+    "@biryanihouse/types": ~2.4.21
     "@graphql-codegen/core": ^4.0.2
     "@graphql-codegen/typescript": ^4.0.9
     "@graphql-tools/merge": ^9.0.7
@@ -4492,12 +4492,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/workflow-engine-inmemory@workspace:*, @biryanihouse/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory, @biryanihouse/workflow-engine-inmemory@~2.4.13":
+"@biryanihouse/workflow-engine-inmemory@workspace:*, @biryanihouse/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory, @biryanihouse/workflow-engine-inmemory@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4519,12 +4519,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis, @biryanihouse/workflow-engine-redis@~2.4.13":
+"@biryanihouse/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis, @biryanihouse/workflow-engine-redis@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis"
   dependencies:
-    "@biryanihouse/framework": ~2.4.13
-    "@biryanihouse/test-utils": ~2.4.13
+    "@biryanihouse/framework": ~2.4.21
+    "@biryanihouse/test-utils": ~2.4.21
     "@mikro-orm/cli": 6.4.3
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -4547,14 +4547,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@biryanihouse/workflows-sdk@workspace:packages/core/workflows-sdk, @biryanihouse/workflows-sdk@~2.4.13":
+"@biryanihouse/workflows-sdk@workspace:packages/core/workflows-sdk, @biryanihouse/workflows-sdk@~2.4.21":
   version: 0.0.0-use.local
   resolution: "@biryanihouse/workflows-sdk@workspace:packages/core/workflows-sdk"
   dependencies:
-    "@biryanihouse/modules-sdk": ~2.4.13
-    "@biryanihouse/orchestration": ~2.4.13
-    "@biryanihouse/types": ~2.4.13
-    "@biryanihouse/utils": ~2.4.13
+    "@biryanihouse/modules-sdk": ~2.4.21
+    "@biryanihouse/orchestration": ~2.4.21
+    "@biryanihouse/types": ~2.4.21
+    "@biryanihouse/utils": ~2.4.21
     "@mikro-orm/core": 6.4.3
     "@mikro-orm/knex": 6.4.3
     "@mikro-orm/migrations": 6.4.3
@@ -17337,7 +17337,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-medusa-app@workspace:packages/cli/create-medusa-app"
   dependencies:
-    "@biryanihouse/telemetry": ~2.4.13
+    "@biryanihouse/telemetry": ~2.4.21
     "@types/chalk": ^2.2.0
     "@types/commander": ^2.12.2
     "@types/configstore": ^6.0.0

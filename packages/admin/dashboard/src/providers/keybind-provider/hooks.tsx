@@ -2,12 +2,11 @@ import debounceFn from "lodash/debounce"
 import { useCallback, useContext, useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
-
-import { useLogout } from "../../hooks/api/auth"
 import { queryClient } from "../../lib/query-client"
 import { KeybindContext } from "./keybind-context"
 import { Shortcut } from "./types"
 import { findShortcut } from "./utils"
+import { sdk } from "../../lib/client"
 
 export const useKeybind = () => {
   const context = useContext(KeybindContext)
@@ -98,15 +97,12 @@ export const useGlobalShortcuts = () => {
   const { t } = useTranslation()
   const navigate = useNavigate()
 
-  const { mutateAsync } = useLogout()
-
   const handleLogout = async () => {
-    await mutateAsync(undefined, {
-      onSuccess: () => {
-        queryClient.clear()
-        navigate("/login")
-      },
-    })
+    await sdk.auth.logout()
+    console.log("Clearing query client", "hooks.tsx")
+    queryClient.clear()
+    console.log("Navigating to login", "hooks.tsx")
+    navigate("/login")
   }
 
   const globalShortcuts: Shortcut[] = [
@@ -159,46 +155,46 @@ export const useGlobalShortcuts = () => {
       type: "pageShortcut",
       to: "/customer-groups",
     },
-    {
-      keys: {
-        Mac: ["G", "I"],
-      },
-      label: t("app.keyboardShortcuts.navigation.goToInventory"),
-      type: "pageShortcut",
-      to: "/inventory",
-    },
-    {
-      keys: {
-        Mac: ["G", "R"],
-      },
-      label: t("app.keyboardShortcuts.navigation.goToReservations"),
-      type: "pageShortcut",
-      to: "/reservations",
-    },
-    {
-      keys: {
-        Mac: ["G", "L"],
-      },
-      label: t("app.keyboardShortcuts.navigation.goToPriceLists"),
-      type: "pageShortcut",
-      to: "/price-lists",
-    },
-    {
-      keys: {
-        Mac: ["G", "M"],
-      },
-      label: t("app.keyboardShortcuts.navigation.goToPromotions"),
-      type: "pageShortcut",
-      to: "/promotions",
-    },
-    {
-      keys: {
-        Mac: ["G", "K"],
-      },
-      label: t("app.keyboardShortcuts.navigation.goToCampaigns"),
-      type: "pageShortcut",
-      to: "/campaigns",
-    },
+    // {
+    //   keys: {
+    //     Mac: ["G", "I"],
+    //   },
+    //   label: t("app.keyboardShortcuts.navigation.goToInventory"),
+    //   type: "pageShortcut",
+    //   to: "/inventory",
+    // },
+    // {
+    //   keys: {
+    //     Mac: ["G", "R"],
+    //   },
+    //   label: t("app.keyboardShortcuts.navigation.goToReservations"),
+    //   type: "pageShortcut",
+    //   to: "/reservations",
+    // },
+    // {
+    //   keys: {
+    //     Mac: ["G", "L"],
+    //   },
+    //   label: t("app.keyboardShortcuts.navigation.goToPriceLists"),
+    //   type: "pageShortcut",
+    //   to: "/price-lists",
+    // },
+    // {
+    //   keys: {
+    //     Mac: ["G", "M"],
+    //   },
+    //   label: t("app.keyboardShortcuts.navigation.goToPromotions"),
+    //   type: "pageShortcut",
+    //   to: "/promotions",
+    // },
+    // {
+    //   keys: {
+    //     Mac: ["G", "K"],
+    //   },
+    //   label: t("app.keyboardShortcuts.navigation.goToCampaigns"),
+    //   type: "pageShortcut",
+    //   to: "/campaigns",
+    // },
     // Settings
     {
       keys: {

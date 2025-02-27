@@ -1,5 +1,229 @@
 # integration-tests-http
 
+## 1.0.28
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.21
+  - @biryanihouse/modules-sdk@2.4.21
+  - @biryanihouse/utils@2.4.21
+  - @biryanihouse/medusa@2.4.21
+  - @biryanihouse/test-utils@2.4.21
+  - @biryanihouse/api-key@2.4.21
+  - @biryanihouse/auth@2.4.21
+  - @biryanihouse/cache-inmemory@2.4.21
+  - @biryanihouse/customer@2.4.21
+  - @biryanihouse/event-bus-local@2.4.21
+  - @biryanihouse/fulfillment@2.4.21
+  - @biryanihouse/inventory@2.4.21
+  - @biryanihouse/pricing@2.4.21
+  - @biryanihouse/product@2.4.21
+  - @biryanihouse/promotion@2.4.21
+  - @biryanihouse/fulfillment-manual@2.4.21
+  - @biryanihouse/region@2.4.21
+  - @biryanihouse/stock-location@2.4.21
+  - @biryanihouse/store@2.4.21
+  - @biryanihouse/tax@2.4.21
+  - @biryanihouse/user@2.4.21
+  - @biryanihouse/workflow-engine-inmemory@2.4.21
+
+## 1.0.27
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.20
+  - @biryanihouse/modules-sdk@2.4.20
+  - @biryanihouse/utils@2.4.20
+  - @biryanihouse/medusa@2.4.20
+  - @biryanihouse/test-utils@2.4.20
+  - @biryanihouse/api-key@2.4.20
+  - @biryanihouse/auth@2.4.20
+  - @biryanihouse/cache-inmemory@2.4.20
+  - @biryanihouse/customer@2.4.20
+  - @biryanihouse/event-bus-local@2.4.20
+  - @biryanihouse/fulfillment@2.4.20
+  - @biryanihouse/inventory@2.4.20
+  - @biryanihouse/pricing@2.4.20
+  - @biryanihouse/product@2.4.20
+  - @biryanihouse/promotion@2.4.20
+  - @biryanihouse/fulfillment-manual@2.4.20
+  - @biryanihouse/region@2.4.20
+  - @biryanihouse/stock-location@2.4.20
+  - @biryanihouse/store@2.4.20
+  - @biryanihouse/tax@2.4.20
+  - @biryanihouse/user@2.4.20
+  - @biryanihouse/workflow-engine-inmemory@2.4.20
+
+## 1.0.26
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.19
+  - @biryanihouse/modules-sdk@2.4.19
+  - @biryanihouse/utils@2.4.19
+  - @biryanihouse/medusa@2.4.19
+  - @biryanihouse/test-utils@2.4.19
+  - @biryanihouse/api-key@2.4.19
+  - @biryanihouse/auth@2.4.19
+  - @biryanihouse/cache-inmemory@2.4.19
+  - @biryanihouse/customer@2.4.19
+  - @biryanihouse/event-bus-local@2.4.19
+  - @biryanihouse/fulfillment@2.4.19
+  - @biryanihouse/inventory@2.4.19
+  - @biryanihouse/pricing@2.4.19
+  - @biryanihouse/product@2.4.19
+  - @biryanihouse/promotion@2.4.19
+  - @biryanihouse/fulfillment-manual@2.4.19
+  - @biryanihouse/region@2.4.19
+  - @biryanihouse/stock-location@2.4.19
+  - @biryanihouse/store@2.4.19
+  - @biryanihouse/tax@2.4.19
+  - @biryanihouse/user@2.4.19
+  - @biryanihouse/workflow-engine-inmemory@2.4.19
+
+## 1.0.25
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.18
+  - @biryanihouse/modules-sdk@2.4.18
+  - @biryanihouse/utils@2.4.18
+  - @biryanihouse/medusa@2.4.18
+  - @biryanihouse/test-utils@2.4.18
+  - @biryanihouse/api-key@2.4.18
+  - @biryanihouse/auth@2.4.18
+  - @biryanihouse/cache-inmemory@2.4.18
+  - @biryanihouse/customer@2.4.18
+  - @biryanihouse/event-bus-local@2.4.18
+  - @biryanihouse/fulfillment@2.4.18
+  - @biryanihouse/inventory@2.4.18
+  - @biryanihouse/pricing@2.4.18
+  - @biryanihouse/product@2.4.18
+  - @biryanihouse/promotion@2.4.18
+  - @biryanihouse/fulfillment-manual@2.4.18
+  - @biryanihouse/region@2.4.18
+  - @biryanihouse/stock-location@2.4.18
+  - @biryanihouse/store@2.4.18
+  - @biryanihouse/tax@2.4.18
+  - @biryanihouse/user@2.4.18
+  - @biryanihouse/workflow-engine-inmemory@2.4.18
+
+## 1.0.24
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.17
+  - @biryanihouse/modules-sdk@2.4.17
+  - @biryanihouse/utils@2.4.17
+  - @biryanihouse/medusa@2.4.17
+  - @biryanihouse/test-utils@2.4.17
+  - @biryanihouse/api-key@2.4.17
+  - @biryanihouse/auth@2.4.17
+  - @biryanihouse/cache-inmemory@2.4.17
+  - @biryanihouse/customer@2.4.17
+  - @biryanihouse/event-bus-local@2.4.17
+  - @biryanihouse/fulfillment@2.4.17
+  - @biryanihouse/inventory@2.4.17
+  - @biryanihouse/pricing@2.4.17
+  - @biryanihouse/product@2.4.17
+  - @biryanihouse/promotion@2.4.17
+  - @biryanihouse/fulfillment-manual@2.4.17
+  - @biryanihouse/region@2.4.17
+  - @biryanihouse/stock-location@2.4.17
+  - @biryanihouse/store@2.4.17
+  - @biryanihouse/tax@2.4.17
+  - @biryanihouse/user@2.4.17
+  - @biryanihouse/workflow-engine-inmemory@2.4.17
+
+## 1.0.23
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.16
+  - @biryanihouse/modules-sdk@2.4.16
+  - @biryanihouse/utils@2.4.16
+  - @biryanihouse/medusa@2.4.16
+  - @biryanihouse/test-utils@2.4.16
+  - @biryanihouse/api-key@2.4.16
+  - @biryanihouse/auth@2.4.16
+  - @biryanihouse/cache-inmemory@2.4.16
+  - @biryanihouse/customer@2.4.16
+  - @biryanihouse/event-bus-local@2.4.16
+  - @biryanihouse/fulfillment@2.4.16
+  - @biryanihouse/inventory@2.4.16
+  - @biryanihouse/pricing@2.4.16
+  - @biryanihouse/product@2.4.16
+  - @biryanihouse/promotion@2.4.16
+  - @biryanihouse/fulfillment-manual@2.4.16
+  - @biryanihouse/region@2.4.16
+  - @biryanihouse/stock-location@2.4.16
+  - @biryanihouse/store@2.4.16
+  - @biryanihouse/tax@2.4.16
+  - @biryanihouse/user@2.4.16
+  - @biryanihouse/workflow-engine-inmemory@2.4.16
+
+## 1.0.22
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.15
+  - @biryanihouse/modules-sdk@2.4.15
+  - @biryanihouse/utils@2.4.15
+  - @biryanihouse/medusa@2.4.15
+  - @biryanihouse/test-utils@2.4.15
+  - @biryanihouse/api-key@2.4.15
+  - @biryanihouse/auth@2.4.15
+  - @biryanihouse/cache-inmemory@2.4.15
+  - @biryanihouse/customer@2.4.15
+  - @biryanihouse/event-bus-local@2.4.15
+  - @biryanihouse/fulfillment@2.4.15
+  - @biryanihouse/inventory@2.4.15
+  - @biryanihouse/pricing@2.4.15
+  - @biryanihouse/product@2.4.15
+  - @biryanihouse/promotion@2.4.15
+  - @biryanihouse/fulfillment-manual@2.4.15
+  - @biryanihouse/region@2.4.15
+  - @biryanihouse/stock-location@2.4.15
+  - @biryanihouse/store@2.4.15
+  - @biryanihouse/tax@2.4.15
+  - @biryanihouse/user@2.4.15
+  - @biryanihouse/workflow-engine-inmemory@2.4.15
+
+## 1.0.21
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @biryanihouse/core-flows@2.4.14
+  - @biryanihouse/modules-sdk@2.4.14
+  - @biryanihouse/utils@2.4.14
+  - @biryanihouse/medusa@2.4.14
+  - @biryanihouse/test-utils@2.4.14
+  - @biryanihouse/api-key@2.4.14
+  - @biryanihouse/auth@2.4.14
+  - @biryanihouse/cache-inmemory@2.4.14
+  - @biryanihouse/customer@2.4.14
+  - @biryanihouse/event-bus-local@2.4.14
+  - @biryanihouse/fulfillment@2.4.14
+  - @biryanihouse/inventory@2.4.14
+  - @biryanihouse/pricing@2.4.14
+  - @biryanihouse/product@2.4.14
+  - @biryanihouse/promotion@2.4.14
+  - @biryanihouse/fulfillment-manual@2.4.14
+  - @biryanihouse/region@2.4.14
+  - @biryanihouse/stock-location@2.4.14
+  - @biryanihouse/store@2.4.14
+  - @biryanihouse/tax@2.4.14
+  - @biryanihouse/user@2.4.14
+  - @biryanihouse/workflow-engine-inmemory@2.4.14
+
 ## 1.0.20
 
 ### Patch Changes
